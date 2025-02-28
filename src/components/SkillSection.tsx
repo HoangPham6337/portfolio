@@ -31,7 +31,10 @@ interface SkillSectionProps {
 export const SkillSection = ({ title, category, skills }: SkillSectionProps): JSX.Element => {
   return (
     <div className="rounded-xl p-6 bg-transparent hover:-translate-y-1 transition-all">
-      <h3 className="text-xl font-bold mb-4 text-white">{title}</h3>
+      <h3
+        className="text-xl font-bold mb-4"
+        style={{color: "var(--text-color)"}}
+      >{title}</h3>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
           <SkillTag key={skill.name} name={skill.name} category={category} icon={skill.icon} />
