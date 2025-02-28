@@ -1,6 +1,10 @@
 import {useEffect, useState} from "react";
 import githubLogoWhite from "../assets/icons/github-mark-white.svg";
 import githubLogoDark from "../assets/icons/github-mark.svg";
+import darkModeIcon from "../assets/icons/dark_mode.svg"
+import lightModeIcon from "../assets/icons/light_mode.svg"
+import darkMenu from "../assets/icons/menu_dark.svg";
+import lightMenu from "../assets/icons/menu_white.svg";
 
 interface NavbarProps {
   menuOpen: boolean;
@@ -9,21 +13,33 @@ interface NavbarProps {
 
 export const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
 
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(document.documentElement.classList.contains("darkmode"));
+  const getInitialTheme = () => {
+    // Check if the user has a saved preference in localStorage
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme) return savedTheme === "dark";
+
+    // Otherwise, check the system preference
+    return window.matchMedia("(prefers-color-scheme: dark)").matches;
+  };
+
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(getInitialTheme());
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
 
-    // Observe theme changes
-    const observer = new MutationObserver(() => {
-      setIsDarkMode(document.documentElement.classList.contains("darkmode"));
-    });
+    // Apply the theme when the component mounts
+    if (isDarkMode) {
+      document.documentElement.classList.add("darkmode");
+      localStorage.setItem("theme", "dark");
+    } else {
+      document.documentElement.classList.remove("darkmode");
+      localStorage.setItem("theme", "light");
+    }
+  }, [isDarkMode, menuOpen]);
 
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
-
-    return () => observer.disconnect(); // Cleanup observer
-  }, [menuOpen]);
-
+  const toggleTheme = () => {
+    setIsDarkMode((prev) => !prev);
+  };
 
   return (
     <nav
@@ -52,13 +68,7 @@ export const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
             </span>
           </a>
 
-          {/* Mobile Menu Toggle */}
-          <div
-            className="w-7 h-5 relative cursor-pointer z-40 md:hidden"
-            onClick={() => setMenuOpen((prev: boolean) => !prev)}
-          >
-            &#9776;
-          </div>
+
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
@@ -77,8 +87,56 @@ export const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
                 {section.charAt(0).toUpperCase() + section.slice(1)} {/* Capitalize first letter */}
               </a>
             ))}
+
+            {/* Dark Mode Toggle Button */}
+            <button
+              onClick={toggleTheme}
+              className="p-2 rounded-full transition bg-transparent cursor-pointer"
+              style={{
+                transition: "color 0.3s ease-in-out"
+              }}
+              onMouseEnter={(e) => {
+                const img = e.currentTarget.querySelector("img");
+                if (img) img.style.filter = "brightness(2)";
+              }}
+              onMouseLeave={(e) => {
+                const img = e.currentTarget.querySelector("img");
+                if (img) img.style.filter = "brightness(1)";
+              }}
+            >
+              <img src={isDarkMode ? darkModeIcon : lightModeIcon} alt="theme-toggle" className="w-6 h-6" />
+            </button>
           </div>
 
+          {/* Mobile Menu Toggle & Dark Mode Button */}
+          <div className="flex items-center gap-4 md:hidden">
+            {/* Dark Mode Toggle Button */}
+            <button
+              onClick={toggleTheme}
+              className="p-2 rounded-full transition bg-transparent cursor-pointer"
+              style={{
+                transition: "color 0.3s ease-in-out"
+              }}
+              onMouseEnter={(e) => {
+                const img = e.currentTarget.querySelector("img");
+                if (img) img.style.filter = "brightness(2)";
+              }}
+              onMouseLeave={(e) => {
+                const img = e.currentTarget.querySelector("img");
+                if (img) img.style.filter = "brightness(1)";
+              }}
+            >
+              <img src={isDarkMode ? darkModeIcon : lightModeIcon} alt="theme-toggle" className="w-6 h-6" />
+            </button>
+
+            {/* Mobile Menu Button */}
+            <button
+              className="p-2 rounded-full transition bg-transparent cursor-pointer"
+              onClick={() => setMenuOpen((prev: boolean) => !prev)}
+            >
+              <img src={isDarkMode ? lightMenu : darkMenu} alt="theme-toggle" className="w-6 h-6" />
+            </button>
+          </div>
         </div>
       </div>
     </nav>

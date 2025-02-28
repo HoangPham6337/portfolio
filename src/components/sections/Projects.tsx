@@ -1,14 +1,22 @@
 import {RevealOnScroll} from "../RevealOnScroll.tsx";
 import {ProjectCard} from "../ProjectCard.tsx";
 import {ProjectCardProps} from "../ProjectCard.tsx";
-import rebirthImg from "../../assets/images/rebirth.jpeg"
-import databaseImg from "../../assets/images/databaseImg.jpeg"
-import handRegImg from "../../assets/images/handDemo.png"
-import pythonMarkImg from "../../assets/images/pythonMarkImg.jpeg"
+import tinyTitan from "../../assets/images/tinytitan.png";
+import rebirthImg from "../../assets/images/rebirth.jpeg";
+import databaseImg from "../../assets/images/databaseImg.jpeg";
+import handRegImg from "../../assets/images/handDemo.png";
+import pythonMarkImg from "../../assets/images/pythonMarkImg.jpeg";
 
 export const Projects = () => {
 
   const projects: ProjectCardProps[] = [
+    {
+      title: "Tiny Titan - Written in Python",
+      description: "Tiny Titan is a side-scrolling action game where players control a hero battling waves of enemies while striving to achieve the highest score.",
+      technologies: ["Python", "Pygame"],
+      url: "https://github.com/HoangPham6337/tiny-titan",
+      image: tinyTitan
+    },
     {
       title: "Rebirth – A Multiplayer Game Platform",
       description: "Developed a multiplayer game platform as part of a team of four. Implemented dynamic game loading, fixed backend bugs, and designed the database schema for efficient data management.",
@@ -34,20 +42,19 @@ export const Projects = () => {
       title: "Student Management Program",
       description: "Created a CLI-based student management system in Python, featuring input sanitation, multi-threading, and data persistence using the Pickle module.",
       technologies: ["Python", "Multiprocessing", "CLI", "Curses Library"],
-      url: "https://github.com/path-to-student-management",
+      url: "https://github.com/HoangPham6337/student-management-system-python",
       image: pythonMarkImg
     },
     {
       title: "Grade Management Project",
       description: "Designed a C-based interactive CLI tool for managing courses and grades, supporting GPA calculation, data persistence, and input sanitation.",
       technologies: ["C", "Data Structures", "Dynamic Memory Management"],
-      url: "https://github.com/path-to-grade-management"
+      url: "https://github.com/HoangPham6337/grade_management_system_C"
     },
     {
       title: "Smart Bus Station (SBS) Project",
       description: "Developed an AI-powered bus station system integrating voice/image recognition, IoT environmental monitoring, and sustainable energy solutions.",
       technologies: ["C", "Python", "Machine Learning", "IoT"],
-      url: "https://github.com/path-to-smart-bus-station"
     }
   ];
 

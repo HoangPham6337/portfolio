@@ -8,6 +8,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Xuan Hoang Pham</title>
+    <style>
+      html {
+        visibility: hidden;
+        opacity: 0;
+        background-color: #1e1f1e; /* Prevent white flash */
+      }
+    </style>
+    <script>
+      (function() {
+        if (localStorage.getItem("theme") === "dark" ||
+            (!localStorage.getItem("theme") && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.classList.add("darkmode");
+        }
+        document.documentElement.style.visibility = "visible";
+        document.documentElement.style.opacity = "1";
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

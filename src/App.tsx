@@ -6,17 +6,13 @@ import {Home} from "./components/sections/Home.tsx";
 import {About} from "./components/sections/About.tsx";
 import {Projects} from "./components/sections/Projects.tsx";
 import {Contact} from "./components/sections/Contact.tsx";
-import {JSX, useEffect, useState} from "react";
+import {JSX, useState} from "react";
 import {Experience} from "./components/sections/Experience.tsx";
 
 function App(): JSX.Element {
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
-  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
 
-  useEffect(() => {
-    document.documentElement.classList.toggle("darkmode", isDarkMode);
-  }, [isDarkMode]);
   return (
     <>
       {!isLoaded && <LoadingScreen onComplete={() => setIsLoaded(true)}/>}
@@ -36,19 +32,6 @@ function App(): JSX.Element {
         <Experience/>
         <Projects/>
         <Contact/>
-        {/* Toggle Theme Button */}
-        <button
-          onClick={() => setIsDarkMode(!isDarkMode)}
-          className="fixed bottom-4 right-4 p-3 rounded-full border transition"
-          style={{
-            borderColor: "var(--accent-color)",
-            color: "var(--text-color)",
-            backgroundColor: "var(--base-variant)"
-          }}
-        >
-          {isDarkMode ? "🌙 Dark Mode" : "☀️ Light Mode"}
-        </button>
-
       </div>
     </>
   );
