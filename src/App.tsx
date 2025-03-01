@@ -8,6 +8,7 @@ import {Projects} from "./components/sections/Projects.tsx";
 import {Contact} from "./components/sections/Contact.tsx";
 import {JSX, useState} from "react";
 import {Experience} from "./components/sections/Experience.tsx";
+import {Footer} from "./components/Footer.tsx";
 
 function App(): JSX.Element {
   const [isLoaded, setIsLoaded] = useState<boolean>(false);
@@ -32,6 +33,7 @@ function App(): JSX.Element {
         <Experience/>
         <Projects/>
         <Contact/>
+        <Footer/>
       </div>
     </>
   );

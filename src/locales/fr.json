@@ -110,5 +110,11 @@
     "error_1": "Le service de messagerie est en panne, veuillez réessayer plus tard !",
     "error_2": "Oups ! Quelque chose s'est mal passé. Veuillez réessayer !",
     "success": "Message envoyé !"
+  },
+  "footer": {
+    "copyright": "© 2025 Phạm Xuân Hoàng. Tous droits réservés.",
+    "linkedin": "Connectez-vous avec moi sur LinkedIn",
+    "github":"Découvrez mon GitHub",
+    "email": "Envoyez-moi un email"
   }
 }

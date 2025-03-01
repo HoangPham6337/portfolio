@@ -110,5 +110,11 @@
     "error_1": "Email service is down, please try again later!",
     "error_2": "Oops! Something went wrong. Please try again!",
     "success": "Message Sent!"
+  },
+  "footer": {
+    "copyright": "© 2025 Phạm Xuân Hoàng. All rights reserved.",
+    "linkedin": "Connect with me on LinkedIn",
+    "github": "Checkout my GitHub",
+    "email": "Email me"
   }
 }

@@ -110,5 +110,11 @@
     "error_1": "Dịch vụ email đang gặp sự cố, vui lòng thử lại sau!",
     "error_2": "Cái gì đó tồi tệ vừa xảy ra! Welp, hãy liên lạc với mình qua LinkedIn nhé!",
     "success": "Tin nhắn đã được gửi!"
+  },
+  "footer": {
+    "copyright": "© 2025 Phạm Xuân Hoàng. Mọi quyền được bảo lưu.",
+    "linkedin": "Kết nối với mình trên LinkedIn",
+    "github": "GitHub portfolio",
+    "email": "Gửi email cho tôi"
   }
 }
