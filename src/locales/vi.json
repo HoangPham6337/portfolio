@@ -16,8 +16,8 @@
     "AI-driven software": "phần mềm tích hợp AI",
     "intro_1": "Tôi là",
     "name": "Phạm Xuân Hoàng",
-    "intro_2": "và mình đam mê viết phần mềm tối ưu.",
-    "let's go": "Vài thứ mình làm \uD83D\uDE80",
+    "intro_2": "và tôi đam mê viết phần mềm tối ưu.",
+    "let's go": "Vài thứ tôi làm \uD83D\uDE80",
     "connect": "Alo nghe rõ trả lời"
   },
   "about": {
@@ -28,7 +28,7 @@
     "performance": "hiệu suất",
     "efficiency": "tính hiệu quả",
     "low-level computing": "và lập trình bậc thấp. ",
-    "journey": "Hành trình của mình trong công nghệ bắt đầu từ năm 12 tuổi khi tôi cố gắng sửa một chiếc laptop chậm—sự tò mò ban đầu đã trở thành niềm đam mê với",
+    "journey": "Hành trình của tôi trong công nghệ bắt đầu từ năm 12 tuổi khi tôi cố gắng sửa một chiếc laptop chậm—sự tò mò ban đầu đã trở thành niềm đam mê với",
     "optimization": "tối ưu hóa",
     "automation": "tự động hóa",
     "system design": "và thiết kế hệ thống",
@@ -38,7 +38,7 @@
     "streamlining": "cải tiến quy trình làm việc",
     "optimizing": "tối ưu hiệu suất",
     "automating": "hay tự động hóa các quy trình phức tạp",
-    "goal": " mình hướng tới xây dựng những giải pháp",
+    "goal": " tôi hướng tới xây dựng những giải pháp",
     "lightweight": "tối ưu",
     "powerful": "mạnh mẽ",
     "scalable": "và có khả năng mở rộng",
@@ -129,12 +129,12 @@
     "message": "Chúng ta nên hợp tác về điều gì?",
     "send": "Gửi tin nhắn",
     "error_1": "Dịch vụ email đang gặp sự cố, vui lòng thử lại sau!",
-    "error_2": "Cái gì đó tồi tệ vừa xảy ra! Welp, hãy liên lạc với mình qua LinkedIn nhé!",
+    "error_2": "Cái gì đó tồi tệ vừa xảy ra! Welp, hãy liên lạc với tôi qua LinkedIn nhé!",
     "success": "Tin nhắn đã được gửi!"
   },
   "footer": {
     "copyright": "© 2025 Phạm Xuân Hoàng. Mọi quyền được bảo lưu.",
-    "linkedin": "Kết nối với mình trên LinkedIn",
+    "linkedin": "Kết nối với tôi trên LinkedIn",
     "github": "GitHub portfolio",
     "email": "Gửi email cho tôi"
   }
