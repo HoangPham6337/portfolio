@@ -1,4 +1,5 @@
 import {RevealOnScroll} from "../RevealOnScroll.tsx";
+import {useTranslation} from "react-i18next";
 
 type educationType = {
   degree: string,
@@ -16,35 +17,29 @@ type workExpType = {
 
 export const Experience = () => {
 
-  const education: educationType[] = [
-    {
-      degree: "Bachelor of Computer Technology (3rd year in progress) - Dual Diploma",
-      school: "Université Sorbonne Paris Nord",
-      years: "Since August 2024",
-      details: "Focus on software development, databases, and automation.",
-    },
-    {
-      degree: "Bachelor in Information and Communication Technology - Dual Diploma",
-      school: "University of Science and Technology of Hanoi",
-      years: "August 2022 – June 2024",
-      details: "Coursework includes programming fundamentals, machine learning, and system design.",
-    },
-  ];
+  const {t} = useTranslation();
 
-  const workExperience: workExpType[] = [
+  const educationEntries = [1, 2]; // Add more numbers as needed
+
+  const education: educationType[] = educationEntries.map((num) => (
     {
-      role: "Research Intern",
-      company: "IRIT - Institut de Recherche en Informatique de Toulouse",
-      years: "March 2025 - July 2025",
-      description: "Working on the contextual optimization of a machine learning model for an embedded system, focusing on performance tuning and resource efficiency.",
-    },
-    {
-      role: "Participant",
-      company: "USTH FABLAB Makeathon",
-      years: "January 2023",
-      description: "Developed a technological solution to modernize bus stops using artificial intelligence in a rapid prototyping competition.",
+      degree: t(`experience.degree_${num}`),
+      school: t(`experience.school_${num}`),
+      years: t(`experience.years_${num}`),
+      details: t(`experience.details_${num}`),
     }
-  ];
+  ));
+
+  const workEntries = [1, 2];
+
+  const workExperience: workExpType[] = workEntries.map((num) => (
+    {
+      role: t(`experience.role_${num}`),
+      company: t(`experience.company_${num}`),
+      years: t(`experience.years_${num}_work`),
+      description: t(`experience.description_${num}`),
+    }
+  ));
 
   return (<section
       className="min-h-screen flex items-center justify-center py-20"
@@ -54,7 +49,7 @@ export const Experience = () => {
           className="text-4xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
           style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
         >
-          Experiences
+          {t("experience.experiences")}
         </h2>
 
         <div className="max-w-6xl mx-auto px-6 grid gap-8 lg:grid-cols-2">
@@ -78,7 +73,9 @@ export const Experience = () => {
               <h2
                 className="text-2xl font-bold"
                 style={{color: "var(--text-color)"}}
-              >Education</h2>
+              >
+                {t("experience.education")}
+              </h2>
             </div>
             <div className="mt-4 space-y-4">
               {education.map((edu, index) => (
@@ -120,7 +117,7 @@ export const Experience = () => {
                 className="text-2xl font-bold"
                 style={{color: "var(--text-color)"}}
               >
-                Work Experience
+                {t("experience.work")}
               </h2>
             </div>
             <div className="mt-4 space-y-4">

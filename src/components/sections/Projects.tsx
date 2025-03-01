@@ -1,4 +1,5 @@
 import {RevealOnScroll} from "../RevealOnScroll.tsx";
+import {useTranslation} from "react-i18next";
 import {ProjectCard} from "../ProjectCard.tsx";
 import {ProjectCardProps} from "../ProjectCard.tsx";
 import tinyTitan from "../../assets/images/tinytitan.png";
@@ -8,55 +9,32 @@ import handRegImg from "../../assets/images/handDemo.png";
 import pythonMarkImg from "../../assets/images/pythonMarkImg.jpeg";
 
 export const Projects = () => {
+  const {t} = useTranslation();
 
-  const projects: ProjectCardProps[] = [
-    {
-      title: "Tiny Titan - Written in Python",
-      description: "Tiny Titan is a side-scrolling action game where players control a hero battling waves of enemies while striving to achieve the highest score.",
-      technologies: ["Python", "Pygame"],
-      url: "https://github.com/HoangPham6337/tiny-titan",
-      image: tinyTitan
-    },
-    {
-      title: "Rebirth – A Multiplayer Game Platform",
-      description: "Developed a multiplayer game platform as part of a team of four. Implemented dynamic game loading, fixed backend bugs, and designed the database schema for efficient data management.",
-      technologies: ["React.js", "Node.js", "Mongoose", "JavaScript"],
-      url: "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
-      image: rebirthImg
-    },
-    {
-      title: "Database Management System Illustration",
-      description: "Built a backend demo for an e-commerce platform integrating MongoDB and Redis. Used Redis for session management and MongoDB for flexible product data storage, deployed on Digital Ocean.",
-      technologies: ["Python", "MongoDB", "Redis", "Linux"],
-      url: "https://github.com/HoangPham6337/website_backend_python",
-      image: databaseImg
-    },
-    {
-      title: "Image Recognition using Machine Learning",
-      description: "Developed a hand shape recognition system using TensorFlow with Supervised Learning (linear regression). Implemented multiprocessing and GPU computation for faster processing.",
-      technologies: ["Python", "TensorFlow", "Supervised Learning", "Linear Regression"],
-      url: "https://github.com/HoangPham6337/Machine-Learning-1",
-      image: handRegImg
-    },
-    {
-      title: "Student Management Program",
-      description: "Created a CLI-based student management system in Python, featuring input sanitation, multi-threading, and data persistence using the Pickle module.",
-      technologies: ["Python", "Multiprocessing", "CLI", "Curses Library"],
-      url: "https://github.com/HoangPham6337/student-management-system-python",
-      image: pythonMarkImg
-    },
-    {
-      title: "Grade Management Project",
-      description: "Designed a C-based interactive CLI tool for managing courses and grades, supporting GPA calculation, data persistence, and input sanitation.",
-      technologies: ["C", "Data Structures", "Dynamic Memory Management"],
-      url: "https://github.com/HoangPham6337/grade_management_system_C"
-    },
-    {
-      title: "Smart Bus Station (SBS) Project",
-      description: "Developed an AI-powered bus station system integrating voice/image recognition, IoT environmental monitoring, and sustainable energy solutions.",
-      technologies: ["C", "Python", "Machine Learning", "IoT"],
-    }
-  ];
+  // List of available project numbers
+  const projectNumbers = [1, 2, 3, 4, 5, 6, 7];
+
+  // Map translations dynamically
+  const projects: ProjectCardProps[] = projectNumbers.map((num) => ({
+    title: t(`projects.title_${num}`),
+    description: t(`projects.description_${num}`),
+    technologies: t(`projects.technologies_${num}`, { returnObjects: true }) as string[],
+    url: t(`projects.url_${num}`, "") || null, // Handle null URL case
+    image: getImage(num) // Function to fetch corresponding image
+  }));
+
+  function getImage(num: number): string | null {
+    const images: Record<number, string> = {
+      1: tinyTitan,
+      2: rebirthImg,
+      3: databaseImg,
+      4: handRegImg,
+      5: pythonMarkImg
+    };
+    console.log(typeof images[1]);
+    return images[num] || null;
+  }
+
 
   return (
     <section
@@ -69,7 +47,7 @@ export const Projects = () => {
             className="text-4xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
             style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
           >
-            Featured Projects
+            {t("projects.project")}
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

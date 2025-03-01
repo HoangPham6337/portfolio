@@ -1,0 +1,114 @@
+{
+  "loading": "<Chargement.../>",
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "home": {
+    "heading_1": "Optimiser le monde numérique,",
+    "heading_2": "Une ligne de code à la fois",
+    "description": "Transformer des systèmes lents en machines ultra-rapides depuis l'âge de 12 ans.",
+    "from": "De",
+    "low-level computing": "low-level computing",
+    "to": "à",
+    "AI-driven software": "logiciel piloté par l'IA",
+    "intro_1": "Je m'appelle",
+    "name": "PHAM Xuan Hoang",
+    "intro_2": "et je crée des logiciels rapides et efficaces.",
+    "let's go": "Voir mon travail \uD83D\uDE80",
+    "connect": "Contactez-moi"
+  },
+  "about": {
+    "heading": "Sur moi",
+    "intro_1": "Je suis",
+    "name": "Tom Maverick",
+    "intro_2": "un développeur passionné par",
+    "performance": "la performance",
+    "efficiency": "l'efficacité",
+    "low-level computing": "et low-level computing. ",
+    "journey": "Mon aventure dans la technologie a commencé à 12 ans lorsque j'ai essayé de réparer un ordinateur lent—ce qui a commencé par de la curiosité est devenu une obsession pour",
+    "optimization": "l'optimisation",
+    "automation": "l'automatisation",
+    "system design": "et la conception des systèmes",
+    "belief": "Je crois que",
+    "right_code": "un bon logiciel ne se limite pas à écrire plus de code—c'est écrire le bon code. ",
+    "approach": "Que ce soit",
+    "streamlining": "l'amélioration des flux de travail",
+    "optimizing": "l'optimisation des performances",
+    "automating": "ou l'automatisation des processus complexes",
+    "goal": " je m'efforce de créer des solutions",
+    "lightweight": "légères",
+    "powerful": "puissantes",
+    "scalable": "et évolutives",
+    "db": "Base de données",
+    "os": "Système d'exploitation",
+    "other skills": "Autres compétences"
+  },
+  "experience": {
+    "experiences": "Expériences",
+    "education": "Éducation",
+    "work": "Expérience professionnelle",
+
+    "degree_1": "Licence en Technologie Informatique (3ème année en cours) - Double Diplôme",
+    "school_1": "Université Sorbonne Paris Nord",
+    "years_1": "Depuis août 2024",
+    "details_1": "Axé sur le développement logiciel, les bases de données et l'automatisation.",
+
+    "degree_2": "Licence en Technologies de l'Information et de la Communication - Double Diplôme",
+    "school_2": "Université des Sciences et Technologies de Hanoï",
+    "years_2": "Août 2022 – Juin 2024",
+    "details_2": "Les cours incluent les bases de la programmation, l'apprentissage automatique et la conception de systèmes.",
+
+    "role_1": "Stagiaire en recherche – Poste actuel",
+    "company_1": "IRIT - Institut de Recherche en Informatique de Toulouse",
+    "years_1_work": "Mars 2025 - Juillet 2025",
+    "description_1": "Travail sur l'optimisation contextuelle d'un modèle d'apprentissage automatique pour un système embarqué, en mettant l'accent sur l'amélioration des performances et l'efficacité des ressources.",
+
+    "role_2": "Participant",
+    "company_2": "USTH FABLAB Makeathon",
+    "years_2_work": "Janvier 2023",
+    "description_2": "Développement d'une solution technologique pour moderniser les arrêts de bus en utilisant l'intelligence artificielle dans une compétition de prototypage rapide."
+  },
+  "projects": {
+    "project": "Projets en vedette",
+
+    "title_1": "Tiny Titan - Développé en Python",
+    "description_1": "Tiny Titan est un jeu d'action à défilement latéral où les joueurs contrôlent un héros combattant des vagues d'ennemis tout en cherchant à obtenir le meilleur score.",
+    "technologies_1": ["Python", "Pygame"],
+
+    "title_2": "Rebirth – Une Plateforme de Jeux Multijoueurs",
+    "description_2": "Développement d'une plateforme de jeux multijoueurs en équipe de quatre. Mise en place du chargement dynamique des jeux, correction des bugs backend et conception du schéma de base de données pour une gestion efficace.",
+    "technologies_2": ["React.js", "Node.js", "Mongoose", "JavaScript"],
+
+    "title_3": "Illustration d'un Système de Gestion de Bases de Données",
+    "description_3": "Création d'un backend pour une plateforme e-commerce intégrant MongoDB et Redis. Utilisation de Redis pour la gestion des sessions et MongoDB pour le stockage flexible des données produit, déployé sur Digital Ocean.",
+    "technologies_3": ["Python", "MongoDB", "Redis", "Linux"],
+
+    "title_4": "Reconnaissance d'Images via Apprentissage Automatique",
+    "description_4": "Développement d'un système de reconnaissance de formes de main utilisant TensorFlow avec apprentissage supervisé (régression linéaire). Mise en œuvre du multiprocessing et du calcul GPU pour un traitement plus rapide.",
+    "technologies_4": ["Python", "TensorFlow", "Apprentissage Supervisé", "Régression Linéaire"],
+
+    "title_5": "Programme de Gestion des Étudiants",
+    "description_5": "Création d'un système de gestion des étudiants en ligne de commande basé sur Python, intégrant la validation des entrées, le multi-threading et la persistance des données via le module Pickle.",
+    "technologies_5": ["Python", "Multiprocessing", "CLI", "Bibliothèque Curses"],
+
+    "title_6": "Projet de Gestion des Notes",
+    "description_6": "Conception d'un outil CLI interactif en C pour la gestion des cours et des notes, prenant en charge le calcul du GPA, la persistance des données et la validation des entrées.",
+    "technologies_6": ["C", "Structures de Données", "Gestion Dynamique de la Mémoire"],
+
+    "title_7": "Projet de Station de Bus Intelligente (SBS)",
+    "description_7": "Développement d'un système de station de bus alimenté par l'IA intégrant la reconnaissance vocale et d'image, la surveillance environnementale IoT et des solutions énergétiques durables.",
+    "technologies_7": ["C", "Python", "Apprentissage Automatique", "IoT"]
+  },
+  "contact": {
+    "contact_me": "Contactez-moi",
+    "name": "Nom",
+    "message": "Sur quoi devrions-nous collaborer ?",
+    "send": "Envoyer le message",
+    "error_1": "Le service de messagerie est en panne, veuillez réessayer plus tard !",
+    "error_2": "Oups ! Quelque chose s'est mal passé. Veuillez réessayer !",
+    "success": "Message envoyé !"
+  }
+}

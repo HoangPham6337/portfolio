@@ -1,0 +1,114 @@
+{
+  "loading": "<Loading.../>",
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "home": {
+    "heading_1": "Optimizing the Digital World,",
+    "heading_2": "One Line of Code at a Time",
+    "description": "Turning sluggish systems into lightning-fast machines since I was 12.",
+    "from": "From",
+    "low-level computing": "low-level computing",
+    "to": "to",
+    "AI-driven software": "AI-driven software",
+    "intro_1": "The name's",
+    "name": "Xuan Hoang Pham",
+    "intro_2": "and I build fast, efficient software.",
+    "let's go": "See My Work \uD83D\uDE80",
+    "connect": "Contact Me"
+  },
+  "about": {
+    "heading": "About Me",
+    "intro_1": "I’m",
+    "name": "Xuan Hoang Pham",
+    "intro_2": "a software developer with a passion for",
+    "performance": "performance",
+    "efficiency": "efficiency",
+    "low-level computing": "and low-level computing. ",
+    "journey": "My journey into tech started at 12 when I tried to fix a sluggish laptop—what began as curiosity became an obsession with",
+    "optimization": "optimization",
+    "automation": "automation",
+    "system design": "and system design",
+    "belief": "I believe that",
+    "right_code": "great software isn’t just about writing more code—it’s about writing the right code. ",
+    "approach": "Whether it’s",
+    "streamlining": "streamlining workflows",
+    "optimizing": "optimizing performance",
+    "automating": "automating complex processes",
+    "goal": " I strive to build solutions that are",
+    "lightweight": "lightweight",
+    "powerful": "powerful",
+    "scalable": "scalable",
+    "db": "Database",
+    "os": "Operating Systems",
+    "other skills": "Other Skills"
+  },
+  "experience": {
+    "experiences": "Experiences",
+    "education": "Education",
+    "work": "Work Experience",
+
+    "degree_1": "Bachelor of Computer Technology (3rd year in progress) - Dual Diploma",
+    "school_1": "Université Sorbonne Paris Nord",
+    "years_1": "Since August 2024",
+    "details_1": "Focus on software development, databases, and automation.",
+
+    "degree_2": "Bachelor in Information and Communication Technology - Dual Diploma",
+    "school_2": "University of Science and Technology of Hanoi",
+    "years_2": "August 2022 – June 2024",
+    "details_2": "Coursework includes programming fundamentals, machine learning, and system design.",
+
+    "role_1": "Research Intern - Current Position",
+    "company_1": "IRIT - Institut de Recherche en Informatique de Toulouse",
+    "years_1_work": "March 2025 - July 2025",
+    "description_1": "Working on the contextual optimization of a machine learning model for an embedded system, focusing on performance tuning and resource efficiency.",
+
+    "role_2": "Participant",
+    "company_2": "USTH FABLAB Makeathon",
+    "years_2_work": "January 2023",
+    "description_2": "Developed a technological solution to modernize bus stops using artificial intelligence in a rapid prototyping competition."
+  },
+  "projects": {
+    "project": "Featured Projects",
+
+    "title_1": "Tiny Titan - Written in Python",
+    "description_1": "Tiny Titan is a side-scrolling action game where players control a hero battling waves of enemies while striving to achieve the highest score.",
+    "technologies_1": ["Python", "Pygame"],
+
+    "title_2": "Rebirth – A Multiplayer Game Platform",
+    "description_2": "Developed a multiplayer game platform as part of a team of four. Implemented dynamic game loading, fixed backend bugs, and designed the database schema for efficient data management.",
+    "technologies_2": ["React.js", "Node.js", "Mongoose", "JavaScript"],
+
+    "title_3": "Database Management System Illustration",
+    "description_3": "Built a backend demo for an e-commerce platform integrating MongoDB and Redis. Used Redis for session management and MongoDB for flexible product data storage, deployed on Digital Ocean.",
+    "technologies_3": ["Python", "MongoDB", "Redis", "Linux"],
+
+    "title_4": "Image Recognition using Machine Learning",
+    "description_4": "Developed a hand shape recognition system using TensorFlow with Supervised Learning (linear regression). Implemented multiprocessing and GPU computation for faster processing.",
+    "technologies_4": ["Python", "TensorFlow", "Supervised Learning", "Linear Regression"],
+
+    "title_5": "Student Management Program",
+    "description_5": "Created a CLI-based student management system in Python, featuring input sanitation, multi-threading, and data persistence using the Pickle module.",
+    "technologies_5": ["Python", "Multiprocessing", "CLI", "Curses Library"],
+
+    "title_6": "Grade Management Project",
+    "description_6": "Designed a C-based interactive CLI tool for managing courses and grades, supporting GPA calculation, data persistence, and input sanitation.",
+    "technologies_6": ["C", "Data Structures", "Dynamic Memory Management"],
+
+    "title_7": "Smart Bus Station (SBS) Project",
+    "description_7": "Developed an AI-powered bus station system integrating voice/image recognition, IoT environmental monitoring, and sustainable energy solutions.",
+    "technologies_7": ["C", "Python", "Machine Learning", "IoT"]
+  },
+  "contact": {
+    "contact_me": "Get In Touch",
+    "name": "Name",
+    "message": "What should we collaborate on?",
+    "send": "Send Message",
+    "error_1": "Email service is down, please try again later!",
+    "error_2": "Oops! Something went wrong. Please try again!",
+    "success": "Message Sent!"
+  }
+}

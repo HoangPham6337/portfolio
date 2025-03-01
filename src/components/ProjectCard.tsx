@@ -2,8 +2,8 @@ export interface ProjectCardProps {
   title: string;
   description: string;
   technologies: string[];
-  url?: string;
-  image?: string;
+  url: string | null;
+  image: string | null;
 }
 
 export const ProjectCard = ({ title, description, technologies, url, image }: ProjectCardProps) => {

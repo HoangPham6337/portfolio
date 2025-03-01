@@ -1,13 +1,15 @@
 import {useEffect, useState} from "react";
+import {useTranslation} from "react-i18next";
 
 interface LoadingScreenProps {
   onComplete: () => void;
 }
 
 export const LoadingScreen = ({onComplete}: LoadingScreenProps) => {
+  const {t} = useTranslation();
 
   const [text, setText] = useState<string>("");
-  const fullText: string = "<Loading.../>"
+  const fullText: string = t("loading")
 
   useEffect(() => {
     let index: number = 0;  // What letter we're in

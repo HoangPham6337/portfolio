@@ -1,9 +1,11 @@
 import {RevealOnScroll} from "../RevealOnScroll.tsx";
+import {useTranslation} from "react-i18next";
 import emailjs from '@emailjs/browser';
 import {useState} from "react";
 import * as React from "react";
 
 export const Contact = () => {
+  const {t} = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -14,7 +16,7 @@ export const Contact = () => {
     e.preventDefault();
 
     if (!import.meta.env.VITE_SERVICE_ID || !import.meta.env.VITE_TEMPLATE_ID || !import.meta.env.VITE_PUBLIC_KEY) {
-      alert("Email service is down, please try again later!");
+      alert(t("contact.error_1"));
       return;
     }
 
@@ -26,7 +28,7 @@ export const Contact = () => {
     ).then(() => {
       alert("Message Sent!");
       setFormData({name: "", email: "", message: ""});
-    }).catch(() => alert("Oops! Something went wrong. Please try again!"));
+    }).catch(() => alert(t("contact.error_2")));
   }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -44,7 +46,7 @@ export const Contact = () => {
             className="text-3xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
             style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
           >
-            Get In Touch
+            {t("contact.contact_me")}
           </h2>
           <form className="space-y-6" onSubmit={handleSubmit}>
 
@@ -62,7 +64,7 @@ export const Contact = () => {
                   color: "var(--text-color)", // Themed text color
                   transition: "border-color 0.3s ease-in-out, background 0.3s ease-in-out"
                 }}
-                placeholder="Name"
+                placeholder={t("contact.name")}
                 onChange={handleChange}
                 onFocus={(e) => e.currentTarget.style.borderColor = "var(--accent-color)"}
                 onBlur={(e) => e.currentTarget.style.borderColor = "var(--secondary-text)"}
@@ -104,7 +106,7 @@ export const Contact = () => {
                   color: "var(--text-color)",
                   transition: "border-color 0.3s ease-in-out, background 0.3s ease-in-out"
                 }}
-                placeholder="What should we collaborate on?"
+                placeholder={t("contact.message")}
                 onChange={handleChange}
                 onFocus={(e) => e.currentTarget.style.borderColor = "var(--accent-color)"}
                 onBlur={(e) => e.currentTarget.style.borderColor = "var(--secondary-text)"}
@@ -128,7 +130,7 @@ export const Contact = () => {
                 e.currentTarget.style.boxShadow = "none";
               }}
             >
-              Send Message
+              {t("contact.success")}
             </button>
           </form>
         </div>

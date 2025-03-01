@@ -1,4 +1,5 @@
 import {useEffect} from "react";
+import {useTranslation} from "react-i18next";
 
 interface MobileMenuProps {
   menuOpen: boolean;
@@ -6,6 +7,8 @@ interface MobileMenuProps {
 }
 
 export const MobileMenu = ({menuOpen, setMenuOpen}: MobileMenuProps) => {
+
+  const {t} = useTranslation();
 
   useEffect(() => {
     document.body.style.overflow = menuOpen ? "hidden" : "";
@@ -39,7 +42,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}: MobileMenuProps) => {
          }
         `}
       >
-        Home
+        {t('navbar.home')}
       </a>
       <a href="#about"
          onClick={() => setMenuOpen(false)}
@@ -51,7 +54,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}: MobileMenuProps) => {
          }
         `}
       >
-        About
+        {t('navbar.about')}
       </a>
       <a href="#project"
          onClick={() => setMenuOpen(false)}
@@ -63,7 +66,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}: MobileMenuProps) => {
          }
         `}
       >
-        Project
+        {t('navbar.projects')}
       </a>
       <a href="#contact"
          onClick={() => setMenuOpen(false)}
@@ -75,7 +78,7 @@ export const MobileMenu = ({menuOpen, setMenuOpen}: MobileMenuProps) => {
          }
         `}
       >
-        Contact
+        {t('navbar.contact')}
       </a>
     </div>
   )

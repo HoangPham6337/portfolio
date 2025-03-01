@@ -1,10 +1,11 @@
 import {RevealOnScroll} from "../RevealOnScroll.tsx";
 import {SkillSection} from "../SkillSection.tsx";
 import cyberLogo from "../../assets/icons/globe-grid.png";
-
+import {useTranslation} from "react-i18next";
 
 
 export const About = () => {
+  const {t} = useTranslation();
 
   const frontendSkills = [
     {
@@ -122,66 +123,36 @@ export const About = () => {
             className="text-4xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
             style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
           >
-            About Me
+            {t("about.heading")}
           </h2>
 
           {/* Self-description and skills */}
           <div className="rounded-xl p-8 border transition-all"
                style={{ borderColor: "var(--secondary-text)", backgroundColor: "var(--base-color)" }}>
             <p style={{ color: "var(--text-color)" }}>
-              I’m <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>Tom Maverick</span>, a software developer with a passion
-              for <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>performance, efficiency, and low-level computing</span>.
-              My journey into tech started at 12 when I tried to fix a sluggish laptop—what began as curiosity became an
-              obsession with <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>optimization, automation, and system design</span>.
+              {t("about.intro_1")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.name")}</span>, {t("about.intro_2")}
+              <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}> {t("about.performance")}, {t("about.efficiency")}, {t("about.low-level computing")}</span>
+              {t("about.journey")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.optimization")}, {t("about.automation")}, {t("about.system design")}</span>.
             </p>
 
             <p className="mt-4" style={{ color: "var(--text-color)" }}>
-              I believe that <span style={{ color: "var(--highlight-orange)", fontWeight: "bold" }}>great software isn’t just about writing more code—it’s about writing the right code</span>.
-              Whether it’s <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>streamlining workflows, optimizing performance, or automating complex processes</span>,
-              I strive to build solutions that are <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>lightweight, powerful, and scalable</span>.
+              {t("about.belief")} <span style={{ color: "var(--highlight-orange)", fontWeight: "bold" }}>{t("about.right_code")}</span>
+              {t("about.approach")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.streamlining")}, {t("about.optimizing")}, {t("about.automating")}</span>,
+              {t("about.goal")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.lightweight")}, {t("about.powerful")}, {t("about.scalable")}</span>.
             </p>
 
               {/*Skills*/}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-3">
                 {<SkillSection title="Frontend" category="frontend" skills={frontendSkills}/>}
                 {<SkillSection title="Backend" category="backend" skills={backendSkills}/>}
-                {<SkillSection title="Database" category="database" skills={databaseSkills}/>}
+                {<SkillSection title={t("about.db")} category="database" skills={databaseSkills}/>}
                 {<SkillSection title="DevOps" category="devops" skills={devOpsSkills}/>}
-                {<SkillSection title="Operating Systems" category="os" skills={operatingSystems}/>}
-                {<SkillSection title="Other Skills" category="other" skills={otherSkills}/>}
+                {<SkillSection title={t("about.os")} category="os" skills={operatingSystems}/>}
+                {<SkillSection title={t("about.other skills")} category="other" skills={otherSkills}/>}
               </div>
           </div>
-          {/*/!*Self-description and skills*!/*/}
-          {/*<div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">*/}
-          {/*  <p className="text-[#dcf0db]">*/}
-          {/*    I’m <span className="text-[#4cb946] font-bold">Tom Maverick</span>, a software developer with a passion*/}
-          {/*    for*/}
-          {/*    <span className="text-[#6bcc66] font-semibold"> performance, efficiency, and low-level computing</span>.*/}
-          {/*    My journey into tech started at 12 when I tried to fix a sluggish laptop—what began as curiosity became an*/}
-          {/*    obsession with*/}
-          {/*    <span className="text-[#b7e3b5] font-semibold"> optimization, automation, and system design</span>.*/}
-          {/*  </p>*/}
-
-          {/*  <p className="mt-4 text-[#dcf0db]">*/}
-          {/*    I believe that <span className="text-[#db9257] font-bold">great software isn’t just about writing more code—it’s about writing the right code</span>.*/}
-          {/*    Whether it’s <span className="text-[#6bcc66] font-semibold">streamlining workflows, optimizing performance, or automating complex processes</span>,*/}
-          {/*    I strive to build solutions that are <span className="text-[#4cb946] font-semibold">lightweight, powerful, and scalable</span>.*/}
-          {/*  </p>*/}
-
-          {/*  <p className="mt-4 text-[#dcf0db]">*/}
-          {/*    My expertise spans <span className="text-[#b7e3b5] font-semibold">low-level programming, system automation, and AI-driven optimization</span>,*/}
-          {/*    and I’m always looking for new challenges that push the limits of what software can do.*/}
-          {/*    If it can be <span className="text-[#db9257] font-semibold">faster, smarter, or more efficient</span>,*/}
-          {/*    I’ll find a way to make it happen.*/}
-          {/*  </p>*/}
-
-
-
-          {/*</div>*/}
-
         </div>
       </RevealOnScroll>
     </section>
   )
-
 }
