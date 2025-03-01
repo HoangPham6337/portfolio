@@ -14,7 +14,7 @@
     "low-level computing": "lập trình bậc thấp",
     "to": "đến",
     "AI-driven software": "phần mềm tích hợp AI",
-    "intro_1": "Mình là",
+    "intro_1": "Tôi là",
     "name": "Phạm Xuân Hoàng",
     "intro_2": "và mình đam mê viết phần mềm tối ưu.",
     "let's go": "Vài thứ mình làm \uD83D\uDE80",
@@ -22,7 +22,7 @@
   },
   "about": {
     "heading": "Một chút về bản thân",
-    "intro_1": "Mình là",
+    "intro_1": "Tôi là",
     "name": "Phạm Xuân Hoàng",
     "intro_2": "một nhà phát triển phần mềm với niềm đam mê về",
     "performance": "hiệu suất",
@@ -32,7 +32,7 @@
     "optimization": "tối ưu hóa",
     "automation": "tự động hóa",
     "system design": "và thiết kế hệ thống",
-    "belief": "Mình tin rằng",
+    "belief": "Tôi tin rằng",
     "right_code": "một phần mềm tốt không chỉ là viết nhiều code hơn—mà là viết code tốt. ",
     "approach": "Dù đó là",
     "streamlining": "cải tiến quy trình làm việc",
@@ -50,22 +50,18 @@
     "experiences": "Kinh nghiệm",
     "education": "Học vấn",
     "work": "Kinh nghiệm làm việc",
-
     "degree_1": "Cử nhân Công nghệ Máy tính (Năm 3 - Đang học) - Chương trình song bằng",
     "school_1": "Đại học Sorbonne Paris Nord",
     "years_1": "Từ tháng 8 năm 2024",
     "details_1": "Tập trung vào phát triển phần mềm, cơ sở dữ liệu và tự động hóa.",
-
     "degree_2": "Cử nhân Công nghệ Thông tin và Truyền thông - Chương trình song bằng",
     "school_2": "Đại học Khoa học và Công nghệ Hà Nội",
     "years_2": "Tháng 8 năm 2022 – Tháng 6 năm 2024",
     "details_2": "Các khóa học bao gồm lập trình cơ bản, máy học và thiết kế hệ thống.",
-
     "role_1": "Thực tập sinh nghiên cứu - Vị trí hiện tại",
     "company_1": "IRIT - Viện Nghiên cứu Tin học Toulouse",
     "years_1_work": "Tháng 3 năm 2025 - Tháng 7 năm 2025",
     "description_1": "Nghiên cứu tối ưu hóa ngữ cảnh của mô hình máy học trên hệ thống nhúng, tập trung vào tối ưu hóa hiệu suất và sử dụng tài nguyên hiệu quả.",
-
     "role_2": "Thí sinh",
     "company_2": "USTH FABLAB Makeathon",
     "years_2_work": "Tháng 1 năm 2023",
@@ -73,34 +69,59 @@
   },
   "projects": {
     "project": "Dự án tiêu biểu",
-
     "title_1": "Tiny Titan - Viết bằng Python",
     "description_1": "Tiny Titan là một trò chơi hành động cuộn ngang, nơi người chơi điều khiển một anh hùng chiến đấu với các đợt kẻ thù và cố gắng đạt điểm cao nhất.",
-    "technologies_1": ["Python", "Pygame"],
-
+    "technologies_1": [
+      "Python",
+      "Pygame"
+    ],
     "title_2": "Rebirth – Nền tảng tra cứu game",
     "description_2": "Phát triển một nền tảng web tra cứu game trong nhóm gồm bốn người. Phát triển dynamic content loading, sửa lỗi backend và thiết kế sơ đồ cơ sở dữ liệu để quản lý dữ liệu hiệu quả.",
-    "technologies_2": ["React.js", "Node.js", "Mongoose", "JavaScript"],
-
+    "technologies_2": [
+      "React.js",
+      "Node.js",
+      "Mongoose",
+      "JavaScript"
+    ],
     "title_3": "Minh họa Hệ thống Quản lý Cơ sở Dữ liệu",
     "description_3": "Xây dựng backend cho nền tảng thương mại điện tử tích hợp MongoDB và Redis. Sử dụng Redis để quản lý phiên và MongoDB để lưu trữ dữ liệu sản phẩm linh hoạt, triển khai trên Digital Ocean.",
-    "technologies_3": ["Python", "MongoDB", "Redis", "Linux"],
-
+    "technologies_3": [
+      "Python",
+      "MongoDB",
+      "Redis",
+      "Linux"
+    ],
     "title_4": "Nhận diện Ảnh bằng Học Máy",
     "description_4": "Phát triển hệ thống nhận diện hình dạng bàn tay sử dụng TensorFlow với Học có giám sát (hồi quy tuyến tính). Triển khai xử lý đa luồng và tính toán GPU để tăng tốc xử lý.",
-    "technologies_4": ["Python", "TensorFlow", "Học có giám sát", "Hồi quy tuyến tính"],
-
+    "technologies_4": [
+      "Python",
+      "TensorFlow",
+      "Học có giám sát",
+      "Hồi quy tuyến tính"
+    ],
     "title_5": "Chương trình Quản lý Sinh viên",
     "description_5": "Tạo hệ thống quản lý sinh viên trên dòng lệnh bằng Python, bao gồm kiểm tra đầu vào, xử lý đa luồng và lưu trữ dữ liệu bằng module Pickle.",
-    "technologies_5": ["Python", "Multiprocessing", "CLI", "Thư viện Curses"],
-
+    "technologies_5": [
+      "Python",
+      "Multiprocessing",
+      "CLI",
+      "Thư viện Curses"
+    ],
     "title_6": "Dự án Quản lý Điểm số",
     "description_6": "Thiết kế một công cụ CLI tương tác bằng C để quản lý khóa học và điểm số, hỗ trợ tính GPA, lưu trữ dữ liệu và kiểm tra đầu vào.",
-    "technologies_6": ["C", "Cấu trúc Dữ liệu", "Quản lý Bộ nhớ Động"],
-
+    "technologies_6": [
+      "C",
+      "Cấu trúc Dữ liệu",
+      "Quản lý Bộ nhớ Động"
+    ],
     "title_7": "Dự án Trạm Xe Buýt Thông Minh (SBS)",
     "description_7": "Phát triển hệ thống trạm xe buýt thông minh tích hợp nhận diện giọng nói/hình ảnh, giám sát môi trường IoT và các giải pháp năng lượng bền vững.",
-    "technologies_7": ["C", "Python", "Học Máy", "IoT"]
+    "technologies_7": [
+      "C",
+      "Python",
+      "Học Máy",
+      "IoT"
+    ]
   },
   "contact": {
     "contact_me": "Liên hệ hợp tác",
