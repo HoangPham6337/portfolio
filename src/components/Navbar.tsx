@@ -121,9 +121,9 @@ export const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
             <select
               value={selectedLanguage}
               onChange={(e) => changeLanguage(e.target.value)} className="border p-2 rounded">
+              <option value="vi" style={{backgroundColor: "var(--base-color)"}}>🇻🇳 Tiếng Việt</option>
               <option value="en" style={{backgroundColor: "var(--base-color)"}}>🇬🇧 English</option>
               <option value="fr" style={{backgroundColor: "var(--base-color)"}}>🇫🇷 Français</option>
-              <option value="vi" style={{backgroundColor: "var(--base-color)"}}>🇻🇳 Tiếng Việt</option>
             </select>
           </div>
 
@@ -132,9 +132,9 @@ export const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
             <select
               value={selectedLanguage}
               onChange={(e) => changeLanguage(e.target.value)} className="w-14 h-10 md:w-auto md:h-auto bg-transparent border-0 md:border p-2 rounded cursor-pointer">
+              <option value="vi" style={{backgroundColor: "var(--base-color)"}}>🇻🇳 Tiếng Việt</option>
               <option value="en" style={{backgroundColor: "var(--base-color)"}}>🇬🇧 English</option>
               <option value="fr" style={{backgroundColor: "var(--base-color)"}}>🇫🇷 Français</option>
-              <option value="vi" style={{backgroundColor: "var(--base-color)"}}>🇻🇳 Tiếng Việt</option>
             </select>
 
             {/* Dark Mode Toggle Button */}
