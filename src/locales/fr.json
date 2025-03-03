@@ -3,6 +3,7 @@
   "navbar": {
     "home": "Accueil",
     "about": "À propos",
+    "experiences": "Expériences",
     "projects": "Projets",
     "contact": "Contact"
   },
@@ -119,8 +120,8 @@
   },
   "footer": {
     "copyright": "© 2025 Phạm Xuân Hoàng. Tous droits réservés.",
-    "linkedin": "Connectez-vous avec moi sur LinkedIn",
-    "github":"Découvrez mon GitHub",
+    "linkedin": "Mon LinkedIn",
+    "github":"Mon GitHub",
     "email": "Envoyez-moi un email"
   }
 }

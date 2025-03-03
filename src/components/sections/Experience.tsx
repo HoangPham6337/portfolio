@@ -42,11 +42,12 @@ export const Experience = () => {
   ));
 
   return (<section
+      id="experiences"
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
         <h2
-          className="text-4xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
+          className="text-4xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center leading-tight"
           style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
         >
           {t("experience.experiences")}

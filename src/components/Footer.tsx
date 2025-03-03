@@ -5,8 +5,6 @@ export const Footer = () => {
 
   return (
     <footer className="w-full bg-gray-900 text-gray-300 text-center py-4 mt-10">
-      <p>{t("footer.copyright")}</p>
-
       <div className="flex justify-center gap-6 mt-2">
         {/* LinkedIn */}
         <a
@@ -35,6 +33,8 @@ export const Footer = () => {
           {t("footer.email")}
         </a>
       </div>
+
+      <p>{t("footer.copyright")}</p>
     </footer>
   );
 };

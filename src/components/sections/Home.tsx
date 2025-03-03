@@ -50,7 +50,7 @@ export const Home = () => {
 
             {/* Contact Me Button */}
             <a href="#contact"
-               className="py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 shadow-lg"
+               className="py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 shadow-lg leading-tight"
                style={{
                  border: "2px solid var(--highlight-orange)",
                  color: "var(--highlight-orange)",

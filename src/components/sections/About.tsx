@@ -120,7 +120,7 @@ export const About = () => {
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
           <h2
-            className="text-4xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
+            className="text-4xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center leading-tight"
             style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
           >
             {t("about.heading")}

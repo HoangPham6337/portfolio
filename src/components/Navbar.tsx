@@ -82,7 +82,7 @@ export const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            {["home", "about", "projects", "contact"].map((section) => (
+            {["home", "about", "experiences", "projects", "contact"].map((section) => (
               <a
                 key={section}
                 href={`#${section}`}

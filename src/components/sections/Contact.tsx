@@ -115,7 +115,7 @@ export const Contact = () => {
 
             <button
               type="submit"
-              className="w-full rounded font-medium transition relative overflow-hidden cursor-pointer py-3 px-6"
+              className="w-full rounded font-medium transition relative overflow-hidden cursor-pointer py-3 px-6 leading-tight"
               style={{
                 backgroundColor: "var(--highlight-orange)", // Themed button background
                 color: "var(--base-variant)", // Themed text color
