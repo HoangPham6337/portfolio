@@ -77,26 +77,32 @@
     "title_1": "Tiny Titan - Written in Python",
     "description_1": "Tiny Titan is a side-scrolling action game where players control a hero battling waves of enemies while striving to achieve the highest score.",
     "technologies_1": ["Python", "Pygame"],
+    "url_1": "https://github.com/HoangPham6337/tiny-titan",
 
     "title_2": "Rebirth – A Multiplayer Game Platform",
     "description_2": "Developed a multiplayer game platform as part of a team of four. Implemented dynamic game loading, fixed backend bugs, and designed the database schema for efficient data management.",
     "technologies_2": ["React.js", "Node.js", "Mongoose", "JavaScript"],
+    "url_2": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
 
     "title_3": "Database Management System Illustration",
     "description_3": "Built a backend demo for an e-commerce platform integrating MongoDB and Redis. Used Redis for session management and MongoDB for flexible product data storage, deployed on Digital Ocean.",
     "technologies_3": ["Python", "MongoDB", "Redis", "Linux"],
+    "url_3": "https://github.com/HoangPham6337/website_backend_python",
 
     "title_4": "Image Recognition using Machine Learning",
     "description_4": "Developed a hand shape recognition system using TensorFlow with Supervised Learning (linear regression). Implemented multiprocessing and GPU computation for faster processing.",
     "technologies_4": ["Python", "TensorFlow", "Supervised Learning", "Linear Regression"],
+    "url_4": "https://github.com/HoangPham6337/Machine-Learning-1",
 
     "title_5": "Student Management Program",
     "description_5": "Created a CLI-based student management system in Python, featuring input sanitation, multi-threading, and data persistence using the Pickle module.",
     "technologies_5": ["Python", "Multiprocessing", "CLI", "Curses Library"],
+    "url_5": "https://github.com/HoangPham6337/student-management-system-python",
 
     "title_6": "Grade Management Project",
     "description_6": "Designed a C-based interactive CLI tool for managing courses and grades, supporting GPA calculation, data persistence, and input sanitation.",
     "technologies_6": ["C", "Data Structures", "Dynamic Memory Management"],
+    "url_6": "https://github.com/HoangPham6337/grade_management_system_C",
 
     "title_7": "Smart Bus Station (SBS) Project",
     "description_7": "Developed an AI-powered bus station system integrating voice/image recognition, IoT environmental monitoring, and sustainable energy solutions.",

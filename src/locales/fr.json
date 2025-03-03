@@ -77,26 +77,32 @@
     "title_1": "Tiny Titan - Développé en Python",
     "description_1": "Tiny Titan est un jeu d'action à défilement latéral où les joueurs contrôlent un héros combattant des vagues d'ennemis tout en cherchant à obtenir le meilleur score.",
     "technologies_1": ["Python", "Pygame"],
+    "url_1": "https://github.com/HoangPham6337/tiny-titan",
 
     "title_2": "Rebirth – Une Plateforme de Jeux Multijoueurs",
     "description_2": "Développement d'une plateforme de jeux multijoueurs en équipe de quatre. Mise en place du chargement dynamique des jeux, correction des bugs backend et conception du schéma de base de données pour une gestion efficace.",
     "technologies_2": ["React.js", "Node.js", "Mongoose", "JavaScript"],
+    "url_2": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
 
     "title_3": "Illustration d'un Système de Gestion de Bases de Données",
     "description_3": "Création d'un backend pour une plateforme e-commerce intégrant MongoDB et Redis. Utilisation de Redis pour la gestion des sessions et MongoDB pour le stockage flexible des données produit, déployé sur Digital Ocean.",
     "technologies_3": ["Python", "MongoDB", "Redis", "Linux"],
+    "url_3": "https://github.com/HoangPham6337/website_backend_python",
 
     "title_4": "Reconnaissance d'Images via Apprentissage Automatique",
     "description_4": "Développement d'un système de reconnaissance de formes de main utilisant TensorFlow avec apprentissage supervisé (régression linéaire). Mise en œuvre du multiprocessing et du calcul GPU pour un traitement plus rapide.",
     "technologies_4": ["Python", "TensorFlow", "Apprentissage Supervisé", "Régression Linéaire"],
+    "url_4": "https://github.com/HoangPham6337/Machine-Learning-1",
 
     "title_5": "Programme de Gestion des Étudiants",
     "description_5": "Création d'un système de gestion des étudiants en ligne de commande basé sur Python, intégrant la validation des entrées, le multi-threading et la persistance des données via le module Pickle.",
     "technologies_5": ["Python", "Multiprocessing", "CLI", "Bibliothèque Curses"],
+    "url_5": "https://github.com/HoangPham6337/student-management-system-python",
 
     "title_6": "Projet de Gestion des Notes",
     "description_6": "Conception d'un outil CLI interactif en C pour la gestion des cours et des notes, prenant en charge le calcul du GPA, la persistance des données et la validation des entrées.",
     "technologies_6": ["C", "Structures de Données", "Gestion Dynamique de la Mémoire"],
+    "url_6": "https://github.com/HoangPham6337/grade_management_system_C",
 
     "title_7": "Projet de Station de Bus Intelligente (SBS)",
     "description_7": "Développement d'un système de station de bus alimenté par l'IA intégrant la reconnaissance vocale et d'image, la surveillance environnementale IoT et des solutions énergétiques durables.",

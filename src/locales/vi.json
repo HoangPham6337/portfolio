@@ -75,6 +75,7 @@
       "Python",
       "Pygame"
     ],
+    "url_1": "https://github.com/HoangPham6337/tiny-titan",
     "title_2": "Rebirth – Nền tảng tra cứu game",
     "description_2": "Phát triển một nền tảng web tra cứu game trong nhóm gồm bốn người. Phát triển dynamic content loading, sửa lỗi backend và thiết kế sơ đồ cơ sở dữ liệu để quản lý dữ liệu hiệu quả.",
     "technologies_2": [
@@ -83,6 +84,7 @@
       "Mongoose",
       "JavaScript"
     ],
+    "url_2": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
     "title_3": "Minh họa Hệ thống Quản lý Cơ sở Dữ liệu",
     "description_3": "Xây dựng backend cho nền tảng thương mại điện tử tích hợp MongoDB và Redis. Sử dụng Redis để quản lý phiên và MongoDB để lưu trữ dữ liệu sản phẩm linh hoạt, triển khai trên Digital Ocean.",
     "technologies_3": [
@@ -91,6 +93,7 @@
       "Redis",
       "Linux"
     ],
+    "url_3": "https://github.com/HoangPham6337/website_backend_python",
     "title_4": "Nhận diện Ảnh bằng Học Máy",
     "description_4": "Phát triển hệ thống nhận diện hình dạng bàn tay sử dụng TensorFlow với Học có giám sát (hồi quy tuyến tính). Triển khai xử lý đa luồng và tính toán GPU để tăng tốc xử lý.",
     "technologies_4": [
@@ -99,6 +102,7 @@
       "Học có giám sát",
       "Hồi quy tuyến tính"
     ],
+    "url_4": "https://github.com/HoangPham6337/Machine-Learning-1",
     "title_5": "Chương trình Quản lý Sinh viên",
     "description_5": "Tạo hệ thống quản lý sinh viên trên dòng lệnh bằng Python, bao gồm kiểm tra đầu vào, xử lý đa luồng và lưu trữ dữ liệu bằng module Pickle.",
     "technologies_5": [
@@ -107,6 +111,7 @@
       "CLI",
       "Thư viện Curses"
     ],
+    "url_5": "https://github.com/HoangPham6337/student-management-system-python",
     "title_6": "Dự án Quản lý Điểm số",
     "description_6": "Thiết kế một công cụ CLI tương tác bằng C để quản lý khóa học và điểm số, hỗ trợ tính GPA, lưu trữ dữ liệu và kiểm tra đầu vào.",
     "technologies_6": [
@@ -114,6 +119,7 @@
       "Cấu trúc Dữ liệu",
       "Quản lý Bộ nhớ Động"
     ],
+    "url_6": "https://github.com/HoangPham6337/grade_management_system_C",
     "title_7": "Dự án Trạm Xe Buýt Thông Minh (SBS)",
     "description_7": "Phát triển hệ thống trạm xe buýt thông minh tích hợp nhận diện giọng nói/hình ảnh, giám sát môi trường IoT và các giải pháp năng lượng bền vững.",
     "technologies_7": [

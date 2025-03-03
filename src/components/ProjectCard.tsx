@@ -52,6 +52,8 @@ export const ProjectCard = ({ title, description, technologies, url, image }: Pr
           <div className="flex justify-between items-center">
             <a
               href={url}
+              target="_blank"
+              rel="noopener noreferrer"
               className="transition-colors my-4 border rounded-2xl p-3"
               style={{
                 color: "var(--highlight-orange)",
