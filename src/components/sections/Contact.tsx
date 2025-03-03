@@ -130,7 +130,7 @@ export const Contact = () => {
                 e.currentTarget.style.boxShadow = "none";
               }}
             >
-              {t("contact.success")}
+              {t("contact.send")}
             </button>
           </form>
         </div>
