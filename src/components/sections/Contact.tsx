@@ -54,7 +54,7 @@ export const Contact = () => {
               <input
                 type="text"
                 id="name"
-                name="name"
+                name="user_name"
                 required
                 value={formData.name}
                 className="w-full border rounded px-4 py-3 transition focus:outline-none"
