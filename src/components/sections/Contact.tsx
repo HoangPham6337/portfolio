@@ -7,7 +7,7 @@ import * as React from "react";
 export const Contact = () => {
   const {t} = useTranslation();
   const [formData, setFormData] = useState({
-    name: "",
+    user_name: "",
     email: "",
     message: ""
   })
@@ -27,7 +27,7 @@ export const Contact = () => {
       import.meta.env.VITE_PUBLIC_KEY
     ).then(() => {
       alert("Message Sent!");
-      setFormData({name: "", email: "", message: ""});
+      setFormData({user_name: "", email: "", message: ""});
     }).catch(() => alert(t("contact.error_2")));
   }
 
@@ -56,7 +56,7 @@ export const Contact = () => {
                 id="name"
                 name="user_name"
                 required
-                value={formData.name}
+                value={formData.user_name}
                 className="w-full border rounded px-4 py-3 transition focus:outline-none"
                 style={{
                   backgroundColor: "var(--base-variant)", // Themed input background
