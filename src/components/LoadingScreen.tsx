@@ -2,10 +2,11 @@ import {useEffect, useState} from "react";
 import {useTranslation} from "react-i18next";
 
 interface LoadingScreenProps {
+  isLoaded: boolean;
   onComplete: () => void;
 }
 
-export const LoadingScreen = ({onComplete}: LoadingScreenProps) => {
+export const LoadingScreen = ({isLoaded, onComplete}: LoadingScreenProps) => {
   const {t} = useTranslation();
 
   const [text, setText] = useState<string>("");
@@ -27,12 +28,12 @@ export const LoadingScreen = ({onComplete}: LoadingScreenProps) => {
     }, 100)
 
     return () => clearInterval(interval);
-  }, [onComplete]);
+  }, [fullText, onComplete]);
 
 
   return (
     <div
-      className="bg-[#1e1f1e] text-[#db9257] fixed inset-0 flex flex-col items-center justify-center"
+      className={`fixed inset-0 flex flex-col items-center justify-center transition-opacity duration-500 ${isLoaded ? "opacity-0" : "opacity-100"}`}
       style={{
         backgroundColor: "var(--base-color)",
         color: "var(--highlight-orange)",

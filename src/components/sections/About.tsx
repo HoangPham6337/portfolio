@@ -142,7 +142,7 @@ export const About = () => {
             </p>
 
               {/*Skills*/}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-3">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-2 mt-3">
                 {<SkillSection title="Frontend" category="frontend" skills={frontendSkills}/>}
                 {<SkillSection title="Backend" category="backend" skills={backendSkills}/>}
                 {<SkillSection title={t("about.db")} category="database" skills={databaseSkills}/>}
