@@ -9,7 +9,7 @@ import homeLightIcon from '../assets/icons/home-light.png';
 import homeDarkIcon from '../assets/icons/home-dark.png';
 
 export const BlogHeader = () => {
-  const { t, i18n } = useTranslation();
+  const { i18n } = useTranslation();
 
   const getInitialLanguage = () => localStorage.getItem("language") || navigator.language.split("-")[0] || "en";
   const [selectedLanguage, setSelectedLanguage] = useState<string>(getInitialLanguage());
