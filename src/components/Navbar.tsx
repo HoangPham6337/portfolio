@@ -94,7 +94,6 @@ export const Navbar = ({menuOpen, setMenuOpen}: NavbarProps) => {
                 onMouseEnter={(e) => e.currentTarget.style.color = "var(--accent-color)"} // Hover color
                 onMouseLeave={(e) => e.currentTarget.style.color = "var(--text-color)"}
               >
-                {/*{section.charAt(0).toUpperCase() + section.slice(1)} /!* Capitalize first letter *!/*/}
                 {t(`navbar.${section}`)}
               </a>
             ))}

@@ -38,12 +38,12 @@ export const StorageChart: React.FC = () => {
             if (valueSpan && barFill.offsetWidth > 0) {
               const currentWidthPercentage = (barFill.offsetWidth / barFill.parentElement.offsetWidth);
               const currentValue = currentWidthPercentage * numberImageProcessed;
-              valueSpan.textContent = `${currentValue.toFixed(0)}s`;
+              valueSpan.textContent = `${currentValue.toFixed(0)} imgs`;
             }
           },
           onComplete: function () {
             if (valueSpan) {
-              valueSpan.textContent = `${numberImageProcessed}s`;
+              valueSpan.textContent = `${numberImageProcessed} imgs`;
             }
           }
         });
