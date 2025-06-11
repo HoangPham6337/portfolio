@@ -15,7 +15,7 @@ export const ProjectCard = ({ title, description, technologies, url, image, blog
         className="p-6 rounded-xl border transition-all"
         style={{
           borderColor: "var(--highlight-red)",
-          backgroundColor: "var(--base-variant)",
+          // backgroundColor: "var(--base-variant)",
           transition: "border 0.3s ease-in-out",
         }}
       >
@@ -83,20 +83,7 @@ export const ProjectCard = ({ title, description, technologies, url, image, blog
           {blogPath && (
             <Link
                 to={blogPath}
-                className="btn-gradient-flash  rounded-2xl p-3"
-                // style={{
-                //     color: "var(--highlight-orange)",
-                //     borderColor: "var(--highlight-orange)",
-                //     // transition: "color 0.3s ease-in-out, background 0.3s ease-in-out",
-                // }}
-                // onMouseEnter={(e) => {
-                //     e.currentTarget.style.color = "var(--base-color)";
-                //     e.currentTarget.style.backgroundColor = "var(--highlight-orange)";
-                // }}
-                // onMouseLeave={(e) => {
-                //     e.currentTarget.style.color = "var(--highlight-orange)";
-                //     e.currentTarget.style.backgroundColor = "transparent";
-                // }}
+                className="btn-gradient-flash rounded-2xl p-3"
               >
                   Read More...
               </Link>

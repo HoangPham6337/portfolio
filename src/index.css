@@ -1,4 +1,7 @@
 @import "tailwindcss";
+/*@import "tailwindcss/preflight.css";*/
+@tailwind utilities;
+@plugin "@tailwindcss/typography";
 
 html, body {
   margin: 0;
@@ -21,6 +24,7 @@ html, body {
   --highlight-orange: #D35400;   /* More vibrant orange */
   --highlight-red: #C0392B;      /* Deep red for errors */
   --splash-color: rgba(0, 122, 255, 0.15);
+  --aero-color: rgba(249, 249, 248, 0.5);
 }
 
 /* Dark Mode */
@@ -28,13 +32,14 @@ html, body {
   --base-color: #1e1f1e;         /* Dark background */
   --base-variant: #2f313b;       /* Secondary dark background */
   --text-color: #ffffff;         /* Light text */
-  --secondary-text: #a4a5b8;     /* Secondary text */
+  --secondary-text: #c1c4d3;     /* Secondary text */
   --primary-color: #51cf3d;      /* Main accent */
   --accent-color: #3fac39;       /* Actionable elements */
   --highlight-green: #4cb946;    /* Success */
   --highlight-orange: #db9257;   /* Warning */
-  --highlight-red: #db9257;      /* Error */
-  --splash-color: rgba(63, 172, 57, 0.1);
+  --highlight-red: #da6014;      /* Error */
+  --splash-color: rgba(63, 172, 57, 0.15);
+  --aero-color: rgba(9, 9, 13, 0.1);
 }
 
 

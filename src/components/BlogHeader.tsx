@@ -9,7 +9,7 @@ import homeLightIcon from '../assets/icons/home-light.png';
 import homeDarkIcon from '../assets/icons/home-dark.png';
 
 export const BlogHeader = () => {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   const getInitialLanguage = () => localStorage.getItem("language") || navigator.language.split("-")[0] || "en";
   const [selectedLanguage, setSelectedLanguage] = useState<string>(getInitialLanguage());
@@ -72,6 +72,7 @@ export const BlogHeader = () => {
             {/* The single link back to the homepage */}
             <Link
               to="/"
+              state={{ skipLoadingAnimation: true }} // Also skip loading animation on mobile
               className="transition-colors"
               style={{
                 color: "var(--text-color)",

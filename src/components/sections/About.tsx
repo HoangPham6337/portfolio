@@ -115,7 +115,7 @@ export const About = () => {
   return (
     <section
       id="about"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-20 relative"
     >
       <RevealOnScroll>
         <div className="max-w-3xl mx-auto px-4">
@@ -127,19 +127,28 @@ export const About = () => {
           </h2>
 
           {/* Self-description and skills */}
-          <div className="rounded-xl p-8 border transition-all"
-               style={{ borderColor: "var(--secondary-text)", backgroundColor: "var(--base-color)" }}>
-            <p style={{ color: "var(--text-color)" }}>
-              {t("about.intro_1")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.name")}</span>, {t("about.intro_2")}
-              <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}> {t("about.performance")}, {t("about.efficiency")}, {t("about.low-level computing")}</span>
-              {t("about.journey")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.optimization")}, {t("about.automation")}, {t("about.system design")}</span>.
-            </p>
+          <div className="rounded-xl p-8 border transition-all relative"
+               style={{ borderColor: "var(--secondary-text)" }}>
+            <div
+              className="absolute inset-0 z-0 rounded-xl" // Absolute positioning to cover the whole block
+              style={{
+                backgroundColor: "var(--aero-color)",
+                backdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+                WebkitBackdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+              }}
+            ></div>
+            <div className="relative z-10">
+              <p style={{ color: "var(--text-color)" }}>
+                {t("about.intro_1")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.name")}</span>, {t("about.intro_2")}
+                <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}> {t("about.performance")}, {t("about.efficiency")}, {t("about.low-level computing")}</span>
+                {t("about.journey")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.optimization")}, {t("about.automation")}, {t("about.system design")}</span>.
+              </p>
 
-            <p className="mt-4" style={{ color: "var(--text-color)" }}>
-              {t("about.belief")} <span style={{ color: "var(--highlight-orange)", fontWeight: "bold" }}>{t("about.right_code")}</span>
-              {t("about.approach")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.streamlining")}, {t("about.optimizing")}, {t("about.automating")}</span>,
-              {t("about.goal")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.lightweight")}, {t("about.powerful")}, {t("about.scalable")}</span>.
-            </p>
+              <p className="mt-4" style={{ color: "var(--text-color)" }}>
+                {t("about.belief")} <span style={{ color: "var(--highlight-orange)", fontWeight: "bold" }}>{t("about.right_code")}</span>
+                {t("about.approach")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.streamlining")}, {t("about.optimizing")}, {t("about.automating")}</span>,
+                {t("about.goal")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.lightweight")}, {t("about.powerful")}, {t("about.scalable")}</span>.
+              </p>
 
               {/*Skills*/}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-2 mt-3">
@@ -150,6 +159,7 @@ export const About = () => {
                 {<SkillSection title={t("about.os")} category="os" skills={operatingSystems}/>}
                 {<SkillSection title={t("about.other skills")} category="other" skills={otherSkills}/>}
               </div>
+            </div>
           </div>
         </div>
       </RevealOnScroll>

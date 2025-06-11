@@ -57,8 +57,18 @@ export const Experience = () => {
 
           {/* Education Section */}
           <div
-            className="p-6 rounded-lg shadow-md"
+            className="p-6 rounded-lg shadow-md relative"
           >
+
+            <div
+              className="absolute inset-0 z-0 rounded-xl" // Absolute positioning to cover the whole block
+              style={{
+                backgroundColor: "var(--aero-color)",
+                backdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+                WebkitBackdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+              }}
+            ></div>
+            <div className="relative z-10">
             <div className="flex items-center gap-3">
               <svg className="w-8 h-8"
                    fill="none"
@@ -99,10 +109,20 @@ export const Experience = () => {
                 </div>
               ))}
             </div>
+            </div>
           </div>
 
           {/* Work Experience Section */}
-          <div className="p-6 rounded-lg shadow-md">
+          <div className="p-6 rounded-lg shadow-md relative">
+            <div
+              className="absolute inset-0 z-0 rounded-xl" // Absolute positioning to cover the whole block
+              style={{
+                backgroundColor: "var(--aero-color)",
+                backdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+                WebkitBackdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+              }}
+            ></div>
+            <div className="relative z-10">
             <div className="flex items-center gap-3">
               <svg className="w-8 h-8"
                    fill="none"
@@ -142,8 +162,9 @@ export const Experience = () => {
                   </p>
                 </div>
               ))}
+              </div>
             </div>
-          </div>
+            </div>
 
         </div>
 

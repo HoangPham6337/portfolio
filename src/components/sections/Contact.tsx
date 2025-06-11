@@ -41,7 +41,17 @@ export const Contact = () => {
   return (
     <section id="contact" className="min-h-screen flex items-center justify-center py-20 px-1">
       <RevealOnScroll>
-        <div className="w-100 md:w-150 lg:w-150 p-6 rounded-2xl shadow-lg border">
+        <div className="w-100 md:w-150 lg:w-150 p-6 rounded-2xl ">
+
+          <div
+            className="absolute inset-0 z-0 rounded-xl" // Absolute positioning to cover the whole block
+            style={{
+              backgroundColor: "var(--aero-color)",
+              backdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+              WebkitBackdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+            }}
+          ></div>
+          <div className="relative z-10">
           <h2
             className="text-3xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
             style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
@@ -50,7 +60,9 @@ export const Contact = () => {
           </h2>
           <form className="space-y-6" onSubmit={handleSubmit}>
 
-            <div className="relative">
+            <div
+              className="relative"
+              style={{ borderColor: "var(--secondary-text)" }}>
               <input
                 type="text"
                 id="name"
@@ -59,7 +71,7 @@ export const Contact = () => {
                 value={formData.user_name}
                 className="w-full border rounded px-4 py-3 transition focus:outline-none"
                 style={{
-                  backgroundColor: "var(--base-variant)", // Themed input background
+                  // backgroundColor: "var(--base-variant)", // Themed input background
                   borderColor: "var(--secondary-text)", // Themed border
                   color: "var(--text-color)", // Themed text color
                   transition: "border-color 0.3s ease-in-out, background 0.3s ease-in-out"
@@ -133,6 +145,7 @@ export const Contact = () => {
               {t("contact.send")}
             </button>
           </form>
+          </div>
         </div>
       </RevealOnScroll>
     </section>

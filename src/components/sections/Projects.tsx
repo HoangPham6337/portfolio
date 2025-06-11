@@ -71,8 +71,9 @@ export const Projects = () => {
   return (
     <section
       id="projects"
-      className="min-h-screen flex items-center justify-center py-20"
+      className="min-h-screen flex items-center justify-center py-20 relative"
     >
+
       {/*<RevealOnScroll>*/}
         <div className="max-w-5xl mx-auto px-4">
           <h2
@@ -85,13 +86,25 @@ export const Projects = () => {
           <div ref={projectContainer} className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {projects.map((project, index) => (
               <div key={index} className="project-card">
-                <ProjectCard title={project.title}
+                <div className="relative">
+                <div
+                  className="absolute inset-0 z-0 rounded-xl" // Absolute positioning to cover the whole block
+                  style={{
+                    backgroundColor: "var(--aero-color)",
+                    backdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+                    WebkitBackdropFilter: 'blur(500px) saturate(100%) brightness(110%)',
+                  }}
+                ></div>
+                  <div className="relative z-10">
+                 <ProjectCard title={project.title}
                              description={project.description}
                              technologies={project.technologies}
                              url={project.url}
                              image={project.image}
                              blogPath={project.blogPath}
                 />
+                </div>
+                </div>
               </div>
             ))}
           </div>

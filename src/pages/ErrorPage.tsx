@@ -1,11 +1,26 @@
 import { Link, useRouteError } from 'react-router-dom';
 import { CursorSplash } from '../components/CursorSplash';
 import cryingChiikawa from '../assets/gif/chiikawa-crying.gif';
+import {useEffect, useState} from "react";
 
 export const ErrorPage = () => {
   // react-router-dom provides a hook to get more details about the error
   const error: any = useRouteError();
   console.error(error);
+  const DESKTOP_BREAKPOINT = 768;
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= DESKTOP_BREAKPOINT);
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= DESKTOP_BREAKPOINT);
+    }
+    window.addEventListener('resize', handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [])
 
   return (
     <div
@@ -15,7 +30,7 @@ export const ErrorPage = () => {
         backgroundColor: 'var(--base-color)',
       }}
     >
-      <CursorSplash />
+      {isDesktop && <CursorSplash />}
       <img
         src={cryingChiikawa}
         alt="Crying Chiikawa"

@@ -6,7 +6,7 @@ import {Home} from "./components/sections/Home.tsx";
 import {About} from "./components/sections/About.tsx";
 import {Projects} from "./components/sections/Projects.tsx";
 import {Contact} from "./components/sections/Contact.tsx";
-import {JSX, useCallback, useState} from "react";
+import {JSX, useCallback, useEffect, useState} from "react";
 import {Experience} from "./components/sections/Experience.tsx";
 import {Footer} from "./components/Footer.tsx";
 import {CursorSplash} from "./components/CursorSplash.tsx";
@@ -18,6 +18,8 @@ function App(): JSX.Element {
   const [isLoaded, setIsLoaded] = useState<boolean>(shouldSkipLoading || false);
   const [menuOpen, setMenuOpen] = useState<boolean>(false);
   const [showLoading, setShowLoading] = useState(!shouldSkipLoading);
+  const DESKTOP_BREAKPOINT = 768;
+  const [isDesktop, setIsDesktop] = useState(window.innerWidth >= DESKTOP_BREAKPOINT);
 
   const handleLoadingComplete = useCallback(() => {
     setIsLoaded(true);
@@ -26,12 +28,26 @@ function App(): JSX.Element {
   }, []);
 
 
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsDesktop(window.innerWidth >= DESKTOP_BREAKPOINT);
+    }
+    window.addEventListener('resize', handleResize);
+
+    handleResize();
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, [])
+
+
   return (
     <>
       {showLoading && <LoadingScreen isLoaded={isLoaded} onComplete={handleLoadingComplete}/>}
-      <CursorSplash />
       <div
-        className={`isolate min-h-screen transition-opacity duration-500 ${
+        className={`isolate min-h-screen transition-opacity duration-500 z-10 relative ${
           isLoaded ? "opacity-100" : "opacity-0"
         }`}
         style={{
@@ -48,6 +64,7 @@ function App(): JSX.Element {
         <Contact/>
         <Footer/>
       </div>
+      {isDesktop && <CursorSplash />}
     </>
   );
 }
