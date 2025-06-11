@@ -82,7 +82,7 @@ export const BlogHeader = () => {
               onMouseLeave={(e) => e.currentTarget.style.color = "var(--text-color)"}
             >
               {/*&larr; {t('navbar.home')}*/}
-              &larr; Return to Portfolio
+              &larr; {t("navbar.return_portfolio")}
             </Link>
 
             {/* Theme and Language Toggles */}
