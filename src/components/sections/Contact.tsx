@@ -52,59 +52,59 @@ export const Contact = () => {
             }}
           ></div>
           <div className="relative z-10">
-          <h2
-            className="text-3xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
-            style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
-          >
-            {t("contact.contact_me")}
-          </h2>
-          <form className="space-y-6" onSubmit={handleSubmit}>
+            <h2
+              className="text-3xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center"
+              style={{backgroundImage: "linear-gradient(to right, var(--accent-color), var(--highlight-orange))"}}
+            >
+              {t("contact.contact_me")}
+            </h2>
+            <form className="space-y-6" onSubmit={handleSubmit}>
 
-            <div
-              className="relative"
-              style={{ borderColor: "var(--secondary-text)" }}>
-              <input
-                type="text"
-                id="name"
-                name="user_name"
-                required
-                value={formData.user_name}
-                className="w-full border rounded px-4 py-3 transition focus:outline-none"
-                style={{
-                  // backgroundColor: "var(--base-variant)", // Themed input background
-                  borderColor: "var(--secondary-text)", // Themed border
-                  color: "var(--text-color)", // Themed text color
-                  transition: "border-color 0.3s ease-in-out, background 0.3s ease-in-out"
-                }}
-                placeholder={t("contact.name")}
-                onChange={handleChange}
-                onFocus={(e) => e.currentTarget.style.borderColor = "var(--accent-color)"}
-                onBlur={(e) => e.currentTarget.style.borderColor = "var(--secondary-text)"}
-              />
-            </div>
+              <div
+                className="relative"
+                style={{borderColor: "var(--secondary-text)"}}>
+                <input
+                  type="text"
+                  id="name"
+                  name="user_name"
+                  required
+                  value={formData.user_name}
+                  className="w-full border rounded px-4 py-3 transition focus:outline-none"
+                  style={{
+                    // backgroundColor: "var(--base-variant)", // Themed input background
+                    borderColor: "var(--secondary-text)", // Themed border
+                    color: "var(--text-color)", // Themed text color
+                    transition: "border-color 0.3s ease-in-out, background 0.3s ease-in-out"
+                  }}
+                  placeholder={t("contact.name")}
+                  onChange={handleChange}
+                  onFocus={(e) => e.currentTarget.style.borderColor = "var(--accent-color)"}
+                  onBlur={(e) => e.currentTarget.style.borderColor = "var(--secondary-text)"}
+                />
+              </div>
 
-            <div className="relative">
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                value={formData.email}
-                className="w-full border rounded px-4 py-3 transition focus:outline-none"
-                style={{
-                  backgroundColor: "var(--base-variant)",
-                  borderColor: "var(--secondary-text)",
-                  color: "var(--text-color)",
-                  transition: "border-color 0.3s ease-in-out, background 0.3s ease-in-out"
-                }}
-                placeholder="example@gmail.com"
-                onChange={handleChange}
-                onFocus={(e) => e.currentTarget.style.borderColor = "var(--accent-color)"}
-                onBlur={(e) => e.currentTarget.style.borderColor = "var(--secondary-text)"}
-              />
-            </div>
+              <div className="relative">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  value={formData.email}
+                  className="w-full border rounded px-4 py-3 transition focus:outline-none"
+                  style={{
+                    backgroundColor: "var(--base-variant)",
+                    borderColor: "var(--secondary-text)",
+                    color: "var(--text-color)",
+                    transition: "border-color 0.3s ease-in-out, background 0.3s ease-in-out"
+                  }}
+                  placeholder="example@gmail.com"
+                  onChange={handleChange}
+                  onFocus={(e) => e.currentTarget.style.borderColor = "var(--accent-color)"}
+                  onBlur={(e) => e.currentTarget.style.borderColor = "var(--secondary-text)"}
+                />
+              </div>
 
-            <div className="relative">
+              <div className="relative">
               <textarea
                 id="message"
                 name="message"
@@ -123,28 +123,28 @@ export const Contact = () => {
                 onFocus={(e) => e.currentTarget.style.borderColor = "var(--accent-color)"}
                 onBlur={(e) => e.currentTarget.style.borderColor = "var(--secondary-text)"}
               />
-            </div>
+              </div>
 
-            <button
-              type="submit"
-              className="w-full rounded font-medium transition relative overflow-hidden cursor-pointer py-3 px-6 leading-tight"
-              style={{
-                backgroundColor: "var(--highlight-orange)", // Themed button background
-                color: "var(--base-variant)", // Themed text color
-                transition: "all 0.3s ease-in-out",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.backgroundColor = "var(--accent-color)";
-                e.currentTarget.style.boxShadow = "0 0 15px var(--accent-color)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.backgroundColor = "var(--highlight-orange)";
-                e.currentTarget.style.boxShadow = "none";
-              }}
-            >
-              {t("contact.send")}
-            </button>
-          </form>
+              <button
+                type="submit"
+                className="w-full rounded font-medium transition relative overflow-hidden cursor-pointer py-3 px-6 leading-tight"
+                style={{
+                  backgroundColor: "var(--highlight-orange)", // Themed button background
+                  color: "var(--base-variant)", // Themed text color
+                  transition: "all 0.3s ease-in-out",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.backgroundColor = "var(--accent-color)";
+                  e.currentTarget.style.boxShadow = "0 0 15px var(--accent-color)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.backgroundColor = "var(--highlight-orange)";
+                  e.currentTarget.style.boxShadow = "none";
+                }}
+              >
+                {t("contact.send")}
+              </button>
+            </form>
           </div>
         </div>
       </RevealOnScroll>

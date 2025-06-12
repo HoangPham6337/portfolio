@@ -4,15 +4,12 @@ import {useTranslation} from 'react-i18next';
 import {FaUpload, FaSpinner} from 'react-icons/fa';
 import {SampleImages} from "./internshipBlogComponents/SampleImages.tsx";
 
-// Get the base URL from Vite's environment variables (e.g., '/portfolio/')
 const viteBaseUrl = import.meta.env.BASE_URL;
 const publicPath = viteBaseUrl.endsWith('/') ? viteBaseUrl : `${viteBaseUrl}/`;
 
-// Now, we provide the GUARANTEED correct path to the ONNX runtime.
 ort.env.wasm.wasmPaths = publicPath;
 
 
-// Helper for softmax
 const softmax = (arr: Float32Array): number[] => {
   const max = Math.max(...arr);
   const exps = Array.from(arr).map(x => Math.exp(x - max));
@@ -137,16 +134,6 @@ export const ONNXDemo = () => {
     reader.readAsDataURL(file);
   }, [runModel]);
 
-  // const handleImageFromUrl = useCallback((url: string) => {
-  //   setError(null);
-  //   const img = new Image();
-  //   // This helps prevent canvas tainting issues, good practice.
-  //   img.crossOrigin = "anonymous";
-  //   img.onload = () => runModel(img);
-  //   img.src = url;
-  //   setImageSrc(url); // Set preview immediately
-  // }, [runModel]);
-
   const handlePredictSample = useCallback((url: string) => {
     setError(null);
     const img = new Image();
@@ -210,6 +197,11 @@ export const ONNXDemo = () => {
                       <p className="text-md" style={{color: "var(--secondary-text)"}}>
                         {t('internshipBlog.demo.confidence')}: {(result.confidence * 100).toFixed(1)}%
                       </p>
+                      {result.confidence < 0.5 && result.label !== 'Other' && (
+                        <p className="text-sm mt-2" style={{color: 'var(--highlight-red)'}}>
+                          {t('internshipBlog.demo.unsure')}
+                        </p>
+                      )}
                     </div>
                   )}
                 </div>
@@ -217,6 +209,7 @@ export const ONNXDemo = () => {
               {!imageSrc && !loading.predicting && !error && (
                 <p className="text-gray-500">{t('internshipBlog.demo.waiting')}</p>
               )}
+
             </div>
           </div>
         )}

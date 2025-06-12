@@ -231,7 +231,8 @@
       "waiting": "En attente d'une image…",
       "confidence": "Confiance",
       "trySamples": "Ou essayez l'un de ces échantillons",
-      "tapToTry": "(Appuyez sur une image pour essayer)"
+      "tapToTry": "(Appuyez sur une image pour essayer)",
+      "unsure": "La confiance du modèle est faible. Ce résultat doit être considéré comme 'Other'."
     }
   }
 }
