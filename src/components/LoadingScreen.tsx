@@ -14,6 +14,8 @@ export const LoadingScreen = ({isLoaded, onComplete}: LoadingScreenProps) => {
 
   useEffect(() => {
     let index: number = 0;  // What letter we're in
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-expect-error
     const interval: number = setInterval(() => {
       setText(fullText.substring(0, index));
       index++;

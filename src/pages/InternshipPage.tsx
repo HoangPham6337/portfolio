@@ -12,7 +12,6 @@ import {InferenceChart} from '../components/internshipBlogComponents/InferenceCh
 import {StorageChart} from '../components/internshipBlogComponents/StorageChart.tsx';
 import {useTranslation, Trans} from 'react-i18next';
 import {ONNXDemo} from "../components/ONNXDemo.tsx";
-import {SampleImages} from "../components/internshipBlogComponents/SampleImages.tsx"; // <-- Import hooks
 
 export const InternshipPage = () => {
   const {t} = useTranslation(); // <-- Initialize the hook
