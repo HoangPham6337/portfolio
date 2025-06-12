@@ -26,9 +26,14 @@ jobs:
           VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
           VITE_PUBLIC_KEY: ${{ secrets.VITE_PUBLIC_KEY }}
 
+      - name: Create .nojekyll file
+        run: touch dist/.nojekyll
+
+      - name: Copy index.html to 404.html
+        run: cp dist/index.html dist/404.html
+
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
           folder: dist
-
