@@ -222,6 +222,16 @@
     "journey_title": "Mon parcours : Bien plus que du simple code",
     "journey_p1": "Au-delà des réalisations techniques, ce stage a été une profonde expérience de croissance personnelle et professionnelle. J'ai appris à naviguer dans un environnement de recherche rapide, j'ai affiné ma pensée logique et mes compétences en planification de projet, et j'ai développé des pratiques d'auto-vérification cruciales. Plus important encore, j'ai considérablement amélioré ma capacité à articuler des idées techniques complexes, transformant des pensées éparses en un récit convaincant - une compétence qui sera inestimable dans ma carrière.",
     "journey_p2": "Ce projet a renforcé ma passion pour l'apprentissage automatique appliqué et l'optimisation des systèmes, démontrant comment une technologie innovante peut directement contribuer à un avenir plus durable.",
-    "back_link": "← Retour au Portfolio"
+    "back_link": "← Retour au Portfolio",
+    "demo": {
+      "title": "Démo d'IA en direct : Essayez-la !",
+      "loadingModel": "Chargement du modèle d'IA, veuillez patienter…",
+      "dragOrClick": "Glissez-déposez une image ou cliquez pour la télécharger",
+      "uploadHint": "Votre image est traitée dans votre navigateur et n'est jamais envoyée à un serveur.",
+      "waiting": "En attente d'une image…",
+      "confidence": "Confiance",
+      "trySamples": "Ou essayez l'un de ces échantillons",
+      "tapToTry": "(Appuyez sur une image pour essayer)"
+    }
   }
 }

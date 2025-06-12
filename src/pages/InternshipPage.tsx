@@ -10,7 +10,9 @@ import {AccuracyChart} from '../components/internshipBlogComponents/AccuracyChar
 import {ScrollToTop} from '../components/ScrollToTop.tsx';
 import {InferenceChart} from '../components/internshipBlogComponents/InferenceChart.tsx';
 import {StorageChart} from '../components/internshipBlogComponents/StorageChart.tsx';
-import {useTranslation, Trans} from 'react-i18next'; // <-- Import hooks
+import {useTranslation, Trans} from 'react-i18next';
+import {ONNXDemo} from "../components/ONNXDemo.tsx";
+import {SampleImages} from "../components/internshipBlogComponents/SampleImages.tsx"; // <-- Import hooks
 
 export const InternshipPage = () => {
   const {t} = useTranslation(); // <-- Initialize the hook
@@ -38,7 +40,7 @@ export const InternshipPage = () => {
           <p>
             {t('internshipBlog.authorPrefix')}{' '}
             <a href="https://www.linkedin.com/in/xuan-hoang-pham" target="_blank" className="font-bold"
-               style={{color: 'var(--accent-color)'}}>
+               style={{color: 'var(--accent-color)'}} rel="noreferrer">
               {t('internshipBlog.authorName')}
             </a>{' '}
             · {t('internshipBlog.postDate')}
@@ -89,7 +91,7 @@ export const InternshipPage = () => {
             <Trans i18nKey="internshipBlog.aha_p1">
               Our solution was inspired by the <strong>Pareto Principle</strong>, or the 80/20 rule. In many natural
               environments, a small percentage of species accounts for the vast majority of observations. Think about
-              it: you'll likely see many sparrows and pigeons, but very few rare raptors, even in a diverse area.
+              it: you&#39;ll likely see many sparrows and pigeons, but very few rare raptors, even in a diverse area.
             </Trans>
           </p>
           <p>{t('internshipBlog.aha_p2')}</p>
@@ -144,7 +146,7 @@ export const InternshipPage = () => {
           </figure>
           <p>
             <Trans i18nKey="internshipBlog.solution_p1">
-              I focused on developing a <strong>context-aware hybrid classification strategy</strong>. Here's how it
+              I focused on developing a <strong>context-aware hybrid classification strategy</strong>. Here&#39;s how it
               works:
             </Trans>
           </p>
@@ -173,6 +175,7 @@ export const InternshipPage = () => {
           <p>{t('internshipBlog.journey_p1')}</p>
           <p>{t('internshipBlog.journey_p2')}</p>
         </div>
+        <ONNXDemo />
 
         <Link
           to="/"

@@ -222,6 +222,16 @@
     "journey_title": "My Journey: More Than Just Code",
     "journey_p1": "Beyond the technical achievements, this internship was a profound personal and professional growth experience. I learned to navigate a fast-paced research environment, honed my logical thinking and project planning skills, and developed crucial self-verification practices. Most importantly, I significantly improved my ability to articulate complex technical ideas, transforming scattered thoughts into a compelling narrative – a skill that will be invaluable in my career.",
     "journey_p2": "This project has reinforced my passion for applied machine learning and system optimization, demonstrating how innovative technology can directly contribute to a more sustainable future.",
-    "back_link": "← Back to Portfolio"
+    "back_link": "← Back to Portfolio",
+    "demo": {
+      "title": "Live AI Demo: Try It Yourself!",
+      "loadingModel": "Loading AI model, please wait...",
+      "dragOrClick": "Drag & drop an image or click to upload",
+      "uploadHint": "Your image is processed in your browser and is never sent to a server.",
+      "waiting": "Waiting for an image...",
+      "confidence": "Confidence",
+      "trySamples": "Or Try One of These Samples",
+      "tapToTry": "(Tap an image to try)"
+    }
   }
 }

@@ -30,7 +30,7 @@
     "performance": "hiệu suất",
     "efficiency": "tính hiệu quả",
     "low-level computing": "và lập trình bậc thấp. ",
-    "journey": "Hành trình của tôi trong công nghệ bắt đầu từ năm 12 tuổi khi tôi cố gắng sửa một chiếc laptop chậm—sự tò mò ban đầu đã trở thành niềm đam mê với",
+    "journey": "Hành trình của tôi đến với công nghệ bắt đầu từ năm 12 tuổi khi tôi cố gắng sửa một chiếc laptop với cấu hình thấp—sự tò mò ban đầu đã trở thành niềm đam mê với",
     "optimization": "tối ưu hóa",
     "automation": "tự động hóa",
     "system design": "và thiết kế hệ thống",
@@ -160,7 +160,7 @@
   },
   "internshipBlog": {
     "pageTitle": "Điểm Sáng Dự Án Thực Tập",
-    "postTitle": "Giám Sát Động Vật Hoang Dã: Hành Trình Cùng AI trên Hệ Thống Nhúng",
+    "postTitle": "Giám Sát Động Vật Hoang Dã: Sử Dụng AI trên Hệ Thống Nhúng",
     "authorPrefix": "Bởi",
     "authorName": "Hoang Phạm",
     "postDate": "11 tháng 6 năm 2025",
@@ -170,10 +170,10 @@
     "challenge_fig1_caption": "Hình 1. Hình ảnh các thiết bị dùng để chụp ảnh động vật hoang dã.",
     "challenge_p2": "Nghe có vẻ tuyệt vời phải không? Thực tế lại có một chút thách thức. Raspberry Pi 4B, mặc dù rất tiết kiệm điện, nhưng lại khá yếu so với tiêu chuẩn tính toán hiện đại. Do đó, các thiết bị này không thể thực hiện bất kỳ phân loại loài nào trên thiết bị do chúng không có khả năng chạy mô hình máy học với độ chính xác cao. Vậy thì chúng ta làm cách nào để phân loại sinh vật?",
     "challenge_fig2_caption": "Hình 2. Tổng quan về quy trình giám sát đa dạng sinh học hiện tại.",
-    "challenge_p3": "Hệ thống nhúng chụp lại cái sinh vật một cách tự động và lưu trữ chúng trên thẻ SD. Giải pháp hiện tại chỉ giới hạn ở việc lưu trữ dữ liệu cục bộ, dữ liệu thu thập được sau đó sẽ được một kỹ thuật viên lấy ra và chuyển đến một máy tính mạnh mẽ trong phòng thí nghiệm. Máy chủ mạnh mẽ chạy một mô hình máy học để phân loại loài với độ chính xác rất cao nhưng đòi hỏi nhiều tài nguyên tính toán. Sau khi mô hình hoàn tất phân tích, những thông tin về mật độ loài sẽ được chuyển cho các nhà thực vật học và sinh vật học. Nghe có vẻ vẫn khả thi đúng không? Nhưng không hẳn vậy, chủ yếu là do những vấn đề sau:",
+    "challenge_p3": "Hệ thống nhúng chụp lại các sinh vật một cách tự động và lưu trữ chúng trên thẻ SD. Giải pháp hiện tại chỉ giới hạn ở việc lưu trữ dữ liệu cục bộ, dữ liệu thu thập được sau đó sẽ được một kỹ thuật viên lấy ra và chuyển đến một máy tính mạnhtrong phòng thí nghiệm. Máy chủ mạnhchạy một mô hình máy học để phân loại loài với độ chính xác rất cao nhưng đòi hỏi nhiều tài nguyên tính toán. Sau khi mô hình hoàn tất phân tích, những thông tin về mật độ loài sẽ được chuyển cho các nhà thực vật học và sinh vật học. Nghe có vẻ vẫn khả thi đúng không? Nhưng không hẳn vậy, chủ yếu là do những vấn đề sau:",
     "challenge_list": [
       "<strong>Địa Điểm Hẻo Lánh & Chi Phí Cao:</strong> Các thiết bị thường ở rất xa nguồn điện và internet, đòi hỏi những chuyến đi thủ công thường xuyên, tốn thời gian và tốn kém để thu thập dữ liệu.",
-      "<strong>Thu Thập Dữ Liệu Không Chọn Lọc:</strong> Camera ghi lại *mọi thứ* di chuyển, nhanh chóng lấp đầy thẻ SD với những hình ảnh không liên quan và có nguy cơ mất đi những hình ảnh quan sát động vật quý hiếm thực sự do hết thẻ nhớ.",
+      "<strong>Thu Thập Dữ Liệu Không Chọn Lọc:</strong> Camera ghi lại <strong>mọi thứ</strong> di chuyển, nhanh chóng lấp đầy thẻ SD với những hình ảnh không liên quan và có nguy cơ mất đi những hình ảnh quan sát động vật quý hiếm thực sự do hết thẻ nhớ.",
       "<strong>Tiêu Thụ Năng Lượng Cao trên Máy Chủ:</strong> Tất cả dữ liệu thô (ngay cả những dữ liệu không liên quan đến mục tiêu nghiên cứu) phải được xử lý trên các máy chủ  mạnh mẽ, tiêu thụ một lượng năng lượng khổng lồ và góp phần tạo ra lượng khí thải carbon đáng kể."
     ],
     "challenge_conclusion": "Về cơ bản, hệ thống hiện tại là một nút thắt về mặt hậu cần và môi trường, ngăn cản việc giám sát có khả năng mở rộng và hiệu quả.",
@@ -181,7 +181,7 @@
     "ppf_section": {
       "caption": "Hình 3. Biểu đồ thành phần tích lũy cho chim trong bộ dữ liệu iNaturalist năm 2017.",
       "title": "Khám Phá Sự Bất Cân Bằng: Cách Biểu Đồ Phản Ánh Nguyên Tắc Pareto",
-      "p1": "Trong bất kỳ bộ dữ liệu lớn thực tế nào — dù là doanh số bán hàng, phàn nàn của khách hàng hay, trong trường hợp này, hình ảnh động vật hoang dã — không phải tất cả các mục đều được tạo ra như nhau. Một số rất phổ biến, trong khi những số khác lại cực kỳ hiếm. Biểu đồ này, <strong>Biểu đồ thành phần tích lũy</strong>, là một công cụ mạnh mẽ chứng minh sự mất cân bằng này và cung cấp nền tảng chiến lược cho giải pháp AI của chúng tôi.",
+      "p1": "Trong bất kỳ bộ dữ liệu lớn thực tế nào — dù là doanh số bán hàng, phàn nàn của khách hàng hay, trong trường hợp này, hình ảnh động vật hoang dã — không phải tất cả các mục đều được tạo ra như nhau. Một số rất phổ biến, trong khi những số khác lại cực kỳ hiếm. Biểu đồ này, <strong>Biểu đồ thành phần tích lũy</strong>, là một công cụ mạnhchứng minh sự mất cân bằng này và cung cấp nền tảng chiến lược cho giải pháp AI của chúng tôi.",
       "tour_title": "Cách Đọc Biểu Đồ",
       "tour_p1": "Hãy tưởng tượng bạn đang đi dọc theo đường màu xanh từ trái sang phải. <strong>Trục X</strong> đại diện cho hành trình: 964 loài chim được sắp xếp theo thứ tự từ nhiều ảnh nhất đến ít ảnh nhất, từ trái qua phải. <strong>Trục Y</strong> theo dõi tổng số hình ảnh, cho biết tỷ lệ phần trăm tích lũy của toàn bộ bộ sưu tập hình ảnh mà bạn đã thống kê.",
       "story_title": "Nguyên Tắc Pareto Trong Thực Tế",
@@ -205,10 +205,10 @@
       "<strong>Thiết Bị Thông Minh ở biên:</strong> Chúng tôi triển khai các thiết bị nhẹ như Raspberry Pi 4 được trang bị camera và một mô hình học máy nhỏ gọn, <strong>tối ưu hóa theo ngữ cảnh</strong> (MobileNetV3).",
       "<strong>Phân Loại Sàng Lọc trên Thiết Bị:</strong> Mô hình này thực hiện phân loại dựa trên một tập dữ liệu được tối ưu với kích thước nhỏ hơn để tăng độ chính xác. Nếu nó tự tin xác định một loài là phổ biến, kết quả sẽ được hệ thống ghi lại.",
       "<strong>Chuyển Giao Thông Minh:</strong> Nếu mô hình phát hiện một loài quý hiếm, mơ hồ hoặc không xác định, hệ thống sẽ lưu hình ảnh đó trên thẻ SD.",
-      "<strong>Máy Chủ Điện:</strong> Những hình ảnh \"thú vị\" này sau đó sẽ được lấy lại và gửi đến một máy chủ trung tâm mạnh mẽ với một mô hình phức tạp hơn, chính xác hơn (như ConvNeXt) để phân loại chi tiết."
+      "<strong>Máy Chủ Điện:</strong> Những hình ảnh \"thú vị\" này sau đó sẽ được lấy lại và gửi đến một máy chủ trung tâm mạnhvới một mô hình phức tạp hơn, chính xác hơn (như ConvNeXt) để phân loại chi tiết."
     ],
     "solution_conclusion": "Cách tiếp cận hai cấp độ này cân bằng hiệu quả thời gian thực tại biên với việc xác định toàn diện các loài trên máy chủ.",
-    "impact_title": "Tác Động: Giám Sát Thông Minh Hơn, \"green\" Hơn",
+    "impact_title": "Tác Động: Giám Sát Thông Minh Hơn, Xanh Hơn",
     "impact_p1": "Kết quả của cách tiếp cận hybrid này thực sự rất hứa hẹn:",
     "impact_list": [
       "<strong>Chạy trên Thiết Bị biên:</strong> Chúng tôi hiện có một hệ thống có thể chạy hiệu quả trên thiết bị biên mà không ảnh hưởng quá nhiều đến độ chính xác.",
@@ -219,6 +219,16 @@
     "journey_title": "Hành Trình Của Tôi: Nhiều Hơn Cả Lập Trình",
     "journey_p1": "Ngoài những thành tựu kỹ thuật, kỳ thực tập này là một trải nghiệm phát triển bản thân và chuyên môn sâu sắc. Tôi đã học cách điều hướng môi trường nghiên cứu nhanh chóng, rèn luyện tư duy logic và kỹ năng lập kế hoạch dự án, đồng thời phát triển các thói quen tự kiểm chứng quan trọng. Quan trọng nhất, tôi đã cải thiện đáng kể khả năng diễn đạt các ý tưởng kỹ thuật phức tạp, biến những suy nghĩ rời rạc thành một câu chuyện hấp dẫn – một kỹ năng vô giá trong sự nghiệp của tôi.",
     "journey_p2": "Dự án này đã củng cố niềm đam mê của tôi với ứng dụng máy học và tối ưu hóa hệ thống, chứng minh cách công nghệ sáng tạo có thể trực tiếp đóng góp vào một tương lai bền vững hơn.",
-    "back_link": "← Quay lại trang chủ"
+    "back_link": "← Quay lại trang chủ",
+    "demo": {
+      "title": "Trải nghiệm trực tiếp",
+      "loadingModel": "Đang tải mô hình AI, vui lòng đợi...",
+      "dragOrClick": "Kéo và thả hình ảnh hoặc nhấp để tải lên",
+      "uploadHint": "Hình ảnh được xử lý trong trình duyệt của bạn và không bao giờ được gửi đến máy chủ.",
+      "waiting": "Đang chờ hình ảnh...",
+      "confidence": "Mức độ chắc chắn",
+      "trySamples": "Hoặc thử một trong các ảnh mẫu này",
+      "tapToTry": "(Chạm vào ảnh để thử)"
+    }
   }
 }
