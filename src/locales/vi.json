@@ -73,10 +73,16 @@
     "project": "Dự án tiêu biểu",
     "title_1": "Giám sát Đa dạng sinh học bằng AI trên thiết bị nhúng",
     "description_1": "Phát triển một quy trình Hybrid-AI nhận biết theo ngữ cảnh để cải thiện đáng kể hiệu quả giám sát đa dạng sinh học trên các thiết bị năng lượng thấp như Raspberry Pi. Bằng cách xử lý các loài phổ biến ngay trên thiết bị và chuyển các loài quý hiếm đến máy chủ , hệ thống này kéo dài tuổi thọ hoạt động lên đến 8 lần và giảm đáng kể việc bảo trì thủ công.",
-    "technologies_1": ["Python", "PyTorch", "Docker", "TensorFlow", "Thiết kế hệ thống", "Tối ưu hóa ML"],
+    "technologies_1": [
+      "Python",
+      "PyTorch",
+      "Docker",
+      "TensorFlow",
+      "Thiết kế hệ thống",
+      "Tối ưu hóa ML"
+    ],
     "url_1": "https://github.com/HoangPham6337/iNaturelist_transfer_learning_pytorch",
     "blogPath_1": "/internship-blog",
-
     "title_2": "Tiny Titan - Viết bằng Python",
     "description_2": "Tiny Titan là một trò chơi hành động cuộn ngang, nơi người chơi điều khiển một anh hùng chiến đấu với các đợt kẻ thù và cố gắng đạt điểm cao nhất.",
     "technologies_2": [
@@ -84,7 +90,6 @@
       "Pygame"
     ],
     "url_2": "https://github.com/HoangPham6337/tiny-titan",
-
     "title_3": "Rebirth – Nền tảng tra cứu game",
     "description_3": "Phát triển một nền tảng web tra cứu game trong nhóm gồm bốn người. Phát triển dynamic content loading, sửa lỗi backend và thiết kế sơ đồ cơ sở dữ liệu để quản lý dữ liệu hiệu quả.",
     "technologies_3": [
@@ -93,7 +98,6 @@
       "Mongoose",
       "JavaScript"
     ],
-
     "url_3": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
     "title_4": "Minh họa Hệ thống Quản lý Cơ sở Dữ liệu",
     "description_4": "Xây dựng backend cho nền tảng thương mại điện tử tích hợp MongoDB và Redis. Sử dụng Redis để quản lý phiên và MongoDB để lưu trữ dữ liệu sản phẩm linh hoạt, triển khai trên Digital Ocean.",
@@ -103,7 +107,6 @@
       "Redis",
       "Linux"
     ],
-
     "url_4": "https://github.com/HoangPham6337/website_backend_python",
     "title_5": "Nhận diện Ảnh bằng Học Máy",
     "description_5": "Phát triển hệ thống nhận diện hình dạng bàn tay sử dụng TensorFlow với Học có giám sát (hồi quy tuyến tính). Triển khai xử lý đa luồng và tính toán GPU để tăng tốc xử lý.",
@@ -114,7 +117,6 @@
       "Hồi quy tuyến tính"
     ],
     "url_5": "https://github.com/HoangPham6337/Machine-Learning-1",
-
     "title_6": "Chương trình Quản lý Sinh viên",
     "description_6": "Tạo hệ thống quản lý sinh viên trên dòng lệnh bằng Python, bao gồm kiểm tra đầu vào, xử lý đa luồng và lưu trữ dữ liệu bằng module Pickle.",
     "technologies_6": [
@@ -124,7 +126,6 @@
       "Thư viện Curses"
     ],
     "url_6": "https://github.com/HoangPham6337/student-management-system-python",
-
     "title_7": "Dự án Quản lý Điểm số",
     "description_7": "Thiết kế một công cụ CLI tương tác bằng C để quản lý khóa học và điểm số, hỗ trợ tính GPA, lưu trữ dữ liệu và kiểm tra đầu vào.",
     "technologies_7": [
@@ -133,7 +134,6 @@
       "Quản lý Bộ nhớ Động"
     ],
     "url_7": "https://github.com/HoangPham6337/grade_management_system_C",
-
     "title_8": "Dự án Trạm Xe Buýt Thông Minh (SBS)",
     "description_8": "Phát triển hệ thống trạm xe buýt thông minh tích hợp nhận diện giọng nói/hình ảnh, giám sát môi trường IoT và các giải pháp năng lượng bền vững.",
     "technologies_8": [
@@ -143,7 +143,6 @@
       "IoT"
     ]
   },
-
   "contact": {
     "contact_me": "Liên hệ hợp tác",
     "name": "Tên của bạn",
@@ -153,11 +152,73 @@
     "error_2": "Cái gì đó tồi tệ vừa xảy ra! Welp, hãy liên lạc với tôi qua LinkedIn nhé!",
     "success": "Tin nhắn đã được gửi!"
   },
-
   "footer": {
     "copyright": "© 2025 Phạm Xuân Hoàng. Mọi quyền được bảo lưu.",
     "linkedin": "LinkedIn",
     "github": "GitHub Portfolio",
     "email": "Gửi email cho tôi"
+  },
+  "internshipBlog": {
+    "pageTitle": "Điểm Sáng Dự Án Thực Tập",
+    "postTitle": "Giám Sát Động Vật Hoang Dã: Hành Trình Cùng AI trên Hệ Thống Nhúng",
+    "authorPrefix": "Bởi",
+    "authorName": "Hoang Phạm",
+    "postDate": "11 tháng 6 năm 2025",
+    "intro_p1": "Kỳ thực tập của tôi tại IRIT, cùng đội SEPIA, vừa kết thúc, và đây thực sự là một hành trình khám phá sâu sắc về cách trí tuệ nhân tạo có thể tạo ra sự khác biệt thực sự trong bảo tồn môi trường. Hãy quên đi những ghi chú thủ công bằng tay, chúng ta đang nói về hệ thống giám sát đa dạng sinh học thông minh và bền vững.",
+    "challenge_title": "Thách Thức: Nút Thắt Lưu Trữ Dữ Liệu",
+    "challenge_p1": "Bạn hãy tưởng tượng việc lắp đặt camera ở trong môi trường tự nhiên để theo dõi động vật hoang dã. Cơ sở hạ tầng hiện tại bao gồm một chiếc Raspberry Pi 4B, được trang bị camera để ghi lại hình ảnh. Những thiết bị này đã được triển khai ở các môi trường tự nhiên như rừng và khu bảo tồn thiên nhiên. Chúng hoạt động như các hệ thống độc lập, thường được cung cấp năng lượng bằng pin hoặc năng lượng mặt trời.",
+    "challenge_fig1_caption": "Hình 1. Hình ảnh các thiết bị dùng để chụp ảnh động vật hoang dã.",
+    "challenge_p2": "Nghe có vẻ tuyệt vời phải không? Thực tế lại có một chút thách thức. Raspberry Pi 4B, mặc dù rất tiết kiệm điện, nhưng lại khá yếu so với tiêu chuẩn tính toán hiện đại. Do đó, các thiết bị này không thể thực hiện bất kỳ phân loại loài nào trên thiết bị do chúng không có khả năng chạy mô hình máy học với độ chính xác cao. Vậy thì chúng ta làm cách nào để phân loại sinh vật?",
+    "challenge_fig2_caption": "Hình 2. Tổng quan về quy trình giám sát đa dạng sinh học hiện tại.",
+    "challenge_p3": "Hệ thống nhúng chụp lại cái sinh vật một cách tự động và lưu trữ chúng trên thẻ SD. Giải pháp hiện tại chỉ giới hạn ở việc lưu trữ dữ liệu cục bộ, dữ liệu thu thập được sau đó sẽ được một kỹ thuật viên lấy ra và chuyển đến một máy tính mạnh mẽ trong phòng thí nghiệm. Máy chủ mạnh mẽ chạy một mô hình máy học để phân loại loài với độ chính xác rất cao nhưng đòi hỏi nhiều tài nguyên tính toán. Sau khi mô hình hoàn tất phân tích, những thông tin về mật độ loài sẽ được chuyển cho các nhà thực vật học và sinh vật học. Nghe có vẻ vẫn khả thi đúng không? Nhưng không hẳn vậy, chủ yếu là do những vấn đề sau:",
+    "challenge_list": [
+      "<strong>Địa Điểm Hẻo Lánh & Chi Phí Cao:</strong> Các thiết bị thường ở rất xa nguồn điện và internet, đòi hỏi những chuyến đi thủ công thường xuyên, tốn thời gian và tốn kém để thu thập dữ liệu.",
+      "<strong>Thu Thập Dữ Liệu Không Chọn Lọc:</strong> Camera ghi lại *mọi thứ* di chuyển, nhanh chóng lấp đầy thẻ SD với những hình ảnh không liên quan và có nguy cơ mất đi những hình ảnh quan sát động vật quý hiếm thực sự do hết thẻ nhớ.",
+      "<strong>Tiêu Thụ Năng Lượng Cao trên Máy Chủ:</strong> Tất cả dữ liệu thô (ngay cả những dữ liệu không liên quan đến mục tiêu nghiên cứu) phải được xử lý trên các máy chủ  mạnh mẽ, tiêu thụ một lượng năng lượng khổng lồ và góp phần tạo ra lượng khí thải carbon đáng kể."
+    ],
+    "challenge_conclusion": "Về cơ bản, hệ thống hiện tại là một nút thắt về mặt hậu cần và môi trường, ngăn cản việc giám sát có khả năng mở rộng và hiệu quả.",
+    "aha_title": "Đột phá: Quy Tắc 80/20",
+    "ppf_section": {
+      "caption": "Hình 3. Biểu đồ thành phần tích lũy cho chim trong bộ dữ liệu iNaturalist năm 2017.",
+      "title": "Khám Phá Sự Bất Cân Bằng: Cách Biểu Đồ Phản Ánh Nguyên Tắc Pareto",
+      "p1": "Trong bất kỳ bộ dữ liệu lớn thực tế nào — dù là doanh số bán hàng, phàn nàn của khách hàng hay, trong trường hợp này, hình ảnh động vật hoang dã — không phải tất cả các mục đều được tạo ra như nhau. Một số rất phổ biến, trong khi những số khác lại cực kỳ hiếm. Biểu đồ này, <strong>Biểu đồ thành phần tích lũy</strong>, là một công cụ mạnh mẽ chứng minh sự mất cân bằng này và cung cấp nền tảng chiến lược cho giải pháp AI của chúng tôi.",
+      "tour_title": "Cách Đọc Biểu Đồ",
+      "tour_p1": "Hãy tưởng tượng bạn đang đi dọc theo đường màu xanh từ trái sang phải. <strong>Trục X</strong> đại diện cho hành trình: 964 loài chim được sắp xếp theo thứ tự từ nhiều ảnh nhất đến ít ảnh nhất, từ trái qua phải. <strong>Trục Y</strong> theo dõi tổng số hình ảnh, cho biết tỷ lệ phần trăm tích lũy của toàn bộ bộ sưu tập hình ảnh mà bạn đã thống kê.",
+      "story_title": "Nguyên Tắc Pareto Trong Thực Tế",
+      "story_p1": "Hình dạng của biểu đồ kể một câu chuyện hấp dẫn. <strong>Sự tăng trưởng ban đầu mạnh mẽ</strong> cho thấy một phần nhỏ các loài chịu trách nhiệm cho một phần lớn dữ liệu. Như biểu đồ chỉ ra, <strong>chỉ có 97 loài (chỉ 10% tổng số loài) chiếm tới 50% tổng số hình ảnh!</strong>",
+      "story_p2": "Đây chính là nơi <strong>Nguyên Tắc Pareto</strong> tỏa sáng. Dữ liệu của chúng tôi cho thấy một sự tương đồng rõ rệt: <strong>chỉ có 301 loài (khoảng 31% tổng số) chiếm tới 80% hình ảnh.</strong> Đây là những loài phổ biến, hàng ngày mà hệ thống sẽ gặp phải liên tục.",
+      "story_p3": "Sau khi đạt đến mốc 80%, biểu đồ phẳng lại thành một <strong>“đuôi dài.”</strong> Điều này minh họa luật lợi nhuận giảm dần. Để đạt từ 80% lên 90% hình ảnh, chúng ta cần thêm 173 loài. Và để đạt được 10% cuối cùng, chúng ta cần 490 loài còn lại, mỗi loài chỉ được thể hiện bằng một vài bức ảnh.",
+      "conclusion_title": "Tại Sao Điều Này Quan Trọng: Lý Do Cho Hướng Hybrid",
+      "conclusion_p1": "Biểu đồ này không chỉ là một cái nhìn thống kê thú vị; đó là lý do, dựa trên dữ liệu, <strong>tại sao</strong> chiến lược AI hybrid lại hiệu quả đến vậy. Nó cho chúng ta biết rằng chúng ta có thể:",
+      "conclusion_list_item1": "<strong>Tập trung vào ”Điều Ít Quan Trọng”</strong>: Dạy một mô hình nhẹ trên Raspberry Pi để nhận dạng khoảng 300 loài phổ biến nhất, cho phép nó xử lý <strong>80% tất cả các quan sát</strong> ngay lập tức và với mức năng lượng tối thiểu.",
+      "conclusion_list_item2": "<strong>Cách ly “Những Điều Không Quan Trọng”:</strong> Chỉ cần lưu hình ảnh khi thiết bị nhìn thấy một con chim mà nó <strong>không thể nhận dạng được</strong> — một trong những hàng trăm loài hiếm gặp trong “đuôi dài” — để phân tích chuyên sâu trên một máy chủ mạnh mẽ.",
+      "conclusion_p2": "Nói tóm lại, biểu đồ này cho chúng ta lộ trình chiến lược: <i>đừng đối xử với mọi hình ảnh như nhau</i>. Bằng cách hiểu sự phân phối tự nhiên của dữ liệu, chúng ta có thể xây dựng một hệ thống thông minh hơn và hiệu quả hơn rất nhiều."
+    },
+    "aha_p1": "Giải pháp của chúng tôi được lấy cảm hứng từ <strong>Nguyên tắc Pareto</strong>, hay quy tắc 80/20. Trong nhiều môi trường tự nhiên, một phần nhỏ các loài chiếm phần lớn các quan sát. Bạn hãy thử nghĩ xem: bạn thường sẽ thấy nhiều chim sẻ và chim bồ câu, nhưng rất ít đại bàng ở Việt Nam.",
+    "aha_p2": "Điều này dẫn đến một giả thuyết đơn giản nhưng mạnh mẽ:",
+    "aha_hypothesis": "Điều gì sẽ xảy ra nếu chúng ta có thể xây dựng một hệ thống hiểu được sự mất cân bằng này, xử lý các quan sát phổ biến tại chỗ (biên) và chỉ gửi những quan sát liên quan đến mục đích nghiên cứu hoặc quý hiếm thực sự để phân tích chi tiết?",
+    "ppf": "Hình 3. Biểu đồ thành phần tích lũy cho loài chim trong iNaturalist 2017",
+    "solution_title": "Giải Pháp: Chiến Lược Phân Loại AI Hybrid tại biên (edge)",
+    "solution_fig3_caption": "Hình 4. Khung khái niệm tổng thể của chiến lược phân loại hybrid có nhận thức về ngữ cảnh.",
+    "solution_p1": "Chúng tôi tập trung vào việc phát triển một <strong>chiến lược phân loại hybrid có nhận thức về ngữ cảnh</strong>. Đây là cách nó hoạt động:",
+    "solution_list": [
+      "<strong>Thiết Bị Thông Minh ở biên:</strong> Chúng tôi triển khai các thiết bị nhẹ như Raspberry Pi 4 được trang bị camera và một mô hình học máy nhỏ gọn, <strong>tối ưu hóa theo ngữ cảnh</strong> (MobileNetV3).",
+      "<strong>Phân Loại Sàng Lọc trên Thiết Bị:</strong> Mô hình này thực hiện phân loại dựa trên một tập dữ liệu được tối ưu với kích thước nhỏ hơn để tăng độ chính xác. Nếu nó tự tin xác định một loài là phổ biến, kết quả sẽ được hệ thống ghi lại.",
+      "<strong>Chuyển Giao Thông Minh:</strong> Nếu mô hình phát hiện một loài quý hiếm, mơ hồ hoặc không xác định, hệ thống sẽ lưu hình ảnh đó trên thẻ SD.",
+      "<strong>Máy Chủ Điện:</strong> Những hình ảnh \"thú vị\" này sau đó sẽ được lấy lại và gửi đến một máy chủ trung tâm mạnh mẽ với một mô hình phức tạp hơn, chính xác hơn (như ConvNeXt) để phân loại chi tiết."
+    ],
+    "solution_conclusion": "Cách tiếp cận hai cấp độ này cân bằng hiệu quả thời gian thực tại biên với việc xác định toàn diện các loài trên máy chủ.",
+    "impact_title": "Tác Động: Giám Sát Thông Minh Hơn, \"green\" Hơn",
+    "impact_p1": "Kết quả của cách tiếp cận hybrid này thực sự rất hứa hẹn:",
+    "impact_list": [
+      "<strong>Chạy trên Thiết Bị biên:</strong> Chúng tôi hiện có một hệ thống có thể chạy hiệu quả trên thiết bị biên mà không ảnh hưởng quá nhiều đến độ chính xác.",
+      "<strong>Độ Chính Xác Tốt:</strong> Quy trình hybrid đã tăng đáng kể độ chính xác phân loại tổng thể so với việc cố gắng chạy một mô hình nhỏ duy nhất, kém chính xác hơn hoàn toàn trên thiết bị biên.",
+      "<strong>Thời Hạn Hoạt Động Kéo Dài:</strong> Bằng cách chỉ lưu trữ một phân số các hình ảnh, chúng tôi có thể kéo dài thời gian hoạt động của hệ thống lên đến <strong>8 lần</strong> ở ngưỡng ưu thế loài 90%! Điều này đáng kể giảm số lượng chuyến đi thu thập dữ liệu.",
+      "<strong>Giảm Tác Động Môi Trường:</strong> Ít chuyến đi thủ công hơn đồng nghĩa với việc tiêu thụ nhiên liệu ít hơn và giảm lượng khí thải carbon. Phần lớn quá trình xử lý được thực hiện tại cạnh lề, do đó, lượng tiêu thụ điện năng của giai đoạn phân loại thứ hai trên máy chủ là rất nhỏ."
+    ],
+    "journey_title": "Hành Trình Của Tôi: Nhiều Hơn Cả Lập Trình",
+    "journey_p1": "Ngoài những thành tựu kỹ thuật, kỳ thực tập này là một trải nghiệm phát triển bản thân và chuyên môn sâu sắc. Tôi đã học cách điều hướng môi trường nghiên cứu nhanh chóng, rèn luyện tư duy logic và kỹ năng lập kế hoạch dự án, đồng thời phát triển các thói quen tự kiểm chứng quan trọng. Quan trọng nhất, tôi đã cải thiện đáng kể khả năng diễn đạt các ý tưởng kỹ thuật phức tạp, biến những suy nghĩ rời rạc thành một câu chuyện hấp dẫn – một kỹ năng vô giá trong sự nghiệp của tôi.",
+    "journey_p2": "Dự án này đã củng cố niềm đam mê của tôi với ứng dụng máy học và tối ưu hóa hệ thống, chứng minh cách công nghệ sáng tạo có thể trực tiếp đóng góp vào một tương lai bền vững hơn.",
+    "back_link": "← Quay lại trang chủ"
   }
 }

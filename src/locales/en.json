@@ -52,22 +52,18 @@
     "experiences": "Experiences",
     "education": "Education",
     "work": "Work Experience",
-
     "degree_1": "Bachelor of Computer Technology (3rd year in progress) - Dual Diploma",
     "school_1": "Université Sorbonne Paris Nord",
     "years_1": "Since August 2024",
     "details_1": "Focus on software development, databases, and automation.",
-
     "degree_2": "Bachelor in Information and Communication Technology - Dual Diploma",
     "school_2": "University of Science and Technology of Hanoi",
     "years_2": "August 2022 – June 2024",
     "details_2": "Coursework includes programming fundamentals, machine learning, and system design.",
-
     "role_1": "Research Intern - Current Position",
     "company_1": "IRIT - Institut de Recherche en Informatique de Toulouse",
     "years_1_work": "March 2025 - July 2025",
     "description_1": "Working on the contextual optimization of a machine learning model for an embedded system, focusing on performance tuning and resource efficiency.",
-
     "role_2": "Participant",
     "company_2": "USTH FABLAB Makeathon",
     "years_2_work": "January 2023",
@@ -77,43 +73,75 @@
     "project": "Featured Projects",
     "title_1": "AI-Powered Biodiversity Monitoring on the Edge",
     "description_1": "Developed a context-aware hybrid AI pipeline to dramatically improve the efficiency of biodiversity monitoring on low-power devices like the Raspberry Pi. By processing common species on-device and deferring rare ones to a powerful server , this system extends operational lifespan by up to 8x and significantly reduces manual maintenance.",
-    "technologies_1": ["Python", "PyTorch", "Docker", "TensorFlow", "System Design", "ML Optimization"],
+    "technologies_1": [
+      "Python",
+      "PyTorch",
+      "Docker",
+      "TensorFlow",
+      "System Design",
+      "ML Optimization"
+    ],
     "url_1": "https://github.com/HoangPham6337/iNaturelist_transfer_learning_pytorch",
     "blogPath_1": "/internship-blog",
-
     "title_2": "Tiny Titan - Written in Python",
     "description_2": "Tiny Titan is a side-scrolling action game where players control a hero battling waves of enemies while striving to achieve the highest score.",
-    "technologies_2": ["Python", "Pygame"],
+    "technologies_2": [
+      "Python",
+      "Pygame"
+    ],
     "url_2": "https://github.com/HoangPham6337/tiny-titan",
-
     "title_3": "Rebirth – A Multiplayer Game Platform",
     "description_3": "Developed a multiplayer game platform as part of a team of four. Implemented dynamic game loading, fixed backend bugs, and designed the database schema for efficient data management.",
-    "technologies_3": ["React.js", "Node.js", "Mongoose", "JavaScript"],
+    "technologies_3": [
+      "React.js",
+      "Node.js",
+      "Mongoose",
+      "JavaScript"
+    ],
     "url_3": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
-
     "title_4": "Database Management System Illustration",
     "description_4": "Built a backend demo for an e-commerce platform integrating MongoDB and Redis. Used Redis for session management and MongoDB for flexible product data storage, deployed on Digital Ocean.",
-    "technologies_4": ["Python", "MongoDB", "Redis", "Linux"],
+    "technologies_4": [
+      "Python",
+      "MongoDB",
+      "Redis",
+      "Linux"
+    ],
     "url_4": "https://github.com/HoangPham6337/website_backend_python",
-
     "title_5": "Image Recognition using Machine Learning",
     "description_5": "Developed a hand shape recognition system using TensorFlow with Supervised Learning (linear regression). Implemented multiprocessing and GPU computation for faster processing.",
-    "technologies_5": ["Python", "TensorFlow", "Supervised Learning", "Linear Regression"],
+    "technologies_5": [
+      "Python",
+      "TensorFlow",
+      "Supervised Learning",
+      "Linear Regression"
+    ],
     "url_5": "https://github.com/HoangPham6337/Machine-Learning-1",
-
     "title_6": "Student Management Program",
     "description_6": "Created a CLI-based student management system in Python, featuring input sanitation, multi-threading, and data persistence using the Pickle module.",
-    "technologies_6": ["Python", "Multiprocessing", "CLI", "Curses Library"],
+    "technologies_6": [
+      "Python",
+      "Multiprocessing",
+      "CLI",
+      "Curses Library"
+    ],
     "url_6": "https://github.com/HoangPham6337/student-management-system-python",
-
     "title_7": "Grade Management Project",
     "description_7": "Designed a C-based interactive CLI tool for managing courses and grades, supporting GPA calculation, data persistence, and input sanitation.",
-    "technologies_7": ["C", "Data Structures", "Dynamic Memory Management"],
+    "technologies_7": [
+      "C",
+      "Data Structures",
+      "Dynamic Memory Management"
+    ],
     "url_7": "https://github.com/HoangPham6337/grade_management_system_C",
-
     "title_8": "Smart Bus Station (SBS) Project",
     "description_8": "Developed an AI-powered bus station system integrating voice/image recognition, IoT environmental monitoring, and sustainable energy solutions.",
-    "technologies_8": ["C", "Python", "Machine Learning", "IoT"]
+    "technologies_8": [
+      "C",
+      "Python",
+      "Machine Learning",
+      "IoT"
+    ]
   },
   "contact": {
     "contact_me": "Get In Touch",
@@ -129,5 +157,71 @@
     "linkedin": "LinkedIn",
     "github": "GitHub Portfolio",
     "email": "Email me"
+  },
+  "project_card": {
+    "view": "View Project",
+    "read": "Blog Post"
+  },
+  "internshipBlog": {
+    "pageTitle": "Internship Project Deep Dive",
+    "postTitle": "Wildlife Monitoring: My Journey with AI on embedded systems",
+    "authorPrefix": "By",
+    "authorName": "Hoang Pham",
+    "postDate": "June 11, 2025",
+    "intro_p1": "My internship at IRIT, working with the SEPIA team, has just wrapped up, and it's been an incredible deep dive into how artificial intelligence can make a real difference in environmental conservation. Forget dusty old field notes, we're talking about smart, sustainable biodiversity monitoring.",
+    "challenge_title": "The Challenge: Data Storage Bottleneck",
+    "challenge_p1": "Imagine setting up cameras in remote natural environments to track wildlife. The existing infrastructure consisted of a Raspberry Pi 4B, equipped with a camera to capture images. These devices were deployed in natural environments such as forests, nature reserves, and private gardens. They function as self-contained systems, often operating solely on battery or solar power.",
+    "challenge_fig1_caption": "Fig 1. Picture of the equipment for capturing images of wildlife.",
+    "challenge_p2": "Sounds great, right? The reality, however, was a bit more challenging. The Raspberry Pi 4B, while very efficient, is very weak compare to the modern computing standard. Therefore, these devices do not perform any onboard species classification since they cannot get any model with high accuracy to run on these tiny guys. Then how do they do the classification?",
+    "challenge_fig2_caption": "Fig 2. Overview of the current biodiversity monitoring pipeline.",
+    "challenge_p3": "The embedded system capture species automatically and store them on an SD card. Confined only to local data storage, the collected data is then physically retrieved by a technician and transferred to a powerful lab machine. The powerful server hosts a very accurate but resource-demanding model for species classification tasks. Once the model completes its analysis, the insights are passed on to naturalists and biologists. This still sounds doable right? Well, not so much, mainly due to the problems below:",
+    "challenge_list": [
+      "<strong>Remote & Cost:</strong> Devices were often far from power and internet, requiring frequent, time-consuming, and expensive manual trips to retrieve data.",
+      "<strong>Indiscriminate Data Capture:</strong> The cameras captured <em>everything</em> that moved, quickly filling up SD cards with irrelevant footage and risking loss of genuinely rare sightings.",
+      "<strong>High Server-Side Energy Consumption:</strong> All that raw data (even the ones that aren't relevant to the research goal) had to be processed on powerful lab servers, consuming massive amounts of energy and contributing to a significant carbon footprint."
+    ],
+    "challenge_conclusion": "Essentially, the existing system was a logistical and environmental bottleneck, preventing scalable and efficient monitoring.",
+    "aha_title": "The \"Aha!\" Moment: Nature's 80/20 Rule",
+    "ppf_section": {
+      "caption": "Fig 3. Cumulative Composition Curve for Aves in the iNaturalist 2017 dataset.",
+      "title": "Unveiling the Imbalance: How the Curve Reveals the Pareto Principle",
+      "p1": "In any large, real-world dataset—whether it's sales, customer complaints, or in this case, images of wildlife—not all items are created equal. Some are incredibly common, while others are exceedingly rare. This graph, the <strong>Cumulative Composition Curve</strong>, is a powerful tool that visually proves this imbalance and provides the strategic foundation for our AI solution.",
+      "tour_title": "How to Read This Graph: A Quick Tour",
+      "tour_p1": "Imagine you're walking along the green line from left to right. The <strong>X-axis</strong> represents the journey: we've lined up all 964 bird species, starting with the most photographed on the far left. The <strong>Y-axis</strong> tracks your progress, showing the cumulative percentage of the total image collection you've accounted for.",
+      "story_title": "The Story the Curve Tells: The Pareto Principle in Action",
+      "story_p1": "The curve's shape tells a dramatic story. The <strong>steep initial rise</strong> shows that a tiny fraction of species is responsible for a massive portion of the data. As the graph highlights, <strong>just 97 species (only 10% of all species) make up a staggering 50% of all images!</strong>",
+      "story_p2": "This is where the <strong>Pareto Principle</strong> shines. Our data shows a striking parallel: <strong>only 301 species (about 31% of the total) account for a full 80% of the images.</strong> These are the common, everyday species that the system will encounter over and over again.",
+      "story_p3": "After hitting the 80% mark, the curve flattens into a <strong>“long tail.”</strong> This illustrates the law of diminishing returns. To get from 80% to 90% of the images, we need to add another 173 species. And to get the final 10%, we need the remaining 490 species, each represented by only a handful of pictures.",
+      "conclusion_title": "Why This Matters: The Justification for a Hybrid AI",
+      "conclusion_p1": "This curve isn't just an interesting statistical view; it's the data-driven reason <strong>why</strong> the hybrid AI strategy is so effective. It tells us we can:",
+      "conclusion_list_item1": "<strong>Focus on the “Vital Few”:</strong> Teach a lightweight model on the Raspberry Pi to recognize the most common ~300 species, allowing it to handle <strong>80% of all sightings</strong> instantly and with minimal energy.",
+      "conclusion_list_item2": "<strong>Isolate the “Trivial Many”:</strong> Only when the device sees a bird it <strong>doesn't</strong> recognize—one of the hundreds of rare species in the “long tail”—does it need to save the image for heavy-duty analysis on a powerful server.",
+      "conclusion_p2": "In essence, this graph gives us the strategic roadmap: <i>don't treat every image the same</i>. By understanding the data's natural distribution, we can build a smarter and vastly more efficient system."
+    },
+    "aha_p1": "Our solution was inspired by the <strong>Pareto Principle</strong>, or the 80/20 rule. In many natural environments, a small percentage of species accounts for the vast majority of observations. Think about it: you'll likely see many sparrows and pigeons, but very few rare raptors, even in a diverse area.",
+    "aha_p2": "This led to a simple yet powerful hypothesis:",
+    "aha_hypothesis": "What if we could build a system that understands this imbalance, processing common sightings on-site and only sending genuinely interesting or rare ones for detailed analysis?",
+    "solution_title": "Our Solution: A Hybrid AI Strategy at the Edge",
+    "solution_fig3_caption": "Fig 4. Overall conceptual framework of the context-aware hybrid classification strategy",
+    "solution_p1": "I focused on developing a <strong>context-aware hybrid classification strategy</strong>. Here's how it works:",
+    "solution_list": [
+      "<strong>Smart Edge Devices:</strong> We deploy lightweight devices like the Raspberry Pi 4 equipped with a camera and a compact, <strong>context-optimized machine learning model</strong> (MobileNetV3).",
+      "<strong>On-Device Screening:</strong> This model performs immediate, low-cost inference. If it confidently identifies a common species, the result is simply logged.",
+      "<strong>Intelligent Deferral:</strong> If the model encounters a rare, ambiguous, or unidentified species, it intelligently stores just that image locally on the SD card.",
+      "<strong>Power Server:</strong> These stored \"interesting\" images are later retrieved and sent to a powerful central server with a highly accurate, more complex model (like ConvNeXt) for in-depth classification."
+    ],
+    "solution_conclusion": "This two-tiered approach balances real-time efficiency at the edge with comprehensive species identification of the server.",
+    "impact_title": "The Impact: Smarter, Greener Monitoring",
+    "impact_p1": "The results of this hybrid approach were incredibly promising:",
+    "impact_list": [
+      "<strong>Running on Edge Device:</strong> We now have a system that can run on efficiently on edge device without compromising too much on accuracy.",
+      "<strong>Good Accuracy:</strong> The hybrid pipeline significantly boosted overall classification accuracy compared to trying to run a single, less capable model entirely on the edge.",
+      "<strong>Extended Operational Life:</strong> By only storing a fraction of the images, we could extend the system's operational life by <strong>up to 8 times</strong> at a 90% species dominance threshold! This drastically reduces data retrieval trips.",
+      "<strong>Reduced Footprint:</strong> Fewer manual trips mean less fuel consumption and a smaller carbon footprint. The majority of processing is done on the edge, therefore the power consumption of the second classification stage on the server."
+    ],
+    "journey_title": "My Journey: More Than Just Code",
+    "journey_p1": "Beyond the technical achievements, this internship was a profound personal and professional growth experience. I learned to navigate a fast-paced research environment, honed my logical thinking and project planning skills, and developed crucial self-verification practices. Most importantly, I significantly improved my ability to articulate complex technical ideas, transforming scattered thoughts into a compelling narrative – a skill that will be invaluable in my career.",
+    "journey_p2": "This project has reinforced my passion for applied machine learning and system optimization, demonstrating how innovative technology can directly contribute to a more sustainable future.",
+    "back_link": "← Back to Portfolio"
   }
 }

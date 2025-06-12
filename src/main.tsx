@@ -10,20 +10,12 @@ import {ErrorPage} from "./pages/ErrorPage.tsx";
 
 import {lazy, Suspense} from "react";
 import {ErrorBoundary} from "./components/ErrorBoundary.tsx";
+import {FancySpinner} from "./components/FancySpinner.tsx";
 
 const InternshipPage = lazy(
   () => import("./pages/InternshipPage.tsx").then(
-    // module => ({default: module.InternshipPage})
+    module => ({default: module.InternshipPage})
   )
-);
-
-const SimpleSpinner = () => (
-  <div
-    className="min-h-screen flex items-center justify-center"
-    style={{backgroundColor: 'var(--base-color)', color: 'var(--text-color)'}}
-  >
-    <p className="text-2xl font-bold">Loading...</p>
-  </div>
 );
 
 const router = createBrowserRouter(
@@ -35,10 +27,9 @@ const router = createBrowserRouter(
     },
     {
       path: '/internship-blog',
-      // element: <InternshipPage />
       element: (
         <ErrorBoundary>
-          <Suspense fallback={<SimpleSpinner/>}><InternshipPage/></Suspense>
+          <Suspense fallback={<FancySpinner/>}><InternshipPage/></Suspense>
         </ErrorBoundary>
       )
     },

@@ -15,19 +15,19 @@
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
-    "@tailwindcss/vite": "^4.0.9",
-    "eslint-plugin-react": "^7.37.5",
     "gsap": "^3.13.0",
     "i18next": "^24.2.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-i18next": "^15.4.1",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.6.2"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
+    "eslint-plugin-react": "^7.37.5",
     "@tailwindcss/typography": "^0.5.16",
+    "@tailwindcss/vite": "^4.0.9",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
     "@vitejs/plugin-react": "^4.3.4",

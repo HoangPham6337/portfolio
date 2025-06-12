@@ -3,8 +3,8 @@ import React, {useEffect, useRef} from 'react';
 import {gsap} from 'gsap';
 
 const chartData = [
-  {label: 'MobileNetV3', inferenceTime: 0.078, color: '#2E8B57'}, // Changed to inferenceTime
-  {label: 'ConvNeXt-XL', inferenceTime: 3.159, color: '#D35400'}, // Changed to inferenceTime
+  {label: 'MobileNetV3 (light)', inferenceTime: 0.078, color: '#2E8B57'}, // Changed to inferenceTime
+  {label: 'ConvNeXt-XL (heavy)', inferenceTime: 3.159, color: '#D35400'}, // Changed to inferenceTime
 ];
 
 export const InferenceChart: React.FC = () => { // Removed props if metric is hardcoded
@@ -57,7 +57,7 @@ export const InferenceChart: React.FC = () => { // Removed props if metric is ha
 
   return (
     <div
-      className="my-16 p-4 rounded-xl shadow-xl relative"
+      className="my-8 rounded-xl pb-4 pr-4 pl-4 pt-0.5 shadow-xl relative"
       ref={chartContainerRef}
       style={{
         backgroundImage: 'linear-gradient(to right, #007AFF, #1E3A8A)',
@@ -67,13 +67,13 @@ export const InferenceChart: React.FC = () => { // Removed props if metric is ha
         className="absolute inset-0 z-0 rounded-xl" // Absolute positioning to cover the whole block
         style={{
           backgroundColor: "var(--aero-color)",
-          backdropFilter: 'blur(1000px) saturate(100%) brightness(90%)',
-          WebkitBackdropFilter: 'blur(1000px) saturate(100%) brightness(90%)',
+          backdropFilter: 'blur(10px) saturate(100%) brightness(90%)',
+          WebkitBackdropFilter: 'blur(10px) saturate(100%) brightness(90%)',
         }}
       ></div>
       <div className="relative z-10">
         <h3
-          className="text-xl font-bold mb-4 text-center"
+          className="text-xl font-bold mt-0 pt-0 mb-4 text-center"
           style={{color: 'var(--text-color)'}}
         >
           {title}
@@ -103,7 +103,7 @@ export const InferenceChart: React.FC = () => { // Removed props if metric is ha
                 </div>
               </div>
               <div className="w-20">
-                <span className="text-sm bar-value">0.000s</span>
+                <span className="text-sm font-bold bar-value">0.000s</span>
               </div>
             </div>
           ))}

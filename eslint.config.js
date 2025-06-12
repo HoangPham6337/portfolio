@@ -7,10 +7,11 @@ import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
     {ignores: ['dist']},
+    js.configs.recommended,
+    ...tseslint.configs.recommendedTypeChecked,
     {
-        settings: {react: {version: '18.3'}},
-        extends: [js.configs.recommended, ...tseslint.configs.recommendedTypeChecked],
         files: ['**/*.{ts,tsx}'],
+        settings: {react: {version: '18.3'}},
         languageOptions: {
             ecmaVersion: 2020,
             globals: globals.browser,
@@ -25,12 +26,11 @@ export default tseslint.config(
             'react-refresh': reactRefresh,
         },
         rules: {
+            ...react.configs.recommended.rules,
             ...reactHooks.configs.recommended.rules,
             ...react.configs['jsx-runtime'].rules,
-            'react-refresh/only-export-components': [
-                'warn',
-                {allowConstantExport: true},
-            ],
+            'react-refresh/only-export-components': ['warn', {allowConstantExport: true}],
         },
     },
-)
+);
+

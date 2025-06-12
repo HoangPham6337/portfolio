@@ -52,22 +52,18 @@
     "experiences": "Expériences",
     "education": "Éducation",
     "work": "Expérience professionnelle",
-
     "degree_1": "Licence en Technologie Informatique (3ème année en cours) - Double Diplôme",
     "school_1": "Université Sorbonne Paris Nord",
     "years_1": "Depuis août 2024",
     "details_1": "Axé sur le développement logiciel, les bases de données et l'automatisation.",
-
     "degree_2": "Licence en Technologies de l'Information et de la Communication - Double Diplôme",
     "school_2": "Université des Sciences et Technologies de Hanoï",
     "years_2": "Août 2022 – Juin 2024",
     "details_2": "Les cours incluent les bases de la programmation, l'apprentissage automatique et la conception de systèmes.",
-
     "role_1": "Stagiaire en recherche – Poste actuel",
     "company_1": "IRIT - Institut de Recherche en Informatique de Toulouse",
     "years_1_work": "Mars 2025 - Juillet 2025",
     "description_1": "Travail sur l'optimisation contextuelle d'un modèle d'apprentissage automatique pour un système embarqué, en mettant l'accent sur l'amélioration des performances et l'efficacité des ressources.",
-
     "role_2": "Participant",
     "company_2": "USTH FABLAB Makeathon",
     "years_2_work": "Janvier 2023",
@@ -75,46 +71,76 @@
   },
   "projects": {
     "project": "Projets en vedette",
-
     "title_1": "Surveillance de la Biodiversité par IA sur Appareils Edge",
     "description_1": "Développement d'un pipeline d'IA hybride et contextuel pour améliorer l'efficacité de la surveillance de la biodiversité sur des appareils à faible consommation comme le Raspberry Pi. En traitant les espèces communes localement et en transférant les espèces rares à un serveur puissant , ce système prolonge la durée de vie opérationnelle jusqu'à 8 fois et réduit la maintenance manuelle.",
-    "technologies_1": ["Python", "PyTorch", "Docker", "TensorFlow", "System Design"],
+    "technologies_1": [
+      "Python",
+      "PyTorch",
+      "Docker",
+      "TensorFlow",
+      "System Design"
+    ],
     "url_1": "https://github.com/HoangPham6337/iNaturelist_transfer_learning_pytorch",
     "blogPath_1": "/internship-blog",
-
     "title_2": "Tiny Titan - Développé en Python",
     "description_2": "Tiny Titan est un jeu d'action à défilement latéral où les joueurs contrôlent un héros combattant des vagues d'ennemis tout en cherchant à obtenir le meilleur score.",
-    "technologies_2": ["Python", "Pygame"],
+    "technologies_2": [
+      "Python",
+      "Pygame"
+    ],
     "url_2": "https://github.com/HoangPham6337/tiny-titan",
-
     "title_3": "Rebirth – Une Plateforme de Jeux Multijoueurs",
     "description_3": "Développement d'une plateforme de jeux multijoueurs en équipe de quatre. Mise en place du chargement dynamique des jeux, correction des bugs backend et conception du schéma de base de données pour une gestion efficace.",
-    "technologies_3": ["React.js", "Node.js", "Mongoose", "JavaScript"],
+    "technologies_3": [
+      "React.js",
+      "Node.js",
+      "Mongoose",
+      "JavaScript"
+    ],
     "url_3": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
-
     "title_4": "Illustration d'un Système de Gestion de Bases de Données",
     "description_4": "Création d'un backend pour une plateforme e-commerce intégrant MongoDB et Redis. Utilisation de Redis pour la gestion des sessions et MongoDB pour le stockage flexible des données produit, déployé sur Digital Ocean.",
-    "technologies_4": ["Python", "MongoDB", "Redis", "Linux"],
+    "technologies_4": [
+      "Python",
+      "MongoDB",
+      "Redis",
+      "Linux"
+    ],
     "url_4": "https://github.com/HoangPham6337/website_backend_python",
-
     "title_5": "Reconnaissance d'Images via Apprentissage Automatique",
     "description_5": "Développement d'un système de reconnaissance de formes de main utilisant TensorFlow avec apprentissage supervisé (régression linéaire). Mise en œuvre du multiprocessing et du calcul GPU pour un traitement plus rapide.",
-    "technologies_5": ["Python", "TensorFlow", "Apprentissage Supervisé", "Régression Linéaire"],
+    "technologies_5": [
+      "Python",
+      "TensorFlow",
+      "Apprentissage Supervisé",
+      "Régression Linéaire"
+    ],
     "url_5": "https://github.com/HoangPham6337/Machine-Learning-1",
-
     "title_6": "Programme de Gestion des Étudiants",
     "description_6": "Création d'un système de gestion des étudiants en ligne de commande basé sur Python, intégrant la validation des entrées, le multi-threading et la persistance des données via le module Pickle.",
-    "technologies_6": ["Python", "Multiprocessing", "CLI", "Bibliothèque Curses"],
+    "technologies_6": [
+      "Python",
+      "Multiprocessing",
+      "CLI",
+      "Bibliothèque Curses"
+    ],
     "url_6": "https://github.com/HoangPham6337/student-management-system-python",
-
     "title_7": "Projet de Gestion des Notes",
     "description_7": "Conception d'un outil CLI interactif en C pour la gestion des cours et des notes, prenant en charge le calcul du GPA, la persistance des données et la validation des entrées.",
-    "technologies_7": ["C", "Structures de Données", "Gestion Dynamique de la Mémoire"],
+    "technologies_7": [
+      "C",
+      "Structures de Données",
+      "Gestion Dynamique de la Mémoire"
+    ],
     "url_7": "https://github.com/HoangPham6337/grade_management_system_C",
-
     "title_8": "Projet de Station de Bus Intelligente (SBS)",
     "description_8": "Développement d'un système de station de bus alimenté par l'IA intégrant la reconnaissance vocale et d'image, la surveillance environnementale IoT et des solutions énergétiques durables.",
-    "technologies_8": ["C", "Python", "Apprentissage Automatique", "IoT"]
+    "technologies_8": [
+      "C",
+      "Python",
+      "Apprentissage Automatique",
+      "IoT"
+    ]
   },
   "contact": {
     "contact_me": "Contactez-moi",
@@ -128,7 +154,74 @@
   "footer": {
     "copyright": "© 2025 Phạm Xuân Hoàng. Tous droits réservés.",
     "linkedin": "Mon LinkedIn",
-    "github":"Mon GitHub",
+    "github": "Mon GitHub",
     "email": "Envoyez-moi un email"
+  },
+  "project_card": {
+    "view": "Voir le projet",
+    "read": "En savoir plus..."
+  },
+  "internshipBlog": {
+    "pageTitle": "Analyse approfondie du projet de stage",
+    "postTitle": "Surveillance de la faune : Mon parcours avec l'IA sur les systèmes embarqués",
+    "authorPrefix": "Par",
+    "authorName": "Hoang Pham",
+    "postDate": "11 juin 2025",
+    "intro_p1": "Mon stage à l'IRIT, au sein de l'équipe SEPIA, vient de se terminer, et ce fut une incroyable plongée dans la manière dont l'intelligence artificielle peut faire une réelle différence pour la conservation de l'environnement. Oubliez les vieilles notes de terrain poussiéreuses, nous parlons ici de surveillance intelligente et durable de la biodiversité.",
+    "challenge_title": "Le Défi : Le goulot d'étranglement du stockage de données",
+    "challenge_p1": "Imaginez installer des caméras dans des environnements naturels isolés pour suivre la faune. L'infrastructure existante consistait en un Raspberry Pi 4B, équipé d'une caméra pour capturer des images. Ces appareils étaient déployés dans des environnements naturels tels que des forêts, des réserves naturelles et des jardins privés. Ils fonctionnent comme des systèmes autonomes, souvent alimentés uniquement par batterie ou par énergie solaire.",
+    "challenge_fig1_caption": "Fig 1. Photo de l'équipement de capture d'images de la faune.",
+    "challenge_p2": "Cela semble génial, n'est-ce pas ? La réalité, cependant, était un peu plus complexe. Le Raspberry Pi 4B, bien que très efficace, est très faible par rapport aux standards informatiques modernes. Par conséquent, ces appareils n'effectuent aucune classification d'espèces embarquée, car ils ne peuvent pas exécuter de modèle de haute précision. Alors, comment font-ils la classification ?",
+    "challenge_fig2_caption": "Fig 2. Aperçu du pipeline actuel de surveillance de la biodiversité.",
+    "challenge_p3": "Le système embarqué capture automatiquement les espèces et les stocke sur une carte SD. Limité au stockage de données local, les données collectées sont ensuite récupérées physiquement par un technicien et transférées sur une puissante machine de laboratoire. Le serveur puissant héberge un modèle très précis mais gourmand en ressources pour les tâches de classification d'espèces. Une fois que le modèle a terminé son analyse, les informations sont transmises aux naturalistes et aux biologistes. Cela semble encore faisable, n'est-ce pas ? Eh bien, pas tant que ça, principalement à cause des problèmes ci-dessous :",
+    "challenge_list": [
+      "<strong>Éloignement et coût :</strong> Les appareils étaient souvent loin de toute source d'énergie et d'Internet, nécessitant des déplacements manuels fréquents, longs et coûteux pour récupérer les données.",
+      "<strong>Capture de données indiscriminée :</strong> Les caméras capturaient <em>tout</em> ce qui bougeait, remplissant rapidement les cartes SD avec des séquences non pertinentes et risquant la perte d'observations vraiment rares.",
+      "<strong>Consommation d'énergie élevée côté serveur :</strong> Toutes ces données brutes (même celles qui ne sont pas pertinentes pour l'objectif de la recherche) devaient être traitées sur de puissants serveurs de laboratoire, consommant d'énormes quantités d'énergie et contribuant à une empreinte carbone significative."
+    ],
+    "challenge_conclusion": "Essentiellement, le système existant était un goulot d'étranglement logistique et environnemental, empêchant une surveillance évolutive et efficace.",
+    "aha_title": "Le moment « Eurêka ! » : La règle des 80/20 de la nature",
+    "ppf_section": {
+      "caption": "Fig 3. Courbe de composition cumulative pour les rapaces dans l'ensemble de données iNaturalist 2017.",
+      "title": "Révélation du Déséquilibre : Comment la Courbe Révèle le Principe de Pareto",
+      "p1": "Dans tout ensemble de données réel à grande échelle – qu'il s'agisse de ventes, de plaintes de clients ou, dans ce cas, d'images de la faune – tous les éléments ne se valent pas. Certains sont incroyablement courants, tandis que d'autres sont extrêmement rares. Ce graphique, la <strong>Courbe de composition cumulative</strong>, est un outil puissant qui prouve visuellement ce déséquilibre et fournit la base stratégique pour notre solution d'IA.",
+      "tour_title": "Comment Lire Ce Graphique : Une Brève Visite",
+      "tour_p1": "Imaginez que vous marchiez le long de la ligne verte de gauche à droite. L'<strong>axe des X</strong> représente le parcours : nous avons aligné les 964 espèces d'oiseaux, en commençant par les plus photographiées à l'extrême gauche. L'<strong>axe des Y</strong> suit vos progrès, indiquant le pourcentage cumulatif de l'ensemble de la collection d'images que vous avez comptabilisé.",
+      "story_title": "L'Histoire que la Courbe Raconte : Le Principe de Pareto en Action",
+      "story_p1": "La forme de la courbe raconte une histoire captivante. La <strong>forte augmentation initiale</strong> montre qu'une petite fraction d'espèces est responsable d'une masse importante de données. Comme le souligne le graphique, <strong>seulement 97 espèces (seulement 10 % de toutes les espèces) représentent une énorme 50 % de toutes les images !</strong>",
+      "story_p2": "C'est là que le <strong>Principe de Pareto</strong> brille. Nos données montrent un parallèle frappant : <strong>seulement 301 espèces (environ 31 % du total) représentent un plein 80 % des images.</strong> Ce sont les espèces courantes, quotidiennes que le système rencontrera encore et encore.",
+      "story_p3": "Après avoir atteint le seuil de 80 %, la courbe s'aplatit en une <strong>“longue queue.”</strong> Cela illustre la loi des rendements décroissants. Pour passer de 80 % à 90 % des images, nous devons ajouter encore 173 espèces. Et pour atteindre les 10 % restants, nous avons les 490 espèces restantes, chacune représentée par seulement quelques photos.",
+      "conclusion_title": "Pourquoi Cela Importe : La Justification d'une IA Hybride",
+      "conclusion_p1": "Cette courbe n'est pas seulement une vue statistique intéressante ; c'est la raison, basée sur les données, <strong>pourquoi</strong> la stratégie d'IA hybride est si efficace. Elle nous dit que nous pouvons :",
+      "conclusion_list_item1": "<strong>Se concentrer sur le “Peu Essentiel” :</strong> Enseigner un modèle léger sur le Raspberry Pi à reconnaître les ~300 espèces les plus courantes, lui permettant de gérer <strong>80 % de toutes les observations</strong> instantanément et avec un minimum d'énergie.",
+      "conclusion_list_item2": "<strong>Isoler le “Beaucoup Trivial” :</strong> N'avoir besoin de sauvegarder l'image que lorsque l'appareil voit un oiseau qu'il <strong>ne reconnaît pas</strong> – l'un des centaines d'espèces rares dans la “longue queue” – pour une analyse approfondie sur un serveur puissant.",
+      "conclusion_p2": "En substance, ce graphique nous donne la feuille de route stratégique : <i>ne traitez pas chaque image de la même manière</i>. En comprenant la distribution naturelle des données, nous pouvons construire un système plus intelligent et bien plus efficace."
+    },
+    "aha_p1": "Notre solution s'est inspirée du <strong>Principe de Pareto</strong>, ou la règle des 80/20. Dans de nombreux environnements naturels, un petit pourcentage d'espèces représente la grande majorité des observations. Pensez-y : vous verrez probablement de nombreux moineaux et pigeons, mais très peu de rapaces rares, même dans une zone diversifiée.",
+    "aha_p2": "Cela a conduit à une hypothèse simple mais puissante :",
+    "aha_hypothesis": "Et si nous pouvions construire un système qui comprend ce déséquilibre, en traitant les observations communes sur site et en n'envoyant que celles qui sont vraiment intéressantes ou rares pour une analyse détaillée ?",
+    "ppf": "Fig. 3. Graphique de composition cumulative pour les oiseaux dans iNaturalist 2017",
+    "solution_title": "Ma solution : Une stratégie d'IA hybride en périphérie (Edge)",
+    "solution_fig3_caption": "Fig 4. Cadre conceptuel global de la stratégie de classification hybride contextuelle",
+    "solution_p1": "Je me suis concentré sur le développement d'une <strong>stratégie de classification hybride contextuelle</strong>. Voici comment cela fonctionne :",
+    "solution_list": [
+      "<strong>Appareils de périphérie intelligents :</strong> Nous déployons des appareils légers comme le Raspberry Pi 4 équipés d'une caméra et d'un modèle d'apprentissage automatique compact et <strong>optimisé pour le contexte</strong> (MobileNetV3).",
+      "<strong>Filtrage sur l'appareil :</strong> Ce modèle effectue une inférence immédiate à faible coût. S'il identifie avec confiance une espèce commune, le résultat est simplement enregistré.",
+      "<strong>Report intelligent :</strong> Si le modèle rencontre une espèce rare, ambiguë ou non identifiée, il stocke intelligemment uniquement cette image localement sur la carte SD.",
+      "<strong>Serveur puissant :</strong> Ces images « intéressantes » stockées sont ensuite récupérées et envoyées à un serveur central puissant doté d'un modèle plus complexe et très précis (comme ConvNeXt) pour une classification approfondie."
+    ],
+    "solution_conclusion": "Cette approche à deux niveaux équilibre l'efficacité en temps réel en périphérie avec une identification complète des espèces sur le serveur.",
+    "impact_title": "L'impact : Une surveillance plus intelligente et plus verte",
+    "impact_p1": "Les résultats de cette approche hybride ont été incroyablement prometteurs :",
+    "impact_list": [
+      "<strong>Exécution sur l'appareil de périphérie :</strong> Nous avons maintenant un système qui peut fonctionner efficacement sur un appareil de périphérie sans trop compromettre la précision.",
+      "<strong>Bonne précision :</strong> Le pipeline hybride a considérablement augmenté la précision globale de la classification par rapport à la tentative d'exécuter un seul modèle moins performant entièrement en périphérie.",
+      "<strong>Durée de vie opérationnelle prolongée :</strong> En ne stockant qu'une fraction des images, nous avons pu prolonger la durée de vie opérationnelle du système <strong>jusqu'à 8 fois</strong> à un seuil de dominance des espèces de 90 % ! Cela réduit considérablement les déplacements pour la récupération des données.",
+      "<strong>Empreinte réduite :</strong> Moins de déplacements manuels signifient moins de consommation de carburant et une empreinte carbone plus faible. La majorité du traitement est effectuée en périphérie, ce qui réduit donc la consommation d'énergie de la deuxième étape de classification sur le serveur."
+    ],
+    "journey_title": "Mon parcours : Bien plus que du simple code",
+    "journey_p1": "Au-delà des réalisations techniques, ce stage a été une profonde expérience de croissance personnelle et professionnelle. J'ai appris à naviguer dans un environnement de recherche rapide, j'ai affiné ma pensée logique et mes compétences en planification de projet, et j'ai développé des pratiques d'auto-vérification cruciales. Plus important encore, j'ai considérablement amélioré ma capacité à articuler des idées techniques complexes, transformant des pensées éparses en un récit convaincant - une compétence qui sera inestimable dans ma carrière.",
+    "journey_p2": "Ce projet a renforcé ma passion pour l'apprentissage automatique appliqué et l'optimisation des systèmes, démontrant comment une technologie innovante peut directement contribuer à un avenir plus durable.",
+    "back_link": "← Retour au Portfolio"
   }
 }
