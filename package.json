@@ -12,7 +12,6 @@
     "host": "vite --host",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
-    "postinstall": "cp -R node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.* public/onnx-wasm/"
   },
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
