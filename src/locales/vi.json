@@ -177,7 +177,7 @@
     "authorName": "Hoang Phạm",
     "postDate": "11 tháng 6 năm 2025",
     "translate": "Chuyển thể từ bản tiếng Anh",
-    "intro_p1": "Kỳ thực tập của tôi tại IRIT, cùng đội SEPIA, vừa kết thúc, và đây thực sự là một hành trình khám phá sâu sắc về cách trí tuệ nhân tạo có thể tạo ra sự khác biệt thực sự trong bảo tồn môi trường. Hãy quên đi những ghi chú thủ công bằng tay, chúng ta đang nói về hệ thống giám sát đa dạng sinh học thông minh và bền vững.",
+    "intro_p1": "Kỳ thực tập của tôi tại IRIT, cùng đội SEPIA, đang chuẩn bị đến hồi kết , và đây thực sự là một hành trình khám phá sâu sắc về cách trí tuệ nhân tạo có thể tạo ra sự khác biệt thực sự trong bảo tồn môi trường. Hãy quên đi những ghi chú thủ công bằng tay, chúng ta đang nói về hệ thống giám sát đa dạng sinh học thông minh và bền vững.",
     "challenge_title": "Thách Thức: Vấn Đề Trong Lưu Trữ Dữ Liệu",
     "challenge_p1": "Bạn hãy tưởng tượng việc lắp đặt camera ở trong môi trường tự nhiên để theo dõi động vật hoang dã. Cơ sở hạ tầng hiện tại bao gồm một chiếc Raspberry Pi 4B, được trang bị camera để ghi lại hình ảnh. Những thiết bị này đã được triển khai ở các môi trường tự nhiên như rừng và khu bảo tồn thiên nhiên. Chúng hoạt động như các hệ thống độc lập, thường được cung cấp năng lượng bằng pin hoặc năng lượng mặt trời.",
     "challenge_fig1_caption": "Hình 1. Hình ảnh các thiết bị dùng để chụp ảnh động vật hoang dã.",

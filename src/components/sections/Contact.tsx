@@ -111,6 +111,7 @@ export const Contact = () => {
               <div className="relative" style={{borderColor: "var(--secondary-text)"}}>
                 <input type="text" id="name" name="user_name" required value={formData.user_name}
                        className="w-full border rounded px-4 py-3 transition focus:outline-none" style={{
+                  backgroundColor: "var(--base-variant)",
                   borderColor: "var(--secondary-text)",
                   color: "var(--text-color)",
                   transition: "border-color 0.3s ease-in-out, background 0.3s ease-in-out"

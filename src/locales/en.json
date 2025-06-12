@@ -181,7 +181,7 @@
     "authorName": "Hoang Pham",
     "postDate": "June 11, 2025",
     "translate": "Written in English",
-    "intro_p1": "My internship at IRIT, working with the SEPIA team, has just wrapped up, and it's been an incredible deep dive into how artificial intelligence can make a real difference in environmental conservation. Forget dusty old field notes, we're talking about smart, sustainable biodiversity monitoring.",
+    "intro_p1": "My internship at IRIT, working with the SEPIA team, is coming to an end, and it's been an incredible deep dive into how artificial intelligence can make a real difference in environmental conservation. Forget dusty old field notes, we're talking about smart, sustainable biodiversity monitoring.",
     "challenge_title": "The Challenge: Data Storage Bottleneck",
     "challenge_p1": "Imagine setting up cameras in remote natural environments to track wildlife. The existing infrastructure consisted of a Raspberry Pi 4B, equipped with a camera to capture images. These devices were deployed in natural environments such as forests, nature reserves, and private gardens. They function as self-contained systems, often operating solely on battery or solar power.",
     "challenge_fig1_caption": "Fig 1. Picture of the equipment for capturing images of wildlife.",

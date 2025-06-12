@@ -180,7 +180,7 @@
     "authorName": "Hoang Pham",
     "postDate": "11 juin 2025",
     "translate": "Traduire en utilisant LLM",
-    "intro_p1": "Mon stage à l'IRIT, au sein de l'équipe SEPIA, vient de se terminer, et ce fut une incroyable plongée dans la manière dont l'intelligence artificielle peut faire une réelle différence pour la conservation de l'environnement. Oubliez les vieilles notes de terrain poussiéreuses, nous parlons ici de surveillance intelligente et durable de la biodiversité.",
+    "intro_p1": "Mon stage à l'IRIT, au sein de l'équipe SEPIA, touche à sa fin, et ce fut une incroyable plongée dans la manière dont l'intelligence artificielle peut faire une réelle différence pour la conservation de l'environnement. Oubliez les vieilles notes de terrain poussiéreuses, nous parlons ici de surveillance intelligente et durable de la biodiversité.",
     "challenge_title": "Le Défi : Le goulot d'étranglement du stockage de données",
     "challenge_p1": "Imaginez installer des caméras dans des environnements naturels isolés pour suivre la faune. L'infrastructure existante consistait en un Raspberry Pi 4B, équipé d'une caméra pour capturer des images. Ces appareils étaient déployés dans des environnements naturels tels que des forêts, des réserves naturelles et des jardins privés. Ils fonctionnent comme des systèmes autonomes, souvent alimentés uniquement par batterie ou par énergie solaire.",
     "challenge_fig1_caption": "Fig 1. Photo de l'équipement de capture d'images de la faune.",
