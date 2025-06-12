@@ -150,7 +150,10 @@
     "send": "Gửi tin nhắn",
     "error_1": "Dịch vụ email đang gặp sự cố, vui lòng thử lại sau!",
     "error_2": "Cái gì đó tồi tệ vừa xảy ra! Welp, hãy liên lạc với tôi qua LinkedIn nhé!",
-    "success": "Tin nhắn đã được gửi!"
+    "success": "Tin nhắn đã được gửi!",
+    "success_title": "Gửi thành công!",
+    "success_message": "Cảm ơn bạn đã liên hệ. Tôi sẽ trả lời bạn sớm nhất có thể.",
+    "success_button": "Tuyệt vời!"
   },
   "footer": {
     "copyright": "© 2025 Phạm Xuân Hoàng. Mọi quyền được bảo lưu.",

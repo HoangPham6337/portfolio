@@ -150,7 +150,10 @@
     "send": "Send Message",
     "error_1": "Email service is down, please try again later!",
     "error_2": "Oops! Something went wrong. Please try again!",
-    "success": "Message Sent!"
+    "success": "Message Sent!",
+    "success_title": "Message Sent!",
+    "success_message": "Thank you for reaching out. I'll get back to you as soon as possible.",
+    "success_button": "Awesome!"
   },
   "footer": {
     "copyright": "© 2025 Phạm Xuân Hoàng. All rights reserved.",
