@@ -10,21 +10,24 @@ import databaseImg from "../../assets/images/databaseImg.jpeg";
 import handRegImg from "../../assets/images/handDemo.png";
 import pythonMarkImg from "../../assets/images/pythonMarkImg.jpeg";
 import raspImg from "../../assets/images/labyrinthe.png"
+import datasetBuilder from "../../assets/images/dataset_builder.png";
+import scoreC from "../../assets/images/score_c.png";
 import {useLayoutEffect, useMemo, useRef} from "react";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const projectNumbers = [1, 2, 3, 4, 5, 6, 7, 8];
+const projectNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 function getImage(num: number): string | null {
   const images: Record<number, string> = {
     1: raspImg,
-    2: tinyTitan,
-    3: rebirthImg,
-    4: databaseImg,
-    5: handRegImg,
-    6: pythonMarkImg
+    2: datasetBuilder,
+    3: tinyTitan,
+    4: rebirthImg,
+    5: databaseImg,
+    6: handRegImg,
+    7: pythonMarkImg,
+    8: scoreC
   };
-  // console.log(typeof images[1]);
   return images[num] || null;
 }
 
@@ -32,9 +35,6 @@ export const Projects = () => {
   const {t} = useTranslation();
   const projectContainer = useRef(null);
 
-  // List of available project numbers
-
-  // Map translations dynamically
   const projects: ProjectCardProps[] = useMemo(() => {
     return projectNumbers.map((num) => ({
       title: t(`projects.title_${num}`),
@@ -74,7 +74,6 @@ export const Projects = () => {
       className="min-h-screen flex items-center justify-center py-20 relative"
     >
 
-      {/*<RevealOnScroll>*/}
         <div className="max-w-5xl mx-auto px-4">
           <h2
             className="text-4xl font-bold mb-8 bg-gradient-to-r bg-clip-text text-transparent text-center leading-tight"
@@ -109,7 +108,6 @@ export const Projects = () => {
             ))}
           </div>
         </div>
-      {/*</RevealOnScroll>*/}
 
     </section>
   )

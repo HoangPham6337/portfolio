@@ -83,60 +83,69 @@
     ],
     "url_1": "https://github.com/HoangPham6337/iNaturelist_transfer_learning_pytorch",
     "blogPath_1": "/internship-blog",
-    "title_2": "Tiny Titan - Written in Python",
-    "description_2": "Tiny Titan is a side-scrolling action game where players control a hero battling waves of enemies while striving to achieve the highest score.",
+    "title_2": "Builder for Context-Optimized Dataset",
+    "description_2": "A modular Python toolkit for building, analyzing, and visualizing fine-grained classification datasets from iNaturalist. Includes tools for web crawling, species filtering, class balancing, and manifest generation. ",
     "technologies_2": [
+      "CI/CD",
+      "Python Package",
+      "BeautifulSoup",
+      "scikit-learn"
+    ],
+    "url_2": "https://github.com/HoangPham6337/iNaturelist_dataset_builder",
+    "title_3": "Tiny Titan - Written in Python",
+    "description_3": "Tiny Titan is a side-scrolling action game where players control a hero battling waves of enemies while striving to achieve the highest score.",
+    "technologies_3": [
       "Python",
       "Pygame"
     ],
-    "url_2": "https://github.com/HoangPham6337/tiny-titan",
-    "title_3": "Rebirth – A Multiplayer Game Platform",
-    "description_3": "Developed a multiplayer game platform as part of a team of four. Implemented dynamic game loading, fixed backend bugs, and designed the database schema for efficient data management.",
-    "technologies_3": [
+    "url_3": "https://github.com/HoangPham6337/tiny-titan",
+    "title_4": "Rebirth – A Multiplayer Game Platform",
+    "description_4": "Developed a multiplayer game platform as part of a team of four. Implemented dynamic game loading, fixed backend bugs, and designed the database schema for efficient data management.",
+    "technologies_4": [
       "React.js",
       "Node.js",
       "Mongoose",
       "JavaScript"
     ],
-    "url_3": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
-    "title_4": "Database Management System Illustration",
-    "description_4": "Built a backend demo for an e-commerce platform integrating MongoDB and Redis. Used Redis for session management and MongoDB for flexible product data storage, deployed on Digital Ocean.",
-    "technologies_4": [
+    "url_4": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
+    "title_5": "Database Management System Illustration",
+    "description_5": "Built a backend demo for an e-commerce platform integrating MongoDB and Redis. Used Redis for session management and MongoDB for flexible product data storage, deployed on Digital Ocean.",
+    "technologies_5": [
       "Python",
       "MongoDB",
       "Redis",
       "Linux"
     ],
-    "url_4": "https://github.com/HoangPham6337/website_backend_python",
-    "title_5": "Image Recognition using Machine Learning",
-    "description_5": "Developed a hand shape recognition system using TensorFlow with Supervised Learning (linear regression). Implemented multiprocessing and GPU computation for faster processing.",
-    "technologies_5": [
+    "url_5": "https://github.com/HoangPham6337/website_backend_python",
+    "title_6": "Image Recognition using Machine Learning",
+    "description_6": "Developed a hand shape recognition system using TensorFlow with Supervised Learning (linear regression). Implemented multiprocessing and GPU computation for faster processing.",
+    "technologies_6": [
       "Python",
       "TensorFlow",
       "Supervised Learning",
       "Linear Regression"
     ],
-    "url_5": "https://github.com/HoangPham6337/Machine-Learning-1",
-    "title_6": "Student Management Program",
-    "description_6": "Created a CLI-based student management system in Python, featuring input sanitation, multi-threading, and data persistence using the Pickle module.",
-    "technologies_6": [
+    "url_6": "https://github.com/HoangPham6337/Machine-Learning-1",
+    "title_7": "Student Management Program",
+    "description_7": "Created a CLI-based student management system in Python, featuring input sanitation, multi-threading, and data persistence using the Pickle module.",
+    "technologies_7": [
       "Python",
       "Multiprocessing",
       "CLI",
       "Curses Library"
     ],
-    "url_6": "https://github.com/HoangPham6337/student-management-system-python",
-    "title_7": "Grade Management Project",
-    "description_7": "Designed a C-based interactive CLI tool for managing courses and grades, supporting GPA calculation, data persistence, and input sanitation.",
-    "technologies_7": [
+    "url_7": "https://github.com/HoangPham6337/student-management-system-python",
+    "title_8": "Grade Management Project",
+    "description_8": "Designed a C-based interactive CLI tool for managing courses and grades, supporting GPA calculation, data persistence, and input sanitation.",
+    "technologies_8": [
       "C",
       "Data Structures",
       "Dynamic Memory Management"
     ],
-    "url_7": "https://github.com/HoangPham6337/grade_management_system_C",
-    "title_8": "Smart Bus Station (SBS) Project",
-    "description_8": "Developed an AI-powered bus station system integrating voice/image recognition, IoT environmental monitoring, and sustainable energy solutions.",
-    "technologies_8": [
+    "url_8": "https://github.com/HoangPham6337/grade_management_system_C",
+    "title_9": "Smart Bus Station (SBS) Project",
+    "description_9": "Developed an AI-powered bus station system integrating voice/image recognition, IoT environmental monitoring, and sustainable energy solutions.",
+    "technologies_9": [
       "C",
       "Python",
       "Machine Learning",
@@ -171,6 +180,7 @@
     "authorPrefix": "By",
     "authorName": "Hoang Pham",
     "postDate": "June 11, 2025",
+    "translate": "Written in English",
     "intro_p1": "My internship at IRIT, working with the SEPIA team, has just wrapped up, and it's been an incredible deep dive into how artificial intelligence can make a real difference in environmental conservation. Forget dusty old field notes, we're talking about smart, sustainable biodiversity monitoring.",
     "challenge_title": "The Challenge: Data Storage Bottleneck",
     "challenge_p1": "Imagine setting up cameras in remote natural environments to track wildlife. The existing infrastructure consisted of a Raspberry Pi 4B, equipped with a camera to capture images. These devices were deployed in natural environments such as forests, nature reserves, and private gardens. They function as self-contained systems, often operating solely on battery or solar power.",
@@ -226,10 +236,12 @@
     "journey_p1": "Beyond the technical achievements, this internship was a profound personal and professional growth experience. I learned to navigate a fast-paced research environment, honed my logical thinking and project planning skills, and developed crucial self-verification practices. Most importantly, I significantly improved my ability to articulate complex technical ideas, transforming scattered thoughts into a compelling narrative – a skill that will be invaluable in my career.",
     "journey_p2": "This project has reinforced my passion for applied machine learning and system optimization, demonstrating how innovative technology can directly contribute to a more sustainable future.",
     "back_link": "← Back to Portfolio",
+    "jumpToDemo": "Try the Live Demo",
     "demo": {
       "title": "Live AI Demo: Try It Yourself!",
       "loadingModel": "Loading AI model, please wait...",
       "dragOrClick": "Drag & drop an image or click to upload",
+      "modelExplanation": "Model is trained on bird and insect in Haute-Garonne region, France.",
       "uploadHint": "Your image is processed in your browser and is never sent to a server.",
       "waiting": "Waiting for an image...",
       "confidence": "Confidence",

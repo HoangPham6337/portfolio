@@ -83,60 +83,69 @@
     ],
     "url_1": "https://github.com/HoangPham6337/iNaturelist_transfer_learning_pytorch",
     "blogPath_1": "/internship-blog",
-    "title_2": "Tiny Titan - Viết bằng Python",
-    "description_2": "Tiny Titan là một trò chơi hành động cuộn ngang, nơi người chơi điều khiển một anh hùng chiến đấu với các đợt kẻ thù và cố gắng đạt điểm cao nhất.",
+    "title_2": "Công cụ xử lý dữ liệu cho tối ưu hóa theo ngữ cảnh",
+    "description_2": "Python package dưới dạng mô-đun để tổng hợp, phân tích và trực quan hóa các bộ dữ liệu về động vật từ iNaturalist 2017. Bao gồm các công cụ để thu thập dữ liệu web, lọc dữ liệu theo loài, cân bằng phân bố dữ liệu và tạo đồ thị phân tích.",
     "technologies_2": [
+      "CI/CD",
+      "Python Package",
+      "BeautifulSoup",
+      "scikit-learn"
+    ],
+    "url_2": "https://github.com/HoangPham6337/iNaturelist_dataset_builder",
+    "title_3": "Tiny Titan - Viết bằng Python",
+    "description_3": "Tiny Titan là một trò chơi hành động cuộn ngang, nơi người chơi điều khiển một anh hùng chiến đấu với các đợt kẻ thù và cố gắng đạt điểm cao nhất.",
+    "technologies_3": [
       "Python",
       "Pygame"
     ],
-    "url_2": "https://github.com/HoangPham6337/tiny-titan",
-    "title_3": "Rebirth – Nền tảng tra cứu game",
-    "description_3": "Phát triển một nền tảng web tra cứu game trong nhóm gồm bốn người. Phát triển dynamic content loading, sửa lỗi backend và thiết kế sơ đồ cơ sở dữ liệu để quản lý dữ liệu hiệu quả.",
-    "technologies_3": [
+    "url_3": "https://github.com/HoangPham6337/tiny-titan",
+    "title_4": "Rebirth – Nền tảng tra cứu game",
+    "description_4": "Phát triển một nền tảng web tra cứu game trong nhóm gồm bốn người. Phát triển dynamic content loading, sửa lỗi backend và thiết kế sơ đồ cơ sở dữ liệu để quản lý dữ liệu hiệu quả.",
+    "technologies_4": [
       "React.js",
       "Node.js",
       "Mongoose",
       "JavaScript"
     ],
-    "url_3": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
-    "title_4": "Minh họa Hệ thống Quản lý Cơ sở Dữ liệu",
-    "description_4": "Xây dựng backend cho nền tảng thương mại điện tử tích hợp MongoDB và Redis. Sử dụng Redis để quản lý phiên và MongoDB để lưu trữ dữ liệu sản phẩm linh hoạt, triển khai trên Digital Ocean.",
-    "technologies_4": [
+    "url_4": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
+    "title_5": "Minh họa Hệ thống Quản lý Cơ sở Dữ liệu",
+    "description_5": "Xây dựng backend cho nền tảng thương mại điện tử tích hợp MongoDB và Redis. Sử dụng Redis để quản lý phiên và MongoDB để lưu trữ dữ liệu sản phẩm linh hoạt, triển khai trên Digital Ocean.",
+    "technologies_5": [
       "Python",
       "MongoDB",
       "Redis",
       "Linux"
     ],
-    "url_4": "https://github.com/HoangPham6337/website_backend_python",
-    "title_5": "Nhận diện Ảnh bằng Học Máy",
-    "description_5": "Phát triển hệ thống nhận diện hình dạng bàn tay sử dụng TensorFlow với Học có giám sát (hồi quy tuyến tính). Triển khai xử lý đa luồng và tính toán GPU để tăng tốc xử lý.",
-    "technologies_5": [
+    "url_5": "https://github.com/HoangPham6337/website_backend_python",
+    "title_6": "Nhận diện Ảnh bằng Học Máy",
+    "description_6": "Phát triển hệ thống nhận diện hình dạng bàn tay sử dụng TensorFlow với Học có giám sát (hồi quy tuyến tính). Triển khai xử lý đa luồng và tính toán GPU để tăng tốc xử lý.",
+    "technologies_6": [
       "Python",
       "TensorFlow",
       "Học có giám sát",
       "Hồi quy tuyến tính"
     ],
-    "url_5": "https://github.com/HoangPham6337/Machine-Learning-1",
-    "title_6": "Chương trình Quản lý Sinh viên",
-    "description_6": "Tạo hệ thống quản lý sinh viên trên dòng lệnh bằng Python, bao gồm kiểm tra đầu vào, xử lý đa luồng và lưu trữ dữ liệu bằng module Pickle.",
-    "technologies_6": [
+    "url_6": "https://github.com/HoangPham6337/Machine-Learning-1",
+    "title_7": "Chương trình Quản lý Sinh viên",
+    "description_7": "Tạo hệ thống quản lý sinh viên trên dòng lệnh bằng Python, bao gồm kiểm tra đầu vào, xử lý đa luồng và lưu trữ dữ liệu bằng module Pickle.",
+    "technologies_7": [
       "Python",
       "Multiprocessing",
       "CLI",
       "Thư viện Curses"
     ],
-    "url_6": "https://github.com/HoangPham6337/student-management-system-python",
-    "title_7": "Dự án Quản lý Điểm số",
-    "description_7": "Thiết kế một công cụ CLI tương tác bằng C để quản lý khóa học và điểm số, hỗ trợ tính GPA, lưu trữ dữ liệu và kiểm tra đầu vào.",
-    "technologies_7": [
+    "url_7": "https://github.com/HoangPham6337/student-management-system-python",
+    "title_8": "Dự án Quản lý Điểm số",
+    "description_8": "Thiết kế một công cụ CLI tương tác bằng C để quản lý khóa học và điểm số, hỗ trợ tính GPA, lưu trữ dữ liệu và kiểm tra đầu vào.",
+    "technologies_8": [
       "C",
       "Cấu trúc Dữ liệu",
       "Quản lý Bộ nhớ Động"
     ],
-    "url_7": "https://github.com/HoangPham6337/grade_management_system_C",
-    "title_8": "Dự án Trạm Xe Buýt Thông Minh (SBS)",
-    "description_8": "Phát triển hệ thống trạm xe buýt thông minh tích hợp nhận diện giọng nói/hình ảnh, giám sát môi trường IoT và các giải pháp năng lượng bền vững.",
-    "technologies_8": [
+    "url_8": "https://github.com/HoangPham6337/grade_management_system_C",
+    "title_9": "Dự án Trạm Xe Buýt Thông Minh (SBS)",
+    "description_9": "Phát triển hệ thống trạm xe buýt thông minh tích hợp nhận diện giọng nói/hình ảnh, giám sát môi trường IoT và các giải pháp năng lượng bền vững.",
+    "technologies_9": [
       "C",
       "Python",
       "Học Máy",
@@ -167,6 +176,7 @@
     "authorPrefix": "Bởi",
     "authorName": "Hoang Phạm",
     "postDate": "11 tháng 6 năm 2025",
+    "translate": "Chuyển thể từ bản tiếng Anh",
     "intro_p1": "Kỳ thực tập của tôi tại IRIT, cùng đội SEPIA, vừa kết thúc, và đây thực sự là một hành trình khám phá sâu sắc về cách trí tuệ nhân tạo có thể tạo ra sự khác biệt thực sự trong bảo tồn môi trường. Hãy quên đi những ghi chú thủ công bằng tay, chúng ta đang nói về hệ thống giám sát đa dạng sinh học thông minh và bền vững.",
     "challenge_title": "Thách Thức: Vấn Đề Trong Lưu Trữ Dữ Liệu",
     "challenge_p1": "Bạn hãy tưởng tượng việc lắp đặt camera ở trong môi trường tự nhiên để theo dõi động vật hoang dã. Cơ sở hạ tầng hiện tại bao gồm một chiếc Raspberry Pi 4B, được trang bị camera để ghi lại hình ảnh. Những thiết bị này đã được triển khai ở các môi trường tự nhiên như rừng và khu bảo tồn thiên nhiên. Chúng hoạt động như các hệ thống độc lập, thường được cung cấp năng lượng bằng pin hoặc năng lượng mặt trời.",
@@ -223,8 +233,10 @@
     "journey_p1": "Ngoài những thành tựu kỹ thuật, kỳ thực tập này là một trải nghiệm phát triển bản thân và chuyên môn sâu sắc. Tôi đã học cách điều hướng môi trường nghiên cứu nhanh chóng, rèn luyện tư duy logic và kỹ năng lập kế hoạch dự án, đồng thời phát triển các thói quen tự kiểm chứng quan trọng. Quan trọng nhất, tôi đã cải thiện đáng kể khả năng diễn đạt các ý tưởng kỹ thuật phức tạp, biến những suy nghĩ rời rạc thành một câu chuyện hấp dẫn – một kỹ năng vô giá trong sự nghiệp của tôi.",
     "journey_p2": "Dự án này đã củng cố niềm đam mê của tôi với ứng dụng máy học và tối ưu hóa hệ thống, chứng minh cách công nghệ sáng tạo có thể trực tiếp đóng góp vào một tương lai bền vững hơn.",
     "back_link": "← Quay lại trang chủ",
+    "jumpToDemo": "Trải nghiệm mô hình ngay!",
     "demo": {
       "title": "Trải nghiệm trực tiếp",
+      "modelExplanation": "Mô hình được huấn luyện để nhận diện chim và côn trùng ở vùng Haute-Garonne, Pháp.",
       "loadingModel": "Đang tải mô hình AI, vui lòng đợi...",
       "dragOrClick": "Kéo và thả hình ảnh hoặc nhấp để tải lên",
       "uploadHint": "Hình ảnh được xử lý trong trình duyệt của bạn và không bao giờ được gửi đến máy chủ.",

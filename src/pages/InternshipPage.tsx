@@ -1,17 +1,19 @@
 import {Link} from 'react-router-dom';
 import {Footer} from '../components/Footer.tsx';
 import {BlogHeader} from '../components/BlogHeader.tsx';
+import { FaRocket } from 'react-icons/fa';
 
-import entomoscope from '../assets/images/internshipBlog/entomoscope.jpg';
-import currentApproach from '../assets/images/internshipBlog/current_approach.png';
-import newApproach from '../assets/images/internshipBlog/new_approach_with_model.png';
-import ppf from '../assets/images/internshipBlog/inat_2017_Aves_ppf.png';
 import {AccuracyChart} from '../components/internshipBlogComponents/AccuracyChart.tsx';
 import {ScrollToTop} from '../components/ScrollToTop.tsx';
 import {InferenceChart} from '../components/internshipBlogComponents/InferenceChart.tsx';
 import {StorageChart} from '../components/internshipBlogComponents/StorageChart.tsx';
 import {useTranslation, Trans} from 'react-i18next';
 import {ONNXDemo} from "../components/ONNXDemo.tsx";
+
+import entomoscope from '../assets/images/internshipBlog/entomoscope.jpg';
+import currentApproach from '../assets/images/internshipBlog/current_approach.png';
+import newApproach from '../assets/images/internshipBlog/new_approach_with_model.png';
+import ppf from '../assets/images/internshipBlog/inat_2017_Aves_ppf.png';
 
 export const InternshipPage = () => {
   const {t} = useTranslation(); // <-- Initialize the hook
@@ -41,9 +43,19 @@ export const InternshipPage = () => {
             <a href="https://www.linkedin.com/in/xuan-hoang-pham" target="_blank" className="font-bold"
                style={{color: 'var(--accent-color)'}} rel="noreferrer">
               {t('internshipBlog.authorName')}
-            </a>{' '}
+            </a>
+            {' '}
             · {t('internshipBlog.postDate')}
+            {' '}
+            · {t('internshipBlog.translate')}
           </p>
+
+          <div className="my-8 text-center">
+            <a href="#demo" className="btn-jump-to-demo">
+              <FaRocket className="mr-3" />
+              {t('internshipBlog.jumpToDemo')}
+            </a>
+          </div>
 
           <p>{t('internshipBlog.intro_p1')}</p>
 
@@ -174,7 +186,10 @@ export const InternshipPage = () => {
           <p>{t('internshipBlog.journey_p1')}</p>
           <p>{t('internshipBlog.journey_p2')}</p>
         </div>
-        <ONNXDemo />
+
+        <section id="demo">
+          <ONNXDemo/>
+        </section>
 
         <Link
           to="/"

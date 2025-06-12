@@ -160,9 +160,12 @@ export const ONNXDemo = () => {
   return (
     <>
       <div className="my-16 p-6 rounded-xl shadow-xl relative border" style={{borderColor: "var(--highlight-green)"}}>
-        <h3 className="text-2xl font-bold mb-4 text-center" style={{color: "var(--accent-color)"}}>
+        <h3 className="text-2xl font-bold  text-center" style={{color: "var(--accent-color)"}}>
           {t('internshipBlog.demo.title')}
         </h3>
+        <div className="text-center mb-4">
+          <p>{t('internshipBlog.demo.modelExplanation')}</p>
+        </div>
 
         {loading.model ? (
           <div className="text-center p-8">
@@ -180,15 +183,16 @@ export const ONNXDemo = () => {
               <input type="file" accept="image/*" ref={fileInputRef} className="hidden"
                      onChange={(e) => e.target.files && handleImageUpload(e.target.files[0])}/>
               <FaUpload className="text-4xl text-gray-400 mb-3"/>
-              <p className="font-semibold">{t('internshipBlog.demo.dragOrClick')}</p>
-              <p className="text-sm text-gray-500">{t('internshipBlog.demo.uploadHint')}</p>
+              <p className="text-sm font-normal">Model: MobileNetV3 - Dom 80%</p>
+              <p className="text-sm font-semibold">{t('internshipBlog.demo.dragOrClick')}</p>
+              <p className="text-sm font-normal" style={{color: "var(--secondary-text)"}}>{t('internshipBlog.demo.uploadHint')}</p>
             </div>
             <div className="flex flex-col items-center justify-center h-64">
               {loading.predicting && <FaSpinner className="animate-spin text-5xl text-green-500"/>}
               {error && <p className="text-red-500 font-bold">{error}</p>}
               {imageSrc && !loading.predicting && (
                 <div className="w-full text-center">
-                  <img src={imageSrc} alt="Upload preview" className="max-h-40 mx-auto mb-4 rounded-lg shadow-md"/>
+                  <img src={imageSrc} alt="Upload preview" className="max-h-40 mx-auto mb-4 rounded-lg shadow-md border"/>
                   {result && (
                     <div>
                       <p className="text-xl font-bold" style={{color: "var(--highlight-green)"}}>
@@ -207,7 +211,7 @@ export const ONNXDemo = () => {
                 </div>
               )}
               {!imageSrc && !loading.predicting && !error && (
-                <p className="text-gray-500">{t('internshipBlog.demo.waiting')}</p>
+                <p style={{color : "var(--secondary-text)"}}>{t('internshipBlog.demo.waiting')}</p>
               )}
 
             </div>

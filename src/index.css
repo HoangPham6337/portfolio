@@ -132,3 +132,50 @@ html, body {
   transform: translateY(-2px);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
+
+/* Button to Jump to Demo Section */
+@keyframes pulse-glow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 122, 255, 0.2), 0 0 20px rgba(0, 122, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 122, 255, 0.4), 0 0 30px rgba(0, 122, 255, 0.2);
+  }
+}
+
+.btn-jump-to-demo {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 9999px; /* pill shape */
+  font-size: 1.125rem; /* 18px */
+  font-weight: 700;
+  color: var(--base-variant);
+  text-decoration: none;
+
+  /* The animated gradient background */
+  background: linear-gradient(
+      90deg,
+      var(--accent-color),
+      var(--highlight-orange),
+      var(--primary-color),
+      var(--accent-color)
+  );
+  background-size: 250% auto;
+
+  /* Initial subtle glow animation */
+  animation: pulse-glow 2.5s infinite alternate ease-in-out;
+
+  /* Smooth transitions for all properties */
+  transition: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.btn-jump-to-demo:hover {
+  /* Enlarge the glow and lift the button */
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 122, 255, 0.5);
+
+  /* Slide the background gradient for a cool effect */
+  background-position: 100% 0;
+}

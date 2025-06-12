@@ -82,60 +82,69 @@
     ],
     "url_1": "https://github.com/HoangPham6337/iNaturelist_transfer_learning_pytorch",
     "blogPath_1": "/internship-blog",
-    "title_2": "Tiny Titan - Développé en Python",
-    "description_2": "Tiny Titan est un jeu d'action à défilement latéral où les joueurs contrôlent un héros combattant des vagues d'ennemis tout en cherchant à obtenir le meilleur score.",
+    "title_2": "Créateur d'ensembles de données optimisés en fonction du contexte",
+    "description_2": "Une boîte à outils Python modulaire pour la création, l'analyse et la visualisation d'ensembles de données de classification fine issus d'iNaturalist. Inclut des outils d'exploration web, de filtrage des espèces, d'équilibrage des classes et de génération de manifestes. ",
     "technologies_2": [
+      "CI/CD",
+      "Package Python",
+      "BeautifulSoup",
+      "scikit-learn"
+    ],
+    "url_2": "https://github.com/HoangPham6337/iNaturelist_dataset_builder",
+    "title_3": "Tiny Titan - Développé en Python",
+    "description_3": "Tiny Titan est un jeu d'action à défilement latéral où les joueurs contrôlent un héros combattant des vagues d'ennemis tout en cherchant à obtenir le meilleur score.",
+    "technologies_3": [
       "Python",
       "Pygame"
     ],
-    "url_2": "https://github.com/HoangPham6337/tiny-titan",
-    "title_3": "Rebirth – Une Plateforme de Jeux Multijoueurs",
-    "description_3": "Développement d'une plateforme de jeux multijoueurs en équipe de quatre. Mise en place du chargement dynamique des jeux, correction des bugs backend et conception du schéma de base de données pour une gestion efficace.",
-    "technologies_3": [
+    "url_3": "https://github.com/HoangPham6337/tiny-titan",
+    "title_4": "Rebirth – Une Plateforme de Jeux Multijoueurs",
+    "description_4": "Développement d'une plateforme de jeux multijoueurs en équipe de quatre. Mise en place du chargement dynamique des jeux, correction des bugs backend et conception du schéma de base de données pour une gestion efficace.",
+    "technologies_4": [
       "React.js",
       "Node.js",
       "Mongoose",
       "JavaScript"
     ],
-    "url_3": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
-    "title_4": "Illustration d'un Système de Gestion de Bases de Données",
-    "description_4": "Création d'un backend pour une plateforme e-commerce intégrant MongoDB et Redis. Utilisation de Redis pour la gestion des sessions et MongoDB pour le stockage flexible des données produit, déployé sur Digital Ocean.",
-    "technologies_4": [
+    "url_4": "https://gitlab.sorbonne-paris-nord.fr/12201950/rebirth/-/tree/main?ref_type=heads",
+    "title_5": "Illustration d'un Système de Gestion de Bases de Données",
+    "description_5": "Création d'un backend pour une plateforme e-commerce intégrant MongoDB et Redis. Utilisation de Redis pour la gestion des sessions et MongoDB pour le stockage flexible des données produit, déployé sur Digital Ocean.",
+    "technologies_5": [
       "Python",
       "MongoDB",
       "Redis",
       "Linux"
     ],
-    "url_4": "https://github.com/HoangPham6337/website_backend_python",
-    "title_5": "Reconnaissance d'Images via Apprentissage Automatique",
-    "description_5": "Développement d'un système de reconnaissance de formes de main utilisant TensorFlow avec apprentissage supervisé (régression linéaire). Mise en œuvre du multiprocessing et du calcul GPU pour un traitement plus rapide.",
-    "technologies_5": [
+    "url_5": "https://github.com/HoangPham6337/website_backend_python",
+    "title_6": "Reconnaissance d'Images via Apprentissage Automatique",
+    "description_6": "Développement d'un système de reconnaissance de formes de main utilisant TensorFlow avec apprentissage supervisé (régression linéaire). Mise en œuvre du multiprocessing et du calcul GPU pour un traitement plus rapide.",
+    "technologies_6": [
       "Python",
       "TensorFlow",
       "Apprentissage Supervisé",
       "Régression Linéaire"
     ],
-    "url_5": "https://github.com/HoangPham6337/Machine-Learning-1",
-    "title_6": "Programme de Gestion des Étudiants",
-    "description_6": "Création d'un système de gestion des étudiants en ligne de commande basé sur Python, intégrant la validation des entrées, le multi-threading et la persistance des données via le module Pickle.",
-    "technologies_6": [
+    "url_6": "https://github.com/HoangPham6337/Machine-Learning-1",
+    "title_7": "Programme de Gestion des Étudiants",
+    "description_7": "Création d'un système de gestion des étudiants en ligne de commande basé sur Python, intégrant la validation des entrées, le multi-threading et la persistance des données via le module Pickle.",
+    "technologies_7": [
       "Python",
       "Multiprocessing",
       "CLI",
       "Bibliothèque Curses"
     ],
-    "url_6": "https://github.com/HoangPham6337/student-management-system-python",
-    "title_7": "Projet de Gestion des Notes",
-    "description_7": "Conception d'un outil CLI interactif en C pour la gestion des cours et des notes, prenant en charge le calcul du GPA, la persistance des données et la validation des entrées.",
-    "technologies_7": [
+    "url_7": "https://github.com/HoangPham6337/student-management-system-python",
+    "title_8": "Projet de Gestion des Notes",
+    "description_8": "Conception d'un outil CLI interactif en C pour la gestion des cours et des notes, prenant en charge le calcul du GPA, la persistance des données et la validation des entrées.",
+    "technologies_8": [
       "C",
       "Structures de Données",
       "Gestion Dynamique de la Mémoire"
     ],
-    "url_7": "https://github.com/HoangPham6337/grade_management_system_C",
-    "title_8": "Projet de Station de Bus Intelligente (SBS)",
-    "description_8": "Développement d'un système de station de bus alimenté par l'IA intégrant la reconnaissance vocale et d'image, la surveillance environnementale IoT et des solutions énergétiques durables.",
-    "technologies_8": [
+    "url_8": "https://github.com/HoangPham6337/grade_management_system_C",
+    "title_9": "Projet de Station de Bus Intelligente (SBS)",
+    "description_9": "Développement d'un système de station de bus alimenté par l'IA intégrant la reconnaissance vocale et d'image, la surveillance environnementale IoT et des solutions énergétiques durables.",
+    "technologies_9": [
       "C",
       "Python",
       "Apprentissage Automatique",
@@ -170,6 +179,7 @@
     "authorPrefix": "Par",
     "authorName": "Hoang Pham",
     "postDate": "11 juin 2025",
+    "translate": "Traduire en utilisant LLM",
     "intro_p1": "Mon stage à l'IRIT, au sein de l'équipe SEPIA, vient de se terminer, et ce fut une incroyable plongée dans la manière dont l'intelligence artificielle peut faire une réelle différence pour la conservation de l'environnement. Oubliez les vieilles notes de terrain poussiéreuses, nous parlons ici de surveillance intelligente et durable de la biodiversité.",
     "challenge_title": "Le Défi : Le goulot d'étranglement du stockage de données",
     "challenge_p1": "Imaginez installer des caméras dans des environnements naturels isolés pour suivre la faune. L'infrastructure existante consistait en un Raspberry Pi 4B, équipé d'une caméra pour capturer des images. Ces appareils étaient déployés dans des environnements naturels tels que des forêts, des réserves naturelles et des jardins privés. Ils fonctionnent comme des systèmes autonomes, souvent alimentés uniquement par batterie ou par énergie solaire.",
@@ -226,8 +236,10 @@
     "journey_p1": "Au-delà des réalisations techniques, ce stage a été une profonde expérience de croissance personnelle et professionnelle. J'ai appris à naviguer dans un environnement de recherche rapide, j'ai affiné ma pensée logique et mes compétences en planification de projet, et j'ai développé des pratiques d'auto-vérification cruciales. Plus important encore, j'ai considérablement amélioré ma capacité à articuler des idées techniques complexes, transformant des pensées éparses en un récit convaincant - une compétence qui sera inestimable dans ma carrière.",
     "journey_p2": "Ce projet a renforcé ma passion pour l'apprentissage automatique appliqué et l'optimisation des systèmes, démontrant comment une technologie innovante peut directement contribuer à un avenir plus durable.",
     "back_link": "← Retour au Portfolio",
+    "jumpToDemo": "Essayer la démo en direct",
     "demo": {
       "title": "Démo d'IA en direct : Essayez-la !",
+      "modelExplanation": "Le modèle est formé sur les oiseaux et les insectes dans la région de Haute-Garonne, France.",
       "loadingModel": "Chargement du modèle d'IA, veuillez patienter…",
       "dragOrClick": "Glissez-déposez une image ou cliquez pour la télécharger",
       "uploadHint": "Votre image est traitée dans votre navigateur et n'est jamais envoyée à un serveur.",
