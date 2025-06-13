@@ -95,6 +95,12 @@ export const ProjectCard = ({
           <Link
             to={blogPath}
             className="btn-gradient-flash rounded-2xl p-3"
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = "var(--text-color)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = "var(--base-color)";
+            }}
           >
             {t("project_card.read")}
           </Link>
