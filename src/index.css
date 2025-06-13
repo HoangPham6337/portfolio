@@ -96,6 +96,7 @@ html, body {
 
 .btn-gradient-flash {
   position: relative;
+  color: var(--base-color);
   background-color: var(--base-variant);
   border: none;
   transition: all 0.2s ease-out;
