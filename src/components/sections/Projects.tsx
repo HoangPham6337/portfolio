@@ -42,7 +42,8 @@ export const Projects = () => {
       technologies: t(`projects.technologies_${num}`, { returnObjects: true }) as string[],
       url: t(`projects.url_${num}`, "") || null, // Handle null URL case
       image: getImage(num), // Function to fetch corresponding image
-      blogPath: t(`projects.blogPath_${num}`, "") || null
+      blogPath: t(`projects.blogPath_${num}`, "") || null,
+      downloadLink: t(`projects.downloadLink_${num}`, "") || null
     }));
   }, [t]);
 
@@ -101,6 +102,7 @@ export const Projects = () => {
                              url={project.url}
                              image={project.image}
                              blogPath={project.blogPath}
+                             downloadLink={project.downloadLink}
                 />
                 </div>
                 </div>

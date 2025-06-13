@@ -8,9 +8,18 @@ export interface ProjectCardProps {
   url: string | null;
   image: string | null;
   blogPath: string | null;
+  downloadLink: string | null;
 }
 
-export const ProjectCard = ({title, description, technologies, url, image, blogPath}: ProjectCardProps) => {
+export const ProjectCard = ({
+                              title,
+                              description,
+                              technologies,
+                              url,
+                              image,
+                              blogPath,
+                              downloadLink
+                            }: ProjectCardProps) => {
   const {t} = useTranslation();
   return (
     <div
@@ -89,6 +98,22 @@ export const ProjectCard = ({title, description, technologies, url, image, blogP
           >
             {t("project_card.read")}
           </Link>
+        )}
+        {downloadLink && (
+          <a
+            href={downloadLink}
+            target="_blank"
+            rel="noreferrer noopener"
+            className="btn-gradient-flash rounded-2xl p-3"
+            onMouseEnter={(e) => {
+              e.currentTarget.style.color = "var(--text-color)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.color = "var(--base-color)";
+            }}
+          >
+            {t("project_card.download")}
+          </a>
         )}
       </div>
     </div>

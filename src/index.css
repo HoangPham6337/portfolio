@@ -97,7 +97,6 @@ html, body {
 .btn-gradient-flash {
   position: relative;
   background-color: var(--base-variant);
-  color: var(--base-color);
   border: none;
   transition: all 0.2s ease-out;
   z-index: 1; /* Ensure the button itself has a stacking context */

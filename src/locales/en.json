@@ -99,6 +99,7 @@
       "Pygame"
     ],
     "url_3": "https://github.com/HoangPham6337/tiny-titan",
+    "downloadLink_3": "https://github.com/HoangPham6337/tiny-titan/releases",
     "title_4": "Rebirth – A Multiplayer Game Platform",
     "description_4": "Developed a multiplayer game platform as part of a team of four. Implemented dynamic game loading, fixed backend bugs, and designed the database schema for efficient data management.",
     "technologies_4": [
@@ -172,7 +173,8 @@
   },
   "project_card": {
     "view": "View Project",
-    "read": "Blog Post"
+    "read": "Blog Post",
+    "download": "Download"
   },
   "internshipBlog": {
     "pageTitle": "Internship Project Deep Dive",

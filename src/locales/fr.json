@@ -98,6 +98,7 @@
       "Pygame"
     ],
     "url_3": "https://github.com/HoangPham6337/tiny-titan",
+    "downloadLink_3": "https://github.com/HoangPham6337/tiny-titan/releases",
     "title_4": "Rebirth – Une Plateforme de Jeux Multijoueurs",
     "description_4": "Développement d'une plateforme de jeux multijoueurs en équipe de quatre. Mise en place du chargement dynamique des jeux, correction des bugs backend et conception du schéma de base de données pour une gestion efficace.",
     "technologies_4": [
@@ -171,7 +172,8 @@
   },
   "project_card": {
     "view": "Voir le projet",
-    "read": "En savoir plus..."
+    "read": "En savoir plus...",
+    "download": "Télécharger"
   },
   "internshipBlog": {
     "pageTitle": "Analyse approfondie du projet de stage",

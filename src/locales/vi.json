@@ -99,6 +99,7 @@
       "Pygame"
     ],
     "url_3": "https://github.com/HoangPham6337/tiny-titan",
+    "downloadLink_3": "https://github.com/HoangPham6337/tiny-titan/releases",
     "title_4": "Rebirth – Nền tảng tra cứu game",
     "description_4": "Phát triển một nền tảng web tra cứu game trong nhóm gồm bốn người. Phát triển dynamic content loading, sửa lỗi backend và thiết kế sơ đồ cơ sở dữ liệu để quản lý dữ liệu hiệu quả.",
     "technologies_4": [
@@ -169,6 +170,11 @@
     "linkedin": "LinkedIn",
     "github": "GitHub Portfolio",
     "email": "Gửi email cho tôi"
+  },
+  "project_card": {
+    "view": "Xem Thêm",
+    "read": "Blog Post",
+    "download": "Download"
   },
   "internshipBlog": {
     "pageTitle": "Điểm Sáng Dự Án Thực Tập",
