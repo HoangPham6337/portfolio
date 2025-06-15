@@ -3,9 +3,39 @@ import {SkillSection} from "../SkillSection.tsx";
 import cyberLogo from "../../assets/icons/globe-grid.png";
 import {useTranslation} from "react-i18next";
 
+import { Swiper, SwiperSlide} from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
+
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import 'swiper/css';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import 'swiper/css/navigation';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import 'swiper/css/pagination';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
+import 'swiper/css/scrollbar';
+
+import m1 from "../../assets/me/m1.jpg";
+import m2 from "../../assets/me/m2.jpg";
+import m3 from "../../assets/me/m3.jpg";
+import m4 from "../../assets/me/m4.jpg";
+import m5 from "../../assets/me/m5.jpg";
+
 
 export const About = () => {
   const {t} = useTranslation();
+
+  const aboutImages = [
+    { src: m1, alt: "My profile picture" },
+    { src: m2, alt: "Me at aeroscopia " },
+    { src: m3, alt: "Me in front of concorde" },
+    { src: m4, alt: "My workspace" },
+    { src: m5, alt: "Me in plane engine" },
+  ]
 
   const frontendSkills = [
     {
@@ -125,6 +155,33 @@ export const About = () => {
           >
             {t("about.heading")}
           </h2>
+
+          <div
+            className="w-full max-w-sm mx-auto md:max-w-none mb-8 rounded-xl overflow-hidden"
+            style={{ borderColor: "var(--secondary-text)" }}
+          >
+            <Swiper
+              modules={[Navigation, Pagination, Scrollbar, A11y]}
+              spaceBetween={30} // Space between slides
+              slidesPerView={1} // Show one slide at a time
+              navigation // Enable navigation buttons
+              pagination={{ clickable: true }} // Enable clickable pagination dots
+              scrollbar={{ draggable: true }} // Enable draggable scrollbar
+              keyboard={{ enabled: true }}
+              className="mySwiper" // Optional: for custom styling
+            >
+              {aboutImages.map((image, index) => (
+                <SwiperSlide key={index} className="aspect-[4/3] md:aspect-video">
+                  <img
+                    src={image.src}
+                    alt={image.alt}
+                    className="w-full h-full object-contain" // aspect-video ensures consistent sizing
+                    style={{backgroundColor: "rgba(0, 0, 0, 0.2)"}}
+                  />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
 
           {/* Self-description and skills */}
           <div className="rounded-xl p-8 border transition-all relative"

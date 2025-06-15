@@ -180,3 +180,54 @@ html, body {
   /* Slide the background gradient for a cool effect */
   background-position: 100% 0;
 }
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--accent-color) !important; /* Use your theme's accent color */
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+/* Make arrows slightly smaller */
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.25rem !important;
+  font-weight: bold;
+}
+
+
+/* Style Swiper pagination dots */
+.swiper-pagination-bullet {
+  background: var(--secondary-text) !important; /* Inactive dot color */
+  opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--highlight-orange) !important; /* Active dot color */
+  opacity: 1;
+}
+
+.swiper-scrollbar {
+  background: rgba(255, 255, 255, 0.1) !important;
+  height: 6px !important;
+  bottom: 4px !important;
+  border-radius: 6px;
+}
+
+.swiper-scrollbar-drag {
+  background: var(--accent-color) !important;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+.swiper-scrollbar-drag:hover {
+  background: var(--highlight-orange) !important;
+}
