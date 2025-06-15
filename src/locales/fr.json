@@ -87,6 +87,7 @@
     "technologies_2": [
       "CI/CD",
       "Package Python",
+      "Test Coverage",
       "BeautifulSoup",
       "scikit-learn"
     ],
