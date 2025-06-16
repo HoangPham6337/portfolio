@@ -17,8 +17,8 @@
     "to": "đến",
     "AI-driven software": "phần mềm tích hợp AI",
     "intro_1": "Tôi là",
-    "name": "Hoàng",
-    "intro_2": "và tôi đam mê lập trình và máy tính.",
+    "name": "Hoàng.",
+    "intro_2": "Tôi đam mê lập trình và máy tính.",
     "let's go": "Vài thứ tôi làm \uD83D\uDE80",
     "connect": "Alo nghe rõ trả lời"
   },
@@ -228,7 +228,7 @@
       "<strong>Máy Chủ Điện:</strong> Những hình ảnh \"thú vị\" này sau đó sẽ được lấy lại và gửi đến một máy chủ trung tâm có hiệu năng cao với một mô hình phức tạp hơn, chính xác hơn (như ConvNeXt) để phân loại chi tiết."
     ],
     "solution_conclusion": "Cách tiếp cận hai cấp độ này cân bằng hiệu quả thời gian thực tại biên với việc xác định toàn diện các loài trên máy chủ.",
-    "impact_title": "Tác Động: Giám Sát Thông Minh Hơn, Xanh Hơn",
+    "impact_title": "Tác Động: Giám Sát Thông Minh Hơn, \"Xanh\" Hơn",
     "impact_p1": "Kết quả của cách tiếp cận hybrid này thực sự rất hứa hẹn:",
     "impact_list": [
       "<strong>Chạy trên Thiết Bị biên:</strong> Chúng tôi hiện có một hệ thống có thể chạy hiệu quả trên thiết bị biên mà không ảnh hưởng quá nhiều đến độ chính xác.",
