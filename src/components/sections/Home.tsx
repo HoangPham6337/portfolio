@@ -67,7 +67,7 @@ export const Home = () => {
           {/* Personal Introduction */}
           <p id="intro-name" className="mt-2 text-md sm:text-lg animate-fade-in"
              style={{ color: "var(--secondary-text)" }}>
-            {t('home.intro_1')} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("home.name")}</span>, {t("home.intro_2")}
+            {t('home.intro_1')} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("home.name")}</span> {t("home.intro_2")}
           </p>
 
           {/* Buttons */}
