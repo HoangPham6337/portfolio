@@ -181,6 +181,9 @@ export const About = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
+            <div className="text-center">
+              <p>{t("about.gf")}</p>
+            </div>
           </div>
 
           {/* Self-description and skills */}
@@ -196,7 +199,7 @@ export const About = () => {
             ></div>
             <div className="relative z-10">
               <p style={{ color: "var(--text-color)" }}>
-                {t("about.intro_1")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.name")}</span> {t("about.intro_2")}
+                {t("about.intro_1")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.name")}</span> - {t("about.intro_2")}
                 <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}> {t("about.performance")}, {t("about.efficiency")}, {t("about.low-level computing")}</span>
                 {t("about.journey")} <span style={{ color: "var(--highlight-green)", fontWeight: "bold" }}>{t("about.optimization")}, {t("about.automation")}, {t("about.system design")}</span>.
               </p>
