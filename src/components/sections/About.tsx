@@ -181,9 +181,9 @@ export const About = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className="text-center">
-              <p>{t("about.gf")}</p>
-            </div>
+            {/*<div className="text-center">*/}
+            {/*  <p>{t("about.gf")}</p>*/}
+            {/*</div>*/}
           </div>
 
           {/* Self-description and skills */}
